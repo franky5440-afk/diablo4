@@ -1,0 +1,16 @@
+venv/
+site/
+logs/
+__pycache__/
+*.pyc
+
+# 憑證防呆（PUBLIC repo，絕不可推上去）
+.env
+.env.*
+*.key
+*.pem
+
+# 本機工作用筆記，不推
+hero-image-prompt.md
+HERO_HANDOFF.md
+picture/
