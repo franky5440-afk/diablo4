@@ -18,6 +18,8 @@ import yt_dlp
 from bs4 import BeautifulSoup
 from ddgs import DDGS
 
+import zhconv
+
 BASE = Path(__file__).resolve().parent
 DATA = BASE / "data"
 LOGS = BASE / "logs"
@@ -203,6 +205,53 @@ def _d2core_tcb_app_source(ts_ms: int) -> str:
     )
 
 
+
+D2CORE_CLASS_ZH = {
+    "Warlock": "術士",
+    "Rogue": "遊俠",
+    "Barbarian": "野蠻人",
+    "Necromancer": "死靈法師",
+    "Sorcerer": "法師",
+    "Druid": "德魯伊",
+    "Spiritborn": "靈巫",
+    "Paladin": "聖騎士",
+}
+D2CORE_SCENE_ZH = {
+    "endgame": "終局",
+    "leveling": "開荒",
+    "farm": "刷寶",
+    "race": "競速",
+}
+
+
+def to_zh_tw(text: str) -> str:
+    """Simplified → Traditional Chinese (Taiwan)."""
+    if not text:
+        return text
+    return zhconv.convert(str(text), "zh-tw")
+
+
+def localize_d2core_item(item: dict) -> dict:
+    """繁中標題／說明，職業與場景標籤中文化（寫入 JSON 前）。"""
+    item = dict(item)
+    item["title"] = to_zh_tw(item.get("title") or "")
+    if item.get("description"):
+        item["description"] = to_zh_tw(item["description"])
+    classes = []
+    for c in item.get("classes") or []:
+        classes.append(D2CORE_CLASS_ZH.get(c, to_zh_tw(c)))
+    item["classes"] = classes
+    seen = set()
+    tags = []
+    for t in item.get("tags") or []:
+        mapped = D2CORE_CLASS_ZH.get(t) or D2CORE_SCENE_ZH.get(t) or to_zh_tw(t)
+        if mapped and mapped not in seen:
+            seen.add(mapped)
+            tags.append(mapped)
+    item["tags"] = tags
+    return item
+
+
 def scrape_d2core():
     """CloudBase function-planner-queryplanlist → Hot Top10（rawScore）。
 
@@ -286,7 +335,7 @@ def scrape_d2core():
             "view_count": raw.get("view_count"),
             "description": desc[:200] if desc else "",
         })
-    return out
+    return [localize_d2core_item(x) for x in out]
 
 
 def fetch_moba_builds(limit):
@@ -463,6 +512,9 @@ def update_builds():
         else:
             # Critical: do not write empty list / do not stamp ACCESS_TOKEN_EMPTY meta.
             prev = load_json(f"{name}.json", [])
+            if name == "builds_d2core" and isinstance(prev, list) and prev:
+                prev = [localize_d2core_item(x) for x in prev]
+                save_json(f"{name}.json", prev)
             got[name] = len(prev) if isinstance(prev, list) else 0
             log.warning("%s: parsed 0 items, keeping previous data (%d)", name, got[name])
 
