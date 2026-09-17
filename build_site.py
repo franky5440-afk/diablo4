@@ -42,43 +42,38 @@ def chapter_title(text: str, fallback: str) -> str:
     return fallback
 
 
-def build_story() -> dict:
-    """Convert published chapter markdown → HTML payload for 劇情小說 tab.
+# Reader-facing chapter order（對齊 nioh3 STORY_PUBLISH）.
+# 全稿_上站用.md / README.md stay in content/story for maintenance only.
+STORY_PUBLISH = [
+    "00_導讀.md",
+    "01_序章_漂泊.md",
+    "02_第一幕_冰冷如鐵的信仰.md",
+    "03_第二幕_利刃再度翻絞.md",
+    "04_第三幕_惡魔在人間.md",
+    "05_第四幕_風暴將至.md",
+    "06_第五幕_高昂的代價.md",
+    "07_第六幕_與造物主共舞.md",
+    "08_終章_無法癒合的傷.md",
+]
 
-    v1 stub: empty content/story → empty chapters（Ruth 第二輪填稿）.
-    Auto-discovers numbered *.md (skip README.md).
-    """
-    empty = {
-        "title": "暗黑破壞神4｜章回小說",
-        "subtitle": "原創敘事改寫 · 非官方劇本 · 第二輪由 Ruth 填稿",
-        "volumes": [{
-            "id": "main",
-            "title": "本篇",
-            "short_title": "本篇",
-            "blurb": "內容籌備中",
-            "chapters": [],
-            "chapter_count": 0,
-        }],
-        "chapters": [],
-        "chapter_count": 0,
-    }
-    if not STORY_SRC.is_dir():
-        empty["error"] = "content/story 目錄不存在"
-        return empty
 
-    files = sorted(
-        p.name for p in STORY_SRC.glob("*.md")
-        if p.name.lower() != "readme.md" and not p.name.startswith("_")
-    )
-    if not files or not HAS_MD:
-        if files and not HAS_MD:
-            empty["error"] = "缺少 markdown 套件，無法建置劇情"
-        return empty
+def _strip_editor_notes(raw: str) -> str:
+    """Drop any leaked 「本節依據」 editor blocks from chapter bodies."""
+    # Split on markdown heading / bold markers that start 本節依據
+    parts = re.split(r"(?m)^(?:#{1,6}\s*|\*\*|__)本節依據.*$", raw)
+    if len(parts) == 1:
+        return raw
+    # Keep only the body before the first 本節依據 marker
+    return parts[0].rstrip() + "\n"
 
+
+def _load_chapters(src: Path, filenames: list) -> list:
     chapters = []
-    for fname in files:
-        path = STORY_SRC / fname
-        raw = path.read_text(encoding="utf-8")
+    for fname in filenames:
+        path = src / fname
+        if not path.exists():
+            continue
+        raw = _strip_editor_notes(path.read_text(encoding="utf-8"))
         title = chapter_title(raw, Path(fname).stem)
         MD.reset()
         html = MD.convert(raw)
@@ -88,6 +83,38 @@ def build_story() -> dict:
             "title": title,
             "html": html,
         })
+    return chapters
+
+
+def build_story() -> dict:
+    """Convert published chapter markdown → HTML payload for 劇情小說 tab.
+
+    Picks STORY_PUBLISH (00 導讀 + 01–08) in order; skips 全稿 / README.
+    """
+    empty = {
+        "title": "暗黑破壞神4｜章回小說",
+        "subtitle": "原創敘事改寫 · 非官方劇本",
+        "volumes": [{
+            "id": "main",
+            "title": "本篇",
+            "short_title": "本篇",
+            "blurb": "",
+            "chapters": [],
+            "chapter_count": 0,
+        }],
+        "chapters": [],
+        "chapter_count": 0,
+    }
+    if not STORY_SRC.is_dir():
+        empty["error"] = "content/story 目錄不存在"
+        return empty
+    if not HAS_MD:
+        empty["error"] = "缺少 markdown 套件，無法建置劇情"
+        return empty
+
+    chapters = _load_chapters(STORY_SRC, STORY_PUBLISH)
+    if not chapters:
+        return empty
 
     return {
         "title": "暗黑破壞神4｜章回小說",
@@ -96,7 +123,7 @@ def build_story() -> dict:
             "id": "main",
             "title": "本篇",
             "short_title": "本篇",
-            "blurb": "",
+            "blurb": "涅維斯克漂泊 → 憎恨王座與終章餘燼",
             "chapters": chapters,
             "chapter_count": len(chapters),
         }],

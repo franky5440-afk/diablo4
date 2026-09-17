@@ -118,7 +118,7 @@ function renderTweets() {
 }
 
 const STORY_SPOILER = {
-  main: "本章回小說體長稿含主線關鍵劇情。未通關或不欲知曉劇情者請勿閱讀。繼續瀏覽即視為接受劇透。原創敘事改寫，非官方劇本。v1 內容籌備中（Ruth 第二輪填稿）。",
+  main: "本章回小說體長稿含主線關鍵劇情。未通關或不欲知曉劇情者請勿閱讀。繼續瀏覽即視為接受劇透。原創敘事改寫，非官方劇本。",
 };
 
 let storyState = { data: null, volumeId: "main" };
@@ -168,7 +168,7 @@ function renderStoryVolume(volumeId) {
 
   if (!chapters.length) {
     toc.innerHTML = "";
-    body.innerHTML = '<p class="empty-msg">劇情小說籌備中（content/story/ 尚無章節）。Ruth 第二輪填稿後將自動上線。</p>';
+    body.innerHTML = '<p class="empty-msg">劇情小說尚無章節。</p>';
     if (meta) meta.textContent = "尚未建置";
     return;
   }
