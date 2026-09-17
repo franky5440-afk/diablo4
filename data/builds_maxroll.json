@@ -18,8 +18,26 @@
   "found_date": "2026-09-17"
  },
  {
-  "id": "85d590046e1ba4e7c79fc6dfc6141c2b",
+  "id": "83da2e7243e6a219e795c568833115a3",
   "rank": 2,
+  "title": "Whirlwind Barbarian Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/whirlwind-barbarian-guide",
+  "author": "aoinomiku",
+  "updated": "September 17, 2026",
+  "patch": "Season 15   Hell's Legacy",
+  "classes": [
+   "Endgame"
+  ],
+  "tags": [
+   "Endgame",
+   "Barbarian"
+  ],
+  "source": "maxroll",
+  "found_date": "2026-09-17"
+ },
+ {
+  "id": "85d590046e1ba4e7c79fc6dfc6141c2b",
+  "rank": 3,
   "title": "Stinger Spiritborn Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/stinger-spiritborn-guide",
   "author": "Ignition",
@@ -37,7 +55,7 @@
  },
  {
   "id": "d1d2fedac9ebdb9959c724bfd2e1d207",
-  "rank": 3,
+  "rank": 4,
   "title": "Minion Necromancer Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/minion-necromancer-guide",
   "author": "serocifkre",
@@ -55,7 +73,7 @@
  },
  {
   "id": "0c88a7fe94df9a46b072f5073a26c0a0",
-  "rank": 4,
+  "rank": 5,
   "title": "Lunging Strike Barbarian Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/lunging-strike-barbarian-guide",
   "author": "aoinomiku",
@@ -73,7 +91,7 @@
  },
  {
   "id": "738d136e23a5acfbfdb48de5c3d266a6",
-  "rank": 5,
+  "rank": 6,
   "title": "Leapquake Barbarian Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/earthquake-barbarian-guide",
   "author": "aoinomiku",
@@ -91,7 +109,7 @@
  },
  {
   "id": "2ee66234f596a44d958f02ff380dc964",
-  "rank": 6,
+  "rank": 7,
   "title": "Whirlwind Barbarian Leveling Guide",
   "url": "https://maxroll.gg/d4/build-guides/whirlwind-barbarian-leveling-guide",
   "author": "aoinomiku",
@@ -109,7 +127,7 @@
  },
  {
   "id": "ff5b0d23c74fb28a95e86b2f0f5fa29a",
-  "rank": 7,
+  "rank": 8,
   "title": "Fireball Sorcerer Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/fireball-sorcerer-guide",
   "author": "pandaglassjaw",
@@ -127,7 +145,7 @@
  },
  {
   "id": "efc909a4a4d0590ed284bea83a05a4a2",
-  "rank": 8,
+  "rank": 9,
   "title": "Poison Barrage Rogue Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/poison-barrage-rogue-guide",
   "author": "dieoxide",
@@ -145,7 +163,7 @@
  },
  {
   "id": "9b9460db6f23fa9d8077ee3562945d14",
-  "rank": 9,
+  "rank": 10,
   "title": "Storm Strike Druid Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/storm-strike-druid-guide",
   "author": "Danger",
@@ -157,24 +175,6 @@
   "tags": [
    "Endgame",
    "Druid"
-  ],
-  "source": "maxroll",
-  "found_date": "2026-09-17"
- },
- {
-  "id": "2bb8552acce29eb7ebe1daa03eecbebb",
-  "rank": 10,
-  "title": "Poison Rain of Arrows Rogue Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/poison-rain-of-arrows-rogue-guide",
-  "author": "dieoxide",
-  "updated": "September 16, 2026",
-  "patch": "Season 15   Hell's Legacy",
-  "classes": [
-   "Endgame"
-  ],
-  "tags": [
-   "Endgame",
-   "Rogue"
   ],
   "source": "maxroll",
   "found_date": "2026-09-17"
