@@ -140,6 +140,8 @@ function renderTweets() {
 
 const STORY_SPOILER = {
   main: "本章回小說體長稿含主線關鍵劇情。未通關或不欲知曉劇情者請勿閱讀。繼續瀏覽即視為接受劇透。原創敘事改寫，非官方劇本。",
+  dlc01: "本卷為擴充《憎恨之軀》（Vessel of Hatred）。含本篇終章之後奈芮爾、納罕圖與憎恨先驅關鍵走向。未通關本篇或 DLC、或不欲劇透者請勿閱讀。原創敘事改寫，非官方劇本。",
+  dlc02: "本卷為擴充《憎恨之王》（Lord of Hatred）。含納罕圖餘燼至斯科沃斯創生之池與墨菲斯托真身。未通關前卷或 DLC、或不欲劇透者請勿閱讀。原創敘事改寫，非官方劇本。",
 };
 
 let storyState = { data: null, volumeId: "main" };
@@ -201,7 +203,8 @@ function renderStoryVolume(volumeId) {
       : `${story.chapter_count || chapters.length} 章`;
   }
 
-  toc.innerHTML = `<h3 class="story-toc-title">章回目錄</h3><ol class="story-toc-list">${
+  const tocLabel = vol.id === "main" ? "章回目錄" : `${vol.short_title || vol.title}｜章回目錄（請先讀導讀）`;
+  toc.innerHTML = `<h3 class="story-toc-title">${tocLabel}</h3><ol class="story-toc-list">${
     chapters.map((c) => `<li><a href="#${esc(c.id)}">${esc(c.title)}</a></li>`).join("")
   }</ol>`;
   body.innerHTML = chapters.map((c) =>

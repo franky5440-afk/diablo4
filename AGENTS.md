@@ -36,7 +36,8 @@ scraper.py ──> data/*.json ──> build_site.py ──> site/（靜態站�
 
 ## 劇情小說
 
-`content/story/*.md` → `build_site.py` → `data/story.json`。v1 可空。
+`content/story/`（本篇扁平）+ `dlc01/` + `dlc02/` → `build_site.py` → `data/story.json`（volumes）。
+短標籤：本篇｜憎恨之軀｜憎恨之王。只上架導讀＋章回；勿 publish README／全稿／目錄大綱／99／本節依據。
 
 ## Hero
 
