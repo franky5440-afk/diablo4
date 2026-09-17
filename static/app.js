@@ -71,6 +71,27 @@ document.addEventListener("error", (e) => {
   if (img.tagName === "IMG" && img.classList.contains("thumb")) img.style.visibility = "hidden";
 }, true);
 
+function pickDefaultBuildsSource(data) {
+  if ((data.builds_d2core || []).length) return "d2core";
+  if ((data.builds_maxroll || []).length) return "maxroll";
+  if ((data.builds_mobalytics || []).length) return "mobalytics";
+  return "d2core";
+}
+
+function syncBuildsSourcePills(src) {
+  const group = document.querySelector('.pill-group[data-source-for="builds"]');
+  if (!group) return;
+  group.querySelectorAll(".pill").forEach((p) => {
+    p.classList.toggle("active", p.dataset.source === src);
+  });
+}
+
+function setBuildsSource(src) {
+  state.buildsSource = src;
+  syncBuildsSourcePills(src);
+  renderBuilds();
+}
+
 function renderBuilds() {
   const src = state.buildsSource;
   $("#buildHint").textContent = SOURCE_HINTS[src] || "";
@@ -287,7 +308,8 @@ window.switchView = switchView;
 
 document.addEventListener("DOMContentLoaded", async () => {
   state.data = await (await fetch("data/site.json")).json();
-  renderBuilds(); renderVideos(); renderBahamut(); renderTweets(); renderMeta();
+  setBuildsSource(pickDefaultBuildsSource(state.data));
+  renderVideos(); renderBahamut(); renderTweets(); renderMeta();
   await loadStory();
 
   $$(".tab").forEach((t) => t.addEventListener("click", () => switchView(t.dataset.tab)));
@@ -302,15 +324,16 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
     const pill = e.target.closest(".pill");
     if (!pill) return;
-    pill.closest(".pill-group").querySelectorAll(".pill").forEach((p) => p.classList.remove("active"));
-    pill.classList.add("active");
+    const group = pill.closest(".pill-group");
+    if (!group) return;
     if (pill.dataset.source) {
-      state.buildsSource = pill.dataset.source;
-      renderBuilds();
-    } else {
-      state[`${pill.closest(".pill-group").dataset.langFor}Lang`] = pill.dataset.lang;
-      renderVideos(); renderTweets();
+      setBuildsSource(pill.dataset.source);
+      return;
     }
+    group.querySelectorAll(".pill").forEach((p) => p.classList.remove("active"));
+    pill.classList.add("active");
+    state[`${group.dataset.langFor}Lang`] = pill.dataset.lang;
+    renderVideos(); renderTweets();
   });
 
   $("#searchForm").addEventListener("submit", (e) => { e.preventDefault(); doSearch($("#searchInput").value); });

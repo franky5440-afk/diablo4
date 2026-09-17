@@ -14,3 +14,4 @@ __pycache__/
 hero-image-prompt.md
 HERO_HANDOFF.md
 picture/
+.venv/
