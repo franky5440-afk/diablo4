@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
+import base64
 import hashlib
+import hmac
 import html as html_lib
 import json
 import logging
@@ -140,13 +142,18 @@ def is_video_url(url):
 
 # ---------------------------------------------------------------- Top 10 BD（d2core 主來源；Maxroll / Mobalytics 備援）
 
-# 暗黑核 d2core：SPA；api.d2core.com 無 token 回 ACCESS_TOKEN_EMPTY。
-# 目前無公開可重放的列表 JSON，故 builds_d2core.json 可能為空；UI 以 Maxroll/Mobalytics 為 live。
+# 暗黑核 d2core：勿打 api.d2core.com（ACCESS_TOKEN_EMPTY）。
+# 正確路徑 = 騰訊雲 CloudBase web API（憑證公開於 SPA JS），見 IMPL_REPORT.md。
 D2CORE_BUILDS_URL = "https://www.d2core.com/d4/builds"
-D2CORE_API_CANDIDATES = (
-    "https://api.d2core.com/d4/builds",
-    "https://api.d2core.com/api/d4/builds",
-)
+D2CORE_PLANNER_URL = "https://www.d2core.com/d4/planner"
+D2CORE_TCB_ENV = "diablocore-4gkv4qjs9c6a0b40"
+D2CORE_TCB_URL = f"https://tcb-api.tencentcloudapi.com/web?env={D2CORE_TCB_ENV}"
+D2CORE_TCB_FUNCTION = "function-planner-queryplanlist"
+D2CORE_TCB_DATA_VERSION = "2020-01-10"
+D2CORE_APP_SIGN = "diablocore"
+D2CORE_APP_ACCESS_KEY_ID = 1
+D2CORE_APP_ACCESS_KEY = "ed6fe96e6ca08acf392d360094a58477"
+D2CORE_SEASON = 15  # DEFAULT_BUILD_SEASON_BY_GAME.d4 in SPA
 
 MOBA_BUILDS_URL = "https://mobalytics.gg/diablo-4/builds"
 MOBA_GQL_URL = "https://mobalytics.gg/api/diablo-4/v1/graphql/query"
@@ -174,45 +181,112 @@ MAXROLL_CLASS_HUBS = {
 BUILD_TOP_N = 10
 
 
+def _b64url(data: bytes) -> str:
+    return base64.urlsafe_b64encode(data).rstrip(b"=").decode("ascii")
+
+
+def _d2core_tcb_app_source(ts_ms: int) -> str:
+    """X-TCB-App-Source JWT（HS256，key=SPA public appAccessKey）。"""
+    header = _b64url(json.dumps({"alg": "HS256", "typ": "JWT"}, separators=(",", ":")).encode())
+    payload = _b64url(json.dumps({
+        "data": {},
+        "timestamp": ts_ms,
+        "appAccessKeyId": D2CORE_APP_ACCESS_KEY_ID,
+        "appSign": D2CORE_APP_SIGN,
+    }, separators=(",", ":")).encode())
+    signing = f"{header}.{payload}".encode()
+    sig = _b64url(hmac.new(D2CORE_APP_ACCESS_KEY.encode(), signing, hashlib.sha256).digest())
+    jwt = f"{header}.{payload}.{sig}"
+    return (
+        f"timestamp={ts_ms};appAccessKeyId={D2CORE_APP_ACCESS_KEY_ID};"
+        f"appSign={D2CORE_APP_SIGN};sign={jwt}"
+    )
+
+
 def scrape_d2core():
-    """嘗試暗黑核公開 API；無 token 時回空 list（保留舊檔由 update_builds 處理）。"""
-    for url in D2CORE_API_CANDIDATES:
+    """CloudBase function-planner-queryplanlist → Hot Top10（rawScore）。
+
+    絕不要打 api.d2core.com（ACCESS_TOKEN_EMPTY）。失敗時回空 list，
+    update_builds 會保留舊 builds_d2core.json；Maxroll/Mobalytics 仍為備援。
+    """
+    ts_ms = int(time.time() * 1000)
+    request_data = {
+        "pageIndex": 1,
+        "pageSize": BUILD_TOP_N,
+        "condition": {"game": "d4", "season": D2CORE_SEASON},
+        "orderBy": ["rawScore", "desc", "_createTime", "desc"],
+        "enableVariant": True,
+        "token": "",
+    }
+    body = {
+        "action": "functions.invokeFunction",
+        "dataVersion": D2CORE_TCB_DATA_VERSION,
+        "env": D2CORE_TCB_ENV,
+        "function_name": D2CORE_TCB_FUNCTION,
+        "request_data": json.dumps(request_data, separators=(",", ":")),
+    }
+    headers = {
+        **UA,
+        "Content-Type": "application/json",
+        "X-TCB-App-Source": _d2core_tcb_app_source(ts_ms),
+    }
+    try:
+        r = requests.post(D2CORE_TCB_URL, json=body, headers=headers, timeout=30)
+        r.raise_for_status()
+        outer = r.json()
+    except Exception as e:
+        log.warning("d2core CloudBase request failed: %s", e)
+        return []
+
+    rd = (outer.get("data") or {}).get("response_data")
+    if isinstance(rd, str):
         try:
-            r = requests.get(url, headers=UA, timeout=20)
-            ctype = r.headers.get("content-type", "")
-            body = r.json() if "json" in ctype else {}
-            if isinstance(body, dict) and body.get("errMsg") == "ACCESS_TOKEN_EMPTY":
-                log.warning("d2core %s: ACCESS_TOKEN_EMPTY（SPA 需登入 token）", url)
-                continue
-            items = body.get("data") or body.get("builds") or body.get("list") or []
-            if isinstance(items, list) and items:
-                out = []
-                for raw in items[:BUILD_TOP_N]:
-                    if not isinstance(raw, dict):
-                        continue
-                    title = (raw.get("title") or raw.get("name") or "").strip()
-                    link = (raw.get("url") or raw.get("link") or "").strip()
-                    if not title:
-                        continue
-                    if link and not link.startswith("http"):
-                        link = urljoin("https://www.d2core.com", link)
-                    out.append({
-                        "id": md5_id(link or title),
-                        "rank": len(out) + 1,
-                        "title": title,
-                        "url": link or D2CORE_BUILDS_URL,
-                        "author": raw.get("author") or raw.get("creator") or "",
-                        "updated": raw.get("updated") or raw.get("updateTime"),
-                        "patch": raw.get("patch") or raw.get("season"),
-                        "classes": raw.get("classes") or ([raw["class"]] if raw.get("class") else []),
-                        "tags": raw.get("tags") or [],
-                        "source": "d2core",
-                        "found_date": now_str()[:10],
-                    })
-                return out
-        except Exception as e:
-            log.warning("d2core %s failed: %s", url, e)
-    return []
+            inner = json.loads(rd)
+        except json.JSONDecodeError as e:
+            log.warning("d2core response_data JSON parse failed: %s", e)
+            return []
+    elif isinstance(rd, dict):
+        inner = rd
+    else:
+        log.warning("d2core unexpected response shape: %s", type(rd))
+        return []
+
+    items = inner.get("data") or []
+    if not isinstance(items, list) or not items:
+        log.warning("d2core CloudBase returned 0 plans")
+        return []
+
+    out = []
+    for raw in items[:BUILD_TOP_N]:
+        if not isinstance(raw, dict):
+            continue
+        bid = str(raw.get("_id") or "").strip()
+        title = (raw.get("title") or "").strip()
+        if not bid or not title:
+            continue
+        char = (raw.get("char") or "").strip()
+        link = f"{D2CORE_PLANNER_URL}?bd={bid}"
+        desc = (raw.get("description") or "").strip()
+        tags = list(raw.get("scene") or [])
+        if char:
+            tags = [char] + [t for t in tags if t != char]
+        out.append({
+            "id": md5_id(link),
+            "rank": len(out) + 1,
+            "title": title,
+            "url": link,
+            "author": "",
+            "updated": raw.get("_updateTime") or raw.get("_createTime"),
+            "patch": f"Season {raw.get('season') or D2CORE_SEASON}",
+            "classes": [char] if char else [],
+            "tags": tags,
+            "source": "d2core",
+            "found_date": now_str()[:10],
+            "like_count": raw.get("likeCount"),
+            "view_count": raw.get("view_count"),
+            "description": desc[:200] if desc else "",
+        })
+    return out
 
 
 def fetch_moba_builds(limit):

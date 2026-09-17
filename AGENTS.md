@@ -22,9 +22,9 @@ scraper.py ──> data/*.json ──> build_site.py ──> site/（靜態站�
 
 ## BD 來源
 
-1. **d2core（意圖主來源）**：SPA + `ACCESS_TOKEN_EMPTY` → 常空；保留 scraper hook
-2. **Maxroll**（v1 live）：SSR HTML `/d4/build-guides`，略過職業 hub
-3. **Mobalytics**（v1 live）：`POST /api/diablo-4/v1/graphql/query`，cloudscraper；expert tag 常 0 筆時改無 tag TRENDING
+1. **d2core（主來源 live）**：騰訊雲 CloudBase `function-planner-queryplanlist`（Hot / rawScore，S15）。**勿**打 `api.d2core.com`。詳見 `IMPL_REPORT.md`
+2. **Maxroll**（備援）：SSR HTML `/d4/build-guides`，略過職業 hub
+3. **Mobalytics**（備援）：`POST /api/diablo-4/v1/graphql/query`，cloudscraper；expert tag 常 0 筆時改無 tag TRENDING
 
 ## 影片
 
