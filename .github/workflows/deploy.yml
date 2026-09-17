@@ -36,18 +36,8 @@ jobs:
       - name: Build static site
         run: python build_site.py
 
-      - name: Commit updated data
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "daily data update $(date -u +%F)"
-            git push
-          fi
-
+      # Deploy Pages from built site/ BEFORE git push, so a push race cannot
+      # skip publishing a good artifact (root cause of empty live builds_d2core).
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
@@ -59,3 +49,27 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "daily data update $(date -u +%F)"
+            # Retry push after rebase — concurrent workflow_dispatch races were
+            # rejecting push and previously aborted deploy (now deploy is above).
+            for i in 1 2 3 4 5; do
+              if git push; then
+                echo "Push OK"
+                exit 0
+              fi
+              echo "Push rejected (attempt $i), rebasing onto origin/main..."
+              git pull --rebase origin main || git rebase --abort || true
+              sleep $((i * 2))
+            done
+            echo "WARNING: could not push data commit after retries; Pages already deployed"
+            exit 0
+          fi

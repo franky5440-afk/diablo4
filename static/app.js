@@ -1,7 +1,7 @@
 const SOURCE_HINTS = {
   maxroll: "Maxroll 官方攻略團隊 D4 BD 指南，依最新更新排序取前 10（v1 live）",
   mobalytics: "Mobalytics Diablo 4 熱門 BD（TRENDING），取前 10（v1 live）",
-  d2core: "暗黑核 Hot Top10（騰訊雲 CloudBase function-planner-queryplanlist，S15 rawScore）",
+  d2core: "暗黑核 CloudBase Hot Top10（S15 rawScore）；失敗時保留既有資料，備援 Maxroll·Mobalytics",
 };
 
 const state = {
@@ -76,7 +76,7 @@ function renderBuilds() {
   $("#buildHint").textContent = SOURCE_HINTS[src] || "";
   const list = state.data[`builds_${src}`] || [];
   if (!list.length) {
-    $("#buildList").innerHTML = '<p class="empty-msg">此來源尚無資料（暗黑核需 token；其他來源等待下次每日掃描）。</p>';
+    $("#buildList").innerHTML = '<p class="empty-msg">此來源尚無資料（暗黑核 CloudBase Top10 或備援 Maxroll·Mobalytics；等待下次每日掃描）。</p>';
     return;
   }
   $("#buildList").innerHTML = list.map(buildCard).join("");

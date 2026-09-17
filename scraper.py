@@ -442,23 +442,36 @@ def scrape_maxroll():
 
 
 def update_builds():
+    """Scrape BD sources. On empty/failure keep previous JSON — never wipe to []."""
     steps = [
         ("builds_d2core", scrape_d2core),
         ("builds_mobalytics", scrape_mobalytics),
         ("builds_maxroll", scrape_maxroll),
     ]
+    got = {}
     for name, fn in steps:
         try:
             items = fn()
         except Exception as e:
             log.error("%s failed: %s", name, e)
-            continue
+            items = []
         if items:
             save_json(f"{name}.json", items)
             set_meta(name)
+            got[name] = len(items)
             log.info("%s: %d builds", name, len(items))
         else:
-            log.warning("%s: parsed 0 items, keeping previous data", name)
+            # Critical: do not write empty list / do not stamp ACCESS_TOKEN_EMPTY meta.
+            prev = load_json(f"{name}.json", [])
+            got[name] = len(prev) if isinstance(prev, list) else 0
+            log.warning("%s: parsed 0 items, keeping previous data (%d)", name, got[name])
+
+    meta = load_json("meta.json", {})
+    if got.get("builds_d2core", 0) > 0:
+        meta["builds_primary"] = "d2core CloudBase Hot Top10 (Maxroll·Mobalytics fallback)"
+    else:
+        meta["builds_primary"] = "maxroll+mobalytics fallback (d2core CloudBase unavailable)"
+    save_json("meta.json", meta)
 
 
 # ---------------------------------------------------------------- YouTube
