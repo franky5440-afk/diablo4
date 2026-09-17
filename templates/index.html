@@ -10,26 +10,32 @@
 <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
-<section id="hero" class="hero-cinema" aria-label="Diablo 4 cinematic introduction">
-  <div class="hero-stage">
-    <div class="scene-img scene-sky" aria-hidden="true"></div>
-    <div class="scene-img scene-town" aria-hidden="true"></div>
-    <div class="hero-shade" aria-hidden="true"></div>
-    <div class="hero-content">
-      <h2 class="hero-title" data-text="DIABLO IV">DIABLO IV</h2>
-      <p class="hero-prompt">SCROLL TO EXPLORE</p>
+<section id="hero" class="hero hero--lilith" aria-label="Diablo 4 Lilith hero">
+  <div class="hero-frame">
+    <picture class="hero__art">
+      <source srcset="static/lilith-hero-b-reach-loop.webp" type="image/webp" media="(prefers-reduced-motion: no-preference)" />
+      <img src="static/lilith-hero-b-reach.webp" alt="Lilith reaching from blood mist" width="1600" height="900" decoding="async" fetchpriority="high" />
+    </picture>
+    <div class="hero-scrim" aria-hidden="true"></div>
+    <div class="hero-ui">
+      <div class="hero-copy">
+        <p class="hero-kicker">HELL AWAITS</p>
+        <h2 class="hero-title">暗黑破壞神<span>4</span></h2>
+        <p class="hero-sub">DIABLO 4 GUIDE HUB</p>
+        <p class="hero-lede">十大 BD・熱門影片・巴哈討論・劇情小說，每日自動彙整。</p>
+      </div>
       <div class="cta-grid" aria-label="Explore Diablo 4 content">
-        <button class="cta-card" type="button" data-tab="builds"><span class="cta-index">01</span><span>十大 BD（Maxroll / Mobalytics）</span><span class="cta-arrow">↗</span></button>
-        <button class="cta-card" type="button" data-tab="hot"><span class="cta-index">02</span><span>近 30 天熱門攻略影片 TOP 10</span><span class="cta-arrow">↗</span></button>
-        <button class="cta-card" type="button" data-tab="new"><span class="cta-index">03</span><span>最新發布攻略影片</span><span class="cta-arrow">↗</span></button>
-        <button class="cta-card" type="button" data-tab="bahamut"><span class="cta-index">04</span><span>巴哈姆特 暗黑破壞神4 哈啦板</span><span class="cta-arrow">↗</span></button>
-        <button class="cta-card" type="button" data-tab="tweets"><span class="cta-index">05</span><span>X（Twitter）Diablo 相關推文</span><span class="cta-arrow">↗</span></button>
-        <button class="cta-card" type="button" data-tab="story"><span class="cta-index">06</span><span>劇情小說（籌備中）</span><span class="cta-arrow">↗</span></button>
+        <button class="cta-card" type="button" data-tab="builds"><span class="cta-index">01</span><span>十大 BD</span><span class="cta-arrow">↗</span></button>
+        <button class="cta-card" type="button" data-tab="hot"><span class="cta-index">02</span><span>熱門影片 TOP10</span><span class="cta-arrow">↗</span></button>
+        <button class="cta-card" type="button" data-tab="new"><span class="cta-index">03</span><span>最新影片</span><span class="cta-arrow">↗</span></button>
+        <button class="cta-card" type="button" data-tab="bahamut"><span class="cta-index">04</span><span>巴哈討論</span><span class="cta-arrow">↗</span></button>
+        <button class="cta-card" type="button" data-tab="tweets"><span class="cta-index">05</span><span>X 推文</span><span class="cta-arrow">↗</span></button>
+        <button class="cta-card" type="button" data-tab="story"><span class="cta-index">06</span><span>劇情小說</span><span class="cta-arrow">↗</span></button>
       </div>
     </div>
   </div>
 </section>
-<header class="site-header">
+<header class="site-header"><header class="site-header">
   <div class="header-inner">
     <div class="brand">
       <svg class="brand-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2 5 5 .5-4 3.5 1.5 5L12 13l-4.5 3 1.5-5-4-3.5 5-.5z"/><path d="M12 13v9"/></svg>
@@ -175,32 +181,12 @@
 
 <script>
 (() => {
-  const hero = document.querySelector("#hero");
-  const root = document.documentElement;
-  const cards = document.querySelectorAll("#hero .cta-card");
-  let ticking = false;
-
-  const updateHero = () => {
-    const range = Math.max(hero.offsetHeight - window.innerHeight, 1);
-    const progress = Math.min(Math.max(window.scrollY / range, 0), 1);
-    root.style.setProperty("--hero-progress", progress.toFixed(4));
-    root.style.setProperty("--title-opacity", Math.max(0, 1 - progress * 2.4).toFixed(4));
-    root.style.setProperty("--town-y", `${-progress * 18}vh`);
-    root.style.setProperty("--town-scale", (1 + progress * .08).toFixed(4));
-    root.style.setProperty("--town-height", `${100 + progress * 10}vh`);
-    root.style.setProperty("--frame-x", `${progress * 18}vw`);
-    root.style.setProperty("--cards-y", `${(1 - progress) * 24}vh`);
-    root.style.setProperty("--cards-opacity", Math.min(1, progress * 2.2).toFixed(4));
-    ticking = false;
-  };
-  window.addEventListener("scroll", () => {
-    if (!ticking) { window.requestAnimationFrame(updateHero); ticking = true; }
-  }, { passive: true });
-  cards.forEach((card) => card.addEventListener("click", () => {
-    window.switchView(card.dataset.tab);
-    document.querySelector("#main").scrollIntoView({ behavior: "smooth", block: "start" });
-  }));
-  updateHero();
+  document.querySelectorAll("#hero .cta-card").forEach((card) => {
+    card.addEventListener("click", () => {
+      if (typeof window.switchView === "function") window.switchView(card.dataset.tab);
+      document.querySelector("#main")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
 })();
 </script>
 <script src="static/app.js"></script>

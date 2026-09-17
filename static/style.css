@@ -32,159 +32,159 @@ button { cursor: pointer; font-family: inherit; }
 a { color: inherit; text-decoration: none; }
 .hidden { display: none !important; }
 
-/* ---------- cinematic hero ---------- */
-:root {
-  --hero-progress: 0;
-  --title-opacity: 1;
-  --town-y: 0vh;
-  --town-scale: 1;
-  --town-height: 100vh;
-  --frame-x: 0vw;
-  --cards-y: 24vh;
-  --cards-opacity: 0;
-}
-.hero-cinema {
+/* ---------- Lilith hero (B Reach) ---------- */
+.hero--lilith {
   position: relative;
-  height: 210vh;
   background: var(--bg);
+  border-bottom: 1px solid var(--border);
 }
-.hero-stage {
-  position: sticky;
-  top: 0;
-  height: 100vh;
-  min-height: 560px;
-  overflow: hidden;
-  isolation: isolate;
-  background: #120608;
-}
-.scene-img, .hero-shade, .hero-content {
-  position: absolute;
-  inset: 0;
-}
-.scene-img {
-  display: block;
-  pointer-events: none;
-  user-select: none;
-  will-change: transform, opacity;
-}
-.scene-sky {
-  z-index: 0;
-  background: radial-gradient(ellipse at 55% 35%, #4a1018 0%, #1a0508 45%, #080406 100%);
-}
-.scene-town {
-  z-index: 1;
-  height: var(--town-height);
-  bottom: auto;
-  background-image: url("hero-lilith.webp"), linear-gradient(180deg, transparent 10%, rgba(20,4,6,.55) 55%, rgba(8,4,6,.95) 100%);
-  background-size: cover;
-  background-position: center 30%;
-  transform-origin: center top;
-  transform: translate3d(0, var(--town-y), 0) scale(var(--town-scale));
-  filter: saturate(1.15) contrast(1.05);
-}
-.scene-frame-left, 
-.scene-frame-left, .scene-frame-right { display: none !important; }
-.scene-frame-right {
-  left: auto;
-  background-image: url("scene/frame-right.webp");
-  background-position: right center;
-  transform: translate3d(var(--frame-x), 0, 0) scale(calc(1.04 + var(--hero-progress) * 0.30));
-}
-.hero-shade {
-  z-index: 3;
-  background: linear-gradient(180deg, rgba(5, 6, 10, .6), transparent 38%, rgba(5, 6, 10, .88));
-  pointer-events: none;
-}
-.hero-content {
-  z-index: 4;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 8vh 24px 7vh;
-  color: var(--text);
-}
-.hero-prompt { color: var(--crimson); font-size: 11px; letter-spacing: 5px; }
-.hero-title {
-  margin: 14px 0 18vh;
-  color: var(--crimson-hi);
-  font-family: "Cinzel", serif;
-  font-size: clamp(32px, 6vw, 86px);
-  font-weight: 700;
-  letter-spacing: .12em;
-  line-height: 1;
-  opacity: var(--title-opacity);
-  /* 3D：上緣一道亮邊當高光，往下用漸暗的銀灰堆出立體側面，最後加落地陰影 */
-  text-shadow:
-    0 -1px 0 #f4f7fb,
-    0 1px 0 #c6ccd6,
-    0 2px 0 #aeb5c0,
-    0 3px 0 #969da9,
-    0 4px 0 #7e8593,
-    0 5px 0 #676e7c,
-    0 6px 0 #515863,
-    0 7px 0 #3d434d,
-    0 8px 0 #2c313a,
-    0 9px 0 #1e222a,
-    0 11px 16px rgba(0, 0, 0, .55),
-    0 4px 30px rgba(0, 0, 0, .6);
-  transform: perspective(700px) rotateX(9deg);
-  transform-origin: 50% 100%;
-  transition: opacity .15s linear;
+.hero-frame {
   position: relative;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #0a0204;
 }
-/* 疊在 3D 側面之上的金屬字面：上緣受光、下緣落入陰影 */
-.hero-title::after {
-  content: attr(data-text);
+.hero__art,
+.hero__art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+.hero__art {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, #ffffff 0%, #e8ecf2 32%, #b7bec9 58%, #868d9b 82%, #6b7280 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  z-index: 0;
+}
+/* prefers-reduced-motion: drop animated <source> so only static img remains */
+@media (prefers-reduced-motion: reduce) {
+  .hero__art source {
+    display: none !important;
+  }
+}
+.hero-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, rgba(8,2,4,.15) 0%, rgba(8,2,4,.05) 42%, rgba(8,2,4,.72) 68%, rgba(8,2,4,.92) 100%),
+    linear-gradient(180deg, rgba(8,2,4,.35) 0%, transparent 28%, transparent 70%, rgba(8,2,4,.75) 100%);
+}
+.hero-ui {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 1fr minmax(260px, 42%);
+  grid-template-rows: 1fr auto;
+  gap: 12px;
+  padding: clamp(16px, 3.5vw, 40px);
   pointer-events: none;
 }
-.hero-prompt { margin-bottom: 18px; opacity: max(0, calc(.72 * (1 - var(--hero-progress) * 5))); }
-.cta-grid { display: grid; grid-template-columns: repeat(6, minmax(120px, 1fr)); gap: 10px; width: min(1120px, 100%); opacity: var(--cards-opacity); transform: translate3d(0, var(--cards-y), 0); will-change: transform, opacity; }
-.cta-card {
-  min-height: 112px;
-  padding: 16px;
-  border: 1px solid rgba(174, 181, 192, .32);
-  border-radius: var(--radius);
-  background: linear-gradient(145deg, rgba(19, 21, 25, .9), rgba(10, 11, 13, .74));
+.hero-ui > * { pointer-events: auto; }
+.hero-copy {
+  grid-column: 2;
+  grid-row: 1;
+  align-self: center;
+  text-align: right;
   color: var(--text);
-  text-align: left;
+}
+.hero-kicker {
+  font-family: Cinzel, "Noto Serif TC", serif;
+  font-size: 11px;
+  letter-spacing: .28em;
+  color: var(--crimson-hi);
+  margin-bottom: 10px;
+}
+.hero-title {
+  font-family: "Noto Serif TC", Cinzel, serif;
+  font-weight: 900;
+  font-size: clamp(28px, 4.2vw, 52px);
+  line-height: 1.15;
+  letter-spacing: .06em;
+  text-shadow: 0 2px 18px rgba(0,0,0,.65);
+  margin: 0 0 6px;
+}
+.hero-title span { color: var(--crimson-hi); }
+.hero-sub {
+  font-family: Cinzel, serif;
+  font-size: clamp(11px, 1.3vw, 14px);
+  letter-spacing: .22em;
+  color: var(--silver);
+  margin-bottom: 12px;
+}
+.hero-lede {
   font-size: 14px;
-  line-height: 1.45;
+  color: var(--muted);
+  line-height: 1.55;
+  max-width: 34em;
+  margin-left: auto;
+}
+.hero--lilith .cta-grid {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 8px;
+  opacity: 1;
+  transform: none;
+}
+.hero--lilith .cta-card {
+  background: rgba(20, 6, 8, .72);
+  border: 1px solid rgba(194, 59, 59, .35);
+  backdrop-filter: blur(6px);
+  color: var(--text);
+  border-radius: 10px;
+  padding: 10px 12px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  transition: border-color .2s, background .2s, transform .2s;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  transition: border-color .15s, transform .15s, background .15s;
 }
-.cta-card:hover, .cta-card:focus-visible { border-color: var(--crimson-hi); background: var(--card2); transform: translateY(-5px); outline: none; }
-.cta-index { color: var(--crimson); font-size: 11px; letter-spacing: 2px; }
-.cta-arrow { align-self: flex-end; color: var(--crimson-hi); font-size: 20px; line-height: 1; }
-@media (max-width: 760px) {
-  .hero-cinema { height: 180vh; }
-  .scene-frame-left, .scene-frame-right {
-    width: 44vw;
-    background-position-y: top;
+.hero--lilith .cta-card:hover {
+  border-color: var(--crimson-hi);
+  background: rgba(40, 10, 12, .85);
+  transform: translateY(-1px);
+}
+.hero--lilith .cta-index {
+  font-family: Cinzel, serif;
+  color: var(--crimson-hi);
+  font-weight: 700;
+  font-size: 12px;
+}
+.hero--lilith .cta-arrow { margin-left: auto; color: var(--crimson); opacity: .8; }
+
+@media (max-width: 900px) {
+  .hero-frame { aspect-ratio: 16 / 9; }
+  .hero-ui {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+    align-content: end;
   }
-  .hero-content { justify-content: flex-start; padding-top: 18vh; }
-  .hero-title { margin-bottom: 12vh; font-size: min(7.2vw, 52px); white-space: nowrap; }
-  .cta-grid { grid-template-columns: repeat(2, 1fr); overflow-y: auto; max-height: 42vh; }
-  .cta-card { min-height: 92px; }
+  .hero-copy {
+    grid-column: 1;
+    text-align: left;
+    align-self: end;
+  }
+  .hero-lede { margin-left: 0; }
+  .hero-scrim {
+    background:
+      linear-gradient(180deg, rgba(8,2,4,.2) 0%, rgba(8,2,4,.45) 40%, rgba(8,2,4,.88) 100%);
+  }
+  .hero--lilith .cta-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
-@media (prefers-reduced-motion: reduce) {
-  html { scroll-behavior: auto; }
-  .scene-town { height: 100vh; }
-  .scene-town, .scene-frame-left, .scene-frame-right { transform: none; }
-  .hero-title { transition: none; }
-  .cta-card { transition: none; }
-  .cta-grid { opacity: 1; transform: none; }
+@media (max-width: 520px) {
+  .hero--lilith .cta-grid { grid-template-columns: 1fr; }
 }
 
-/* ---------- header ---------- */
 .site-header {
   border-bottom: 1px solid var(--border);
   background:

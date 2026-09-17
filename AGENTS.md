@@ -40,7 +40,8 @@ scraper.py ──> data/*.json ──> build_site.py ──> site/（靜態站�
 
 ## Hero
 
-`static/hero-lilith.webp` 抽象 placeholder；Nelli 正式立繪第二輪。
+Frank 選定 **Lilith B Reach**：`static/lilith-hero-b-reach.webp` + `*-loop.webp`。
+`<picture>`／`prefers-reduced-motion`／16:9／標題右側暗部；**禁止** nioh3 `.halo`。
 
 ## Commit
 
