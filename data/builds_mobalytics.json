@@ -53,7 +53,7 @@
   "title": "Blazing Scream Warlock Endgame Build Guide",
   "url": "https://mobalytics.gg/diablo-4/builds/warlock-blazing-scream",
   "author": "AceOfSpades",
-  "updated": "Sep 16, 2026",
+  "updated": "Sep 17, 2026",
   "patch": "Season 15",
   "classes": [
    "Warlock"
@@ -87,7 +87,7 @@
   "title": "Stinger - Stingerborn - Levelling",
   "url": "https://mobalytics.gg/diablo-4/builds/spiritborn-stinger-leveling-build-guide",
   "author": "imortilize",
-  "updated": "Sep 16, 2026",
+  "updated": "Sep 17, 2026",
   "patch": "Season 15",
   "classes": [
    "Spiritborn"
@@ -117,23 +117,6 @@
   "rank": 7
  },
  {
-  "id": "c7780942b2e89261adb1f6c4be8f20f8",
-  "title": "Whirlwind",
-  "url": "https://mobalytics.gg/diablo-4/builds/barbarian-whirl-wind-barb",
-  "author": "Cliptis",
-  "updated": "Sep 16, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Barbarian"
-  ],
-  "tags": [
-   "End Game"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-09-17",
-  "rank": 8
- },
- {
   "id": "7d915be54b1ccd923ba280690930884e",
   "title": "Season 15 Leveling Warlock Build : Susanoo Warlock Infinite Ultimate, Blazing Scream, Bombardment, Abodon Abodian",
   "url": "https://mobalytics.gg/diablo-4/builds/season-15-susanoo-warlock-abodon-abodian-1-button-ez-1st-paragon-board-rush",
@@ -145,6 +128,23 @@
   ],
   "tags": [
    "Leveling"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-09-17",
+  "rank": 8
+ },
+ {
+  "id": "c7780942b2e89261adb1f6c4be8f20f8",
+  "title": "Whirlwind",
+  "url": "https://mobalytics.gg/diablo-4/builds/barbarian-whirl-wind-barb",
+  "author": "Cliptis",
+  "updated": "Sep 17, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Barbarian"
+  ],
+  "tags": [
+   "End Game"
   ],
   "source": "mobalytics",
   "found_date": "2026-09-17",
