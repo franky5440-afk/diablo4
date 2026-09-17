@@ -17,6 +17,8 @@ BASE = Path(__file__).resolve().parent
 DATA = BASE / "data"
 SITE = BASE / "site"
 STORY_SRC = BASE / "content" / "story"
+DLC01_SRC = STORY_SRC / "dlc01"
+DLC02_SRC = STORY_SRC / "dlc02"
 
 SECTIONS = [
     "builds_d2core", "builds_mobalytics", "builds_maxroll",
@@ -56,6 +58,24 @@ STORY_PUBLISH = [
     "08_終章_無法癒合的傷.md",
 ]
 
+# DLC01《憎恨之軀》reader chapters. Skip 全稿.
+DLC01_PUBLISH = [
+    "00_導讀.md",
+    "01_追石入林.md",
+    "02_靈界之心.md",
+    "03_陵墓與背叛.md",
+    "04_憎恨先驅.md",
+]
+
+# DLC02《憎恨之王》reader chapters. Skip README + 全稿.
+DLC02_PUBLISH = [
+    "00_導讀.md",
+    "01_焚檔與偽先知.md",
+    "02_骨刃與天使.md",
+    "03_犧牲與斷頭.md",
+    "04_創生之池.md",
+]
+
 
 def _strip_editor_notes(raw: str) -> str:
     """Drop any leaked 「本節依據」 editor blocks from chapter bodies."""
@@ -67,7 +87,7 @@ def _strip_editor_notes(raw: str) -> str:
     return parts[0].rstrip() + "\n"
 
 
-def _load_chapters(src: Path, filenames: list) -> list:
+def _load_chapters(src: Path, filenames: list, id_prefix: str = "ch") -> list:
     chapters = []
     for fname in filenames:
         path = src / fname
@@ -78,7 +98,7 @@ def _load_chapters(src: Path, filenames: list) -> list:
         MD.reset()
         html = MD.convert(raw)
         chapters.append({
-            "id": chapter_id(fname),
+            "id": chapter_id(fname, prefix=id_prefix),
             "file": fname,
             "title": title,
             "html": html,
@@ -89,7 +109,15 @@ def _load_chapters(src: Path, filenames: list) -> list:
 def build_story() -> dict:
     """Convert published chapter markdown → HTML payload for 劇情小說 tab.
 
-    Picks STORY_PUBLISH (00 導讀 + 01–08) in order; skips 全稿 / README.
+    Schema (volumes): one JSON for a single loadStory() call.
+      {
+        title, subtitle,
+        volumes: [ { id, title, short_title, blurb, chapters, chapter_count }, … ],
+        chapters,          # backward-compat alias = 本篇 chapters
+        chapter_count      # 本篇章數
+      }
+
+    Picks reader lists only; skips 全稿 / README / 目錄大綱／99／本節依據.
     """
     empty = {
         "title": "暗黑破壞神4｜章回小說",
@@ -112,23 +140,47 @@ def build_story() -> dict:
         empty["error"] = "缺少 markdown 套件，無法建置劇情"
         return empty
 
-    chapters = _load_chapters(STORY_SRC, STORY_PUBLISH)
-    if not chapters:
+    main_chapters = _load_chapters(STORY_SRC, STORY_PUBLISH, id_prefix="ch")
+    dlc01_chapters = _load_chapters(DLC01_SRC, DLC01_PUBLISH, id_prefix="dlc01")
+    dlc02_chapters = _load_chapters(DLC02_SRC, DLC02_PUBLISH, id_prefix="dlc02")
+
+    if not main_chapters and not dlc01_chapters and not dlc02_chapters:
         return empty
 
-    return {
-        "title": "暗黑破壞神4｜章回小說",
-        "subtitle": "原創敘事改寫 · 非官方劇本",
-        "volumes": [{
+    volumes = [
+        {
             "id": "main",
             "title": "本篇",
             "short_title": "本篇",
             "blurb": "涅維斯克漂泊 → 憎恨王座與終章餘燼",
-            "chapters": chapters,
-            "chapter_count": len(chapters),
-        }],
-        "chapters": chapters,
-        "chapter_count": len(chapters),
+            "chapters": main_chapters,
+            "chapter_count": len(main_chapters),
+        },
+        {
+            "id": "dlc01",
+            "title": "DLC01 憎恨之軀",
+            "short_title": "憎恨之軀",
+            "blurb": "奈芮爾攜石入納罕圖 → 憎恨先驅與崔凡克終幕",
+            "chapters": dlc01_chapters,
+            "chapter_count": len(dlc01_chapters),
+        },
+        {
+            "id": "dlc02",
+            "title": "DLC02 憎恨之王",
+            "short_title": "憎恨之王",
+            "blurb": "納罕圖餘燼 → 斯科沃斯創生之池與墨菲斯托真身",
+            "chapters": dlc02_chapters,
+            "chapter_count": len(dlc02_chapters),
+        },
+    ]
+
+    return {
+        "title": "暗黑破壞神4｜章回小說",
+        "subtitle": "原創敘事改寫 · 非官方劇本 · 含本篇與 DLC",
+        "volumes": volumes,
+        # Backward compatible: flat chapters = 本篇 only
+        "chapters": main_chapters,
+        "chapter_count": len(main_chapters),
     }
 
 
@@ -153,11 +205,14 @@ def main():
 
     shutil.copy(BASE / "templates" / "index.html", SITE / "index.html")
     shutil.copytree(BASE / "static", SITE / "static")
+    vol_summary = ", ".join(
+        f"{v['id']}={v['chapter_count']}" for v in story.get("volumes", [])
+    )
     print(
         f"site built: "
         f"{sum(len(merged[k]) for k in ('builds_d2core', 'builds_mobalytics', 'builds_maxroll'))} builds, "
         f"{sum(len(merged[k]) for k in ('videos_hot_zh', 'videos_hot_en', 'videos_hot_ja', 'videos_new_zh', 'videos_new_en', 'videos_new_ja'))} videos, "
-        f"story chapters={story.get('chapter_count', 0)}"
+        f"story volumes=[{vol_summary}] main_chapters={story.get('chapter_count', 0)}"
     )
 
 
