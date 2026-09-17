@@ -1,12 +1,12 @@
 const SOURCE_HINTS = {
   maxroll: "Maxroll 官方攻略團隊 D4 BD 指南，依最新更新排序取前 10（v1 live）",
   mobalytics: "Mobalytics Diablo 4 熱門 BD（TRENDING），取前 10（v1 live）",
-  d2core: "暗黑核 d2core.com／api 需 ACCESS_TOKEN；無 token 時此來源為空，見 IMPL",
+  d2core: "暗黑核 Hot Top10（騰訊雲 CloudBase function-planner-queryplanlist，S15 rawScore）",
 };
 
 const state = {
   data: null,
-  buildsSource: "maxroll",
+  buildsSource: "d2core",
   hotLang: "zh", newLang: "zh", tweetsLang: "zh",
   activeTab: "builds",
 };

@@ -10,7 +10,7 @@
 
 | Tab | 說明 |
 |-----|------|
-| 十大 BD | Maxroll + Mobalytics（live）；暗黑核 d2core 需 token，備援中 |
+| 十大 BD | **暗黑核 d2core** Hot Top10（live）＋ Maxroll / Mobalytics 備援 |
 | 熱門影片 TOP10 | 近 30 天，zh / en / ja |
 | 最新影片 | 依上傳日，zh / en / ja |
 | 巴哈討論 | `bsn=75105` 暗黑破壞神 4 哈啦板 |
@@ -41,12 +41,14 @@ GitHub Actions：每日 UTC 00:00（`deploy.yml`）跑 scraper、建站、部署
 
 ## BD 來源說明
 
-- **主來源意圖**：https://www.d2core.com/d4/builds（暗黑核）
-  - SPA；`api.d2core.com` 無 token 回 `ACCESS_TOKEN_EMPTY`
-  - `builds_d2core.json` 可能為空
-- **v1 live**：Maxroll `d4/build-guides`、Mobalytics GraphQL `diablo-4`
+- **主來源（live）**：暗黑核 https://www.d2core.com/d4/builds
+  - **不要**打 `api.d2core.com`（會回 `ACCESS_TOKEN_EMPTY`，錯誤路徑）
+  - 正確：騰訊雲 CloudBase `POST tcb-api.tencentcloudapi.com/web?env=diablocore-…`
+  - 雲函數 `function-planner-queryplanlist`，Hot 排序 `rawScore`，S15，寫入 `builds_d2core.json`
+  - 計畫 URL：`https://www.d2core.com/d4/planner?bd=<_id>`
+- **備援**：Maxroll `d4/build-guides`、Mobalytics GraphQL `diablo-4`
 
-詳見 IMPL report。
+詳見 [`IMPL_REPORT.md`](IMPL_REPORT.md)。
 
 ## License
 
