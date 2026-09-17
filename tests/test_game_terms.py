@@ -9,6 +9,8 @@ from scraper import game_in_title
 
 def test_game_in_title_variants():
     assert game_in_title("暗黑破壞神4 賽季攻略")
+    assert game_in_title("暗黑破坏神4第15赛季术士开荒攻略")  # Simplified
+    assert game_in_title("暗黑4 開荒")
     assert game_in_title("Diablo IV build guide")
     assert game_in_title("D4 BD 分享")
     assert not game_in_title("Path of Exile 2 build")

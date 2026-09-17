@@ -43,8 +43,12 @@ VIDEO_DOMAINS = ("youtube.com", "youtu.be", "bilibili.com", "twitch.tv", "nicovi
 HOT_CUTOFF_DAYS = 30
 RSS_CHANNEL_CAP = 60
 NEW_FLAT_LIMIT = 150
-GAME_TERMS = ("diablo 4", "diablo iv", "diablo4", "暗黑破壞神4", "暗黑破壞神 4", "暗黑4", "d4")
-GAME_TERMS_COMPACT = ("diablo4", "diabloiv", "暗黑破壞神4", "暗黑4", "d4")
+GAME_TERMS = (
+    "diablo 4", "diablo iv", "diablo4",
+    "暗黑破壞神4", "暗黑破壞神 4", "暗黑破坏神4", "暗黑破坏神 4",
+    "暗黑4", "d4",
+)
+GAME_TERMS_COMPACT = ("diablo4", "diabloiv", "暗黑破壞神4", "暗黑破坏神4", "暗黑4", "d4")
 
 TWEET_CAP = 250
 X_SEARCH_QUERIES = {
@@ -596,12 +600,24 @@ def yt_full_info(vid):
 
 
 def game_in_title(title):
-    t = (title or "").lower()
-    compact = t.replace(" ", "").replace("　", "")
-    compact = compact.replace("diabloiv", "diablo4").replace("暗黑破壞神iv", "暗黑破壞神4")
-    if any(w in t for w in GAME_TERMS):
-        return True
-    return any(w in compact for w in GAME_TERMS_COMPACT)
+    """標題是否與暗黑4相關。同時吃繁／簡體（簡體先轉繁再比對）。"""
+    variants = [(title or "").lower(), to_zh_tw(title or "").lower()]
+    seen = set()
+    for t in variants:
+        if t in seen:
+            continue
+        seen.add(t)
+        compact = t.replace(" ", "").replace("　", "")
+        compact = (
+            compact.replace("diabloiv", "diablo4")
+            .replace("暗黑破壞神iv", "暗黑破壞神4")
+            .replace("暗黑破坏神iv", "暗黑破坏神4")
+        )
+        if any(w in t for w in GAME_TERMS):
+            return True
+        if any(w in compact for w in GAME_TERMS_COMPACT):
+            return True
+    return False
 
 
 def within_cutoff(date_str, cutoff):
@@ -686,12 +702,21 @@ def pick_hot_videos(pool, rss_map, keep, to_item, top_n, date_cache=None, hot_cu
     return [to_item(v, v.get("date"), v["view_count"]) for v in picked]
 
 
-def pick_new_videos(pool, rss_map, keep, to_item, top_n):
-    """取候選池裡最近上傳的 top_n 部影片：一律依上傳日期新到舊排序；
-    近期候選不足 top_n 時，用較舊的候選遞補湊滿——語意是「目前最新的 top_n 部」，
-    不因某個時間窗內剛好樣本不足就讓 tab 顯示的部數縮水。"""
-    chan_of = {v["video_id"]: v["channel"] for v in pool}
+def pick_new_videos(pool, rss_map, keep, to_item, top_n, date_cache=None):
+    """最新 tab：以「上傳日排序的搜尋池」為主填滿 top_n；RSS 只當日期補充與額外候選。
+    仍要求 keep（zh=CJK 且非假名）＋ game_in_title。雲端 RSS 稀疏時不再縮成 1 筆。"""
+    date_cache = date_cache if date_cache is not None else {}
+    pool_order = {v["video_id"]: i for i, v in enumerate(pool)}
     cands = {}
+
+    # 主來源：搜尋池（呼叫端已用 sort_by_date flat search）
+    for v in pool:
+        title = v.get("title") or ""
+        if not (keep(title) and game_in_title(title)):
+            continue
+        cands[v["video_id"]] = dict(v)
+
+    # RSS 補充：補日期／觀看數，並納入搜尋沒撈到的近期片
     for vid, info in rss_map.items():
         if not (keep(info["title"]) and game_in_title(info["title"])):
             continue
@@ -699,35 +724,57 @@ def pick_new_videos(pool, rss_map, keep, to_item, top_n):
             datetime.strptime(info["date"], "%Y-%m-%d")
         except (ValueError, TypeError):
             continue
-        cands[vid] = to_item({"video_id": vid, "title": info["title"],
-                              "channel": chan_of.get(vid) or info.get("channel") or "",
-                              "url": f"https://www.youtube.com/watch?v={vid}"}, info["date"], info["views"])
-
-    items = dedupe_video_items(sorted(cands.values(), key=lambda x: x["date"] or "", reverse=True))[:top_n]
-    if len(items) >= top_n:
-        return items
-
-    log.warning("videos new: rss candidates only %d (<%d), falling back to full-extract scan to backfill",
-                len(items), top_n)
-    seen = {it["video_id"] for it in items}
-    extra, scanned = [], 0
-    for v in pool:
-        if v["video_id"] in seen:
+        if vid in cands:
+            cur = cands[vid]
+            if not cur.get("date"):
+                cur["date"] = info["date"]
+            if not isinstance(cur.get("view_count"), int) and isinstance(info.get("views"), int):
+                cur["view_count"] = info["views"]
+            if not cur.get("channel") and info.get("channel"):
+                cur["channel"] = info["channel"]
             continue
-        if len(items) + len(extra) >= top_n or scanned >= 40:
-            break
-        scanned += 1
-        date, vc = yt_full_info(v["video_id"])
-        time.sleep(0.4)
-        if date:
-            extra.append(to_item(v, date, vc))
-            seen.add(v["video_id"])
-    return dedupe_video_items(sorted(items + extra, key=lambda x: x["date"] or "", reverse=True))[:top_n]
+        cands[vid] = {
+            "video_id": vid,
+            "title": info["title"],
+            "channel": info.get("channel") or "",
+            "url": f"https://www.youtube.com/watch?v={vid}",
+            "view_count": info["views"],
+            "date": info["date"],
+        }
+
+    # 缺日期時優先查搜尋順位靠前的（YouTube 上傳日排序結果）
+    ordered = sorted(cands.values(), key=lambda x: pool_order.get(x["video_id"], 10**6))
+    resolve_dates_and_views(ordered, rss_map, date_cache, budget=max(HOT_LOOKUP_BUDGET, top_n * 3))
+
+    dated = [v for v in cands.values() if v.get("date")]
+    undated = [v for v in cands.values() if not v.get("date")]
+    dated.sort(key=lambda x: x["date"], reverse=True)
+    # 無日期者保留搜尋順位當近似「新→舊」
+    undated.sort(key=lambda x: pool_order.get(x["video_id"], 10**6))
+
+    items = [to_item(v, v.get("date"), v.get("view_count")) for v in dated + undated]
+    picked = dedupe_video_items(items)[:top_n]
+    if len(picked) < top_n:
+        log.warning("videos new: search+rss pool only yielded %d (<%d)", len(picked), top_n)
+    return picked
 
 
 def collect_videos(lang, date_cache):
     if lang == "zh":
-        hot_queries, new_queries = ["暗黑破壞神4 攻略", "Diablo 4 配裝", "D4 BD"], ["暗黑破壞神4 攻略"]
+        hot_queries = ["暗黑破壞神4 攻略", "Diablo 4 配裝", "D4 BD"]
+        # 最新：廣搜繁簡＋開荒／賽季，避免只靠「攻略」＋RSS∩標題縮成 1 筆
+        new_queries = [
+            "暗黑破壞神4",
+            "暗黑4",
+            "暗黑破坏神4",
+            "暗黑破壞神4 攻略",
+            "暗黑4 開荒",
+            "暗黑破坏神4 开荒",
+            "暗黑4 賽季",
+            "暗黑破坏神4 赛季",
+            "暗黑4 S15",
+            "暗黑破坏神4 赛季 攻略",
+        ]
 
         def keep(title):
             return has_cjk(title) and not KANA_RE.search(title)
@@ -804,10 +851,14 @@ def collect_videos(lang, date_cache):
                 rss_map[vid] = {"title": title, "date": pub, "views": views, "channel": chan}
         time.sleep(0.3)
     log.info("videos [%s]: %d channels rss -> %d videos", lang, min(len(chans), RSS_CHANNEL_CAP), len(rss_map))
-    # RSS 全空代表 YouTube 擋下請求，不把無日期老片遞補成新快照。
+    # RSS 全空時：熱門仍回空以保留前一日（缺日期易被老高播插隊）；
+    # 最新改以搜尋池為主，不再因 RSS 空／稀疏而縮成 0～1 筆。
     if not rss_map:
-        log.warning("videos [%s]: RSS 0 部，視為 YouTube 擋下，hot/new 一律回空 list 讓 update_videos 保留前一日資料", lang)
-        return [], []
+        log.warning("videos [%s]: RSS 0 部；hot 回空保留前一日，new 改以搜尋池填滿", lang)
+        log.info("videos new [%s]: %d candidates", lang, len(pool_new))
+        new = pick_new_videos(pool_new, {}, keep, to_item, 10, date_cache)
+        log.info("videos new [%s]: %d picked (no rss)", lang, len(new))
+        return [], new
 
     hot = pick_hot_videos(pool_hot, rss_map, keep, to_item, 10, date_cache)
     cutoff = (datetime.now(timezone.utc) - timedelta(days=HOT_CUTOFF_DAYS)).date()
@@ -818,7 +869,7 @@ def collect_videos(lang, date_cache):
                     lang, fresh, len(hot), HOT_CUTOFF_DAYS)
 
     log.info("videos new [%s]: %d candidates", lang, len(pool_new))
-    new = pick_new_videos(pool_new, rss_map, keep, to_item, 10)
+    new = pick_new_videos(pool_new, rss_map, keep, to_item, 10, date_cache)
     log.info("videos new [%s]: %d picked", lang, len(new))
 
     return hot, new
