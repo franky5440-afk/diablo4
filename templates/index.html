@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>暗黑破壞神4 攻略武庫 | Diablo 4 Guide Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+<section id="hero" class="hero-cinema" aria-label="Diablo 4 cinematic introduction">
+  <div class="hero-stage">
+    <div class="scene-img scene-sky" aria-hidden="true"></div>
+    <div class="scene-img scene-town" aria-hidden="true"></div>
+    <div class="hero-shade" aria-hidden="true"></div>
+    <div class="hero-content">
+      <h2 class="hero-title" data-text="DIABLO IV">DIABLO IV</h2>
+      <p class="hero-prompt">SCROLL TO EXPLORE</p>
+      <div class="cta-grid" aria-label="Explore Diablo 4 content">
+        <button class="cta-card" type="button" data-tab="builds"><span class="cta-index">01</span><span>十大 BD（Maxroll / Mobalytics）</span><span class="cta-arrow">↗</span></button>
+        <button class="cta-card" type="button" data-tab="hot"><span class="cta-index">02</span><span>近 30 天熱門攻略影片 TOP 10</span><span class="cta-arrow">↗</span></button>
+        <button class="cta-card" type="button" data-tab="new"><span class="cta-index">03</span><span>最新發布攻略影片</span><span class="cta-arrow">↗</span></button>
+        <button class="cta-card" type="button" data-tab="bahamut"><span class="cta-index">04</span><span>巴哈姆特 暗黑破壞神4 哈啦板</span><span class="cta-arrow">↗</span></button>
+        <button class="cta-card" type="button" data-tab="tweets"><span class="cta-index">05</span><span>X（Twitter）Diablo 相關推文</span><span class="cta-arrow">↗</span></button>
+        <button class="cta-card" type="button" data-tab="story"><span class="cta-index">06</span><span>劇情小說（籌備中）</span><span class="cta-arrow">↗</span></button>
+      </div>
+    </div>
+  </div>
+</section>
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <svg class="brand-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2 5 5 .5-4 3.5 1.5 5L12 13l-4.5 3 1.5-5-4-3.5 5-.5z"/><path d="M12 13v9"/></svg>
+      <div class="brand-text">
+        <h1>暗黑<span>破壞神</span>4 武庫</h1>
+        <p>DIABLO 4 GUIDE HUB</p>
+      </div>
+    </div>
+    <form class="search-box" id="searchForm" role="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input type="search" id="searchInput" placeholder="搜尋 BD、影片、討論、推文…" autocomplete="off">
+      <button type="submit" class="btn-crimson">搜尋</button>
+    </form>
+  </div>
+  <nav class="tabs" id="tabs">
+    <button class="tab active" data-tab="builds">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a5 5 0 0 0-7.07 7.07l-4.3 4.3a1 1 0 0 0 0 1.42l1.51 1.51a1 1 0 0 0 1.42 0l4.3-4.3a5 5 0 0 0 7.07-7.07z"/><path d="M17 7l4-4"/></svg>
+      十大 BD
+    </button>
+    <button class="tab" data-tab="hot">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c4.4 0 8-3.6 8-8 0-4.9-3.6-8.5-5.7-10.5-.5-.5-1.3-.1-1.3.6C13 6.5 11 8 10 8c-.8 0-1-.7-1-1.5 0-.7-.8-1-1.3-.6C5.5 8 4 10.7 4 14c0 4.4 3.6 8 8 8z"/></svg>
+      熱門影片 TOP10（30 天內）
+    </button>
+    <button class="tab" data-tab="new">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+      最新影片
+    </button>
+    <button class="tab" data-tab="bahamut">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-8 8H5l-2 2V12a8 8 0 0 1 8-8h2a8 8 0 0 1 8 8z"/></svg>
+      巴哈討論區
+    </button>
+    <button class="tab" data-tab="tweets">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      X 推文
+    </button>
+    <button class="tab" data-tab="story">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+      劇情小說
+    </button>
+  </nav>
+</header>
+
+<main id="main">
+  <section id="view-search" class="view hidden">
+    <div class="view-head">
+      <h2 id="searchTitle"></h2>
+      <button class="btn-clear" id="clearSearch">✕ 清除搜尋</button>
+    </div>
+    <div id="searchResults"></div>
+  </section>
+
+  <section id="view-builds" class="view hidden">
+    <div class="view-head">
+      <h2>十大 BD</h2>
+      <span class="meta-time" data-meta="builds"></span>
+    </div>
+    <div class="controls">
+      <div class="pill-group" data-source-for="builds">
+        <button class="pill active" data-source="maxroll">Maxroll</button>
+        <button class="pill" data-source="mobalytics">Mobalytics</button>
+        <button class="pill" data-source="d2core">暗黑核 d2core</button>
+      </div>
+      <p class="source-hint" id="buildHint"></p>
+    </div>
+    <div class="build-list" id="buildList"></div>
+  </section>
+
+  <section id="view-hot" class="view hidden">
+    <div class="view-head">
+      <h2>近 30 天熱門攻略影片 TOP 10</h2>
+      <span class="meta-time" data-meta="videos_hot"></span>
+    </div>
+    <div class="controls">
+      <div class="pill-group" data-lang-for="hot">
+        <button class="pill active" data-lang="zh">中文區</button>
+        <button class="pill" data-lang="en">English</button>
+        <button class="pill" data-lang="ja">日本語</button>
+      </div>
+    </div>
+    <div class="video-grid" id="hotGrid"></div>
+  </section>
+
+  <section id="view-new" class="view hidden">
+    <div class="view-head">
+      <h2>最新發布攻略影片</h2>
+      <span class="meta-time" data-meta="videos_new"></span>
+    </div>
+    <div class="controls">
+      <div class="pill-group" data-lang-for="new">
+        <button class="pill active" data-lang="zh">中文區</button>
+        <button class="pill" data-lang="en">English</button>
+        <button class="pill" data-lang="ja">日本語</button>
+      </div>
+    </div>
+    <div class="video-grid" id="newGrid"></div>
+  </section>
+
+  <section id="view-bahamut" class="view hidden">
+    <div class="view-head">
+      <h2>巴哈姆特 暗黑破壞神4 哈啦板 — 最新討論</h2>
+      <span class="meta-time" data-meta="bahamut"></span>
+    </div>
+    <div class="thread-list" id="bahaList"></div>
+  </section>
+
+  <section id="view-tweets" class="view hidden">
+    <div class="view-head">
+      <h2>X（Twitter）Diablo 相關推文</h2>
+      <span class="meta-time" data-meta="tweets"></span>
+    </div>
+    <div class="controls">
+      <div class="pill-group" data-lang-for="tweets">
+        <button class="pill active" data-lang="zh">中文區</button>
+        <button class="pill" data-lang="en">English</button>
+        <button class="pill" data-lang="ja">日本語</button>
+      </div>
+    </div>
+    <div class="tweet-list" id="tweetList"></div>
+  </section>
+
+  <section id="view-story" class="view hidden">
+    <div class="view-head">
+      <h2>劇情小說</h2>
+      <span class="meta-time" id="storyMeta"></span>
+    </div>
+    <div class="story-spoiler" id="storySpoiler" role="alert">
+      <strong>劇透警告</strong>
+      <span id="storySpoilerText">本章回小說體長稿含主線關鍵劇情。未通關或不欲知曉劇情者請勿閱讀。繼續瀏覽即視為接受劇透。原創敘事改寫，非官方劇本。v1 內容籌備中（Ruth 第二輪填稿）。</span>
+    </div>
+    <div class="story-volume-bar" id="storyVolumeBar" role="tablist" aria-label="卷冊切換"></div>
+    <p class="story-volume-blurb" id="storyVolumeBlurb" hidden></p>
+    <nav class="story-toc" id="storyToc" aria-label="章回目錄"></nav>
+    <article class="story-body" id="storyBody">
+      <p class="empty-msg">劇情小說籌備中，敬請期待。</p>
+    </article>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>資料每日自動更新 · BD 來源：Maxroll / Mobalytics（暗黑核 d2core 需 token，備援中）</p>
+  <p id="lastRun"></p>
+</footer>
+
+<script>
+(() => {
+  const hero = document.querySelector("#hero");
+  const root = document.documentElement;
+  const cards = document.querySelectorAll("#hero .cta-card");
+  let ticking = false;
+
+  const updateHero = () => {
+    const range = Math.max(hero.offsetHeight - window.innerHeight, 1);
+    const progress = Math.min(Math.max(window.scrollY / range, 0), 1);
+    root.style.setProperty("--hero-progress", progress.toFixed(4));
+    root.style.setProperty("--title-opacity", Math.max(0, 1 - progress * 2.4).toFixed(4));
+    root.style.setProperty("--town-y", `${-progress * 18}vh`);
+    root.style.setProperty("--town-scale", (1 + progress * .08).toFixed(4));
+    root.style.setProperty("--town-height", `${100 + progress * 10}vh`);
+    root.style.setProperty("--frame-x", `${progress * 18}vw`);
+    root.style.setProperty("--cards-y", `${(1 - progress) * 24}vh`);
+    root.style.setProperty("--cards-opacity", Math.min(1, progress * 2.2).toFixed(4));
+    ticking = false;
+  };
+  window.addEventListener("scroll", () => {
+    if (!ticking) { window.requestAnimationFrame(updateHero); ticking = true; }
+  }, { passive: true });
+  cards.forEach((card) => card.addEventListener("click", () => {
+    window.switchView(card.dataset.tab);
+    document.querySelector("#main").scrollIntoView({ behavior: "smooth", block: "start" });
+  }));
+  updateHero();
+})();
+</script>
+<script src="static/app.js"></script>
+</body>
+</html>
