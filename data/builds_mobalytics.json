@@ -1,7 +1,6 @@
 [
  {
   "id": "57c9b523ebf7dae293beb52ffac4203c",
-  "rank": 1,
   "title": "MrRonit's Blazing Scream 1-70 FAST (Best Warlock Levelling Build)",
   "url": "https://mobalytics.gg/diablo-4/builds/blazing-scream-warlock-levelling-build",
   "author": "MrRonit",
@@ -14,11 +13,11 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-17"
+  "found_date": "2026-09-17",
+  "rank": 1
  },
  {
   "id": "9aec068e42c39987138a100cf0fc1c85",
-  "rank": 2,
   "title": "MrRonit's Blazing Scream Endgame PERFECTED",
   "url": "https://mobalytics.gg/diablo-4/builds/blazing-scream-warlock-endgame-build",
   "author": "MrRonit",
@@ -31,11 +30,11 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-17"
+  "found_date": "2026-09-17",
+  "rank": 2
  },
  {
   "id": "c0cb55a2932e34b6f2408369ea4be89d",
-  "rank": 3,
   "title": "Season 15 Warlock Hub",
   "url": "https://mobalytics.gg/diablo-4/builds/season-14-warlock-hub",
   "author": "p4wnyhof",
@@ -46,11 +45,11 @@
   ],
   "tags": [],
   "source": "mobalytics",
-  "found_date": "2026-09-17"
+  "found_date": "2026-09-17",
+  "rank": 3
  },
  {
   "id": "b77b8cc6a9ade16aac3f27d5828d3270",
-  "rank": 4,
   "title": "Blazing Scream Warlock Endgame Build Guide",
   "url": "https://mobalytics.gg/diablo-4/builds/warlock-blazing-scream",
   "author": "AceOfSpades",
@@ -63,11 +62,11 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-17"
+  "found_date": "2026-09-17",
+  "rank": 4
  },
  {
   "id": "34ddc650be66da092ca9658824cfc30f",
-  "rank": 5,
   "title": "Blazing Scream Level 70 In 1.2 Hours",
   "url": "https://mobalytics.gg/diablo-4/builds/warlock-blazing-scream-leveling",
   "author": "AceOfSpades",
@@ -80,11 +79,11 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-17"
+  "found_date": "2026-09-17",
+  "rank": 5
  },
  {
   "id": "d8ad7b8846da1bdd8f2771089fcc67b2",
-  "rank": 6,
   "title": "Stinger - Stingerborn - Levelling",
   "url": "https://mobalytics.gg/diablo-4/builds/spiritborn-stinger-leveling-build-guide",
   "author": "imortilize",
@@ -97,11 +96,11 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-17"
+  "found_date": "2026-09-17",
+  "rank": 6
  },
  {
   "id": "988d5bc3be329ae376f3d5188d42b9a7",
-  "rank": 7,
   "title": "Apocalypse Warlock Endgame Guide",
   "url": "https://mobalytics.gg/diablo-4/builds/warlock-apocalypse",
   "author": "Sanctum",
@@ -114,11 +113,11 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-17"
+  "found_date": "2026-09-17",
+  "rank": 7
  },
  {
   "id": "c7780942b2e89261adb1f6c4be8f20f8",
-  "rank": 8,
   "title": "Whirlwind",
   "url": "https://mobalytics.gg/diablo-4/builds/barbarian-whirl-wind-barb",
   "author": "Cliptis",
@@ -131,11 +130,11 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-17"
+  "found_date": "2026-09-17",
+  "rank": 8
  },
  {
   "id": "7d915be54b1ccd923ba280690930884e",
-  "rank": 9,
   "title": "Season 15 Leveling Warlock Build : Susanoo Warlock Infinite Ultimate, Blazing Scream, Bombardment, Abodon Abodian",
   "url": "https://mobalytics.gg/diablo-4/builds/season-15-susanoo-warlock-abodon-abodian-1-button-ez-1st-paragon-board-rush",
   "author": "Slaydra",
@@ -148,11 +147,11 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-17"
+  "found_date": "2026-09-17",
+  "rank": 9
  },
  {
   "id": "6108061ffff9416c240f53675e340c3b",
-  "rank": 10,
   "title": "Whirlwind Leveling Guide",
   "url": "https://mobalytics.gg/diablo-4/builds/barbarian-whirlwind-leveling-barb",
   "author": "Cliptis",
@@ -165,6 +164,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-17"
+  "found_date": "2026-09-17",
+  "rank": 10
  }
 ]
