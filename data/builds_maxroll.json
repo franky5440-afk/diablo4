@@ -1,11 +1,11 @@
 [
  {
-  "id": "8bfb151d02f4376d639c03e353370d47",
+  "id": "251f69c0668cab14f5ec84e1bc7c83a3",
   "rank": 1,
-  "title": "Dance of Knives Rogue Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/dance-of-knives-rogue-guide",
-  "author": "Ava",
-  "updated": "September 17, 2026",
+  "title": "Cold Penetrating Shot Rogue Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/cold-penetrating-shot-rogue-guide",
+  "author": "mattias",
+  "updated": "September 18, 2026",
   "patch": "Season 15   Hell's Legacy",
   "classes": [
    "Endgame"
@@ -15,15 +15,51 @@
    "Rogue"
   ],
   "source": "maxroll",
-  "found_date": "2026-09-17"
+  "found_date": "2026-09-18"
  },
  {
-  "id": "83da2e7243e6a219e795c568833115a3",
+  "id": "4face059af377e38927c69cb9bda52f2",
   "rank": 2,
-  "title": "Whirlwind Barbarian Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/whirlwind-barbarian-guide",
+  "title": "Flurry Rogue Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/flurry-rogue-guide",
+  "author": "mattias",
+  "updated": "September 18, 2026",
+  "patch": "Season 15   Hell's Legacy",
+  "classes": [
+   "Endgame"
+  ],
+  "tags": [
+   "Endgame",
+   "Rogue"
+  ],
+  "source": "maxroll",
+  "found_date": "2026-09-18"
+ },
+ {
+  "id": "60eb17d10e13acdc89ae47eff1f251aa",
+  "rank": 3,
+  "title": "Twisting Blades Rogue Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/twisting-blades-rogue-guide",
+  "author": "mattias",
+  "updated": "September 18, 2026",
+  "patch": "Season 15   Hell's Legacy",
+  "classes": [
+   "Endgame"
+  ],
+  "tags": [
+   "Endgame",
+   "Rogue"
+  ],
+  "source": "maxroll",
+  "found_date": "2026-09-18"
+ },
+ {
+  "id": "738d136e23a5acfbfdb48de5c3d266a6",
+  "rank": 4,
+  "title": "Leapquake Barbarian Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/earthquake-barbarian-guide",
   "author": "aoinomiku",
-  "updated": "September 17, 2026",
+  "updated": "September 18, 2026",
   "patch": "Season 15   Hell's Legacy",
   "classes": [
    "Endgame"
@@ -33,51 +69,69 @@
    "Barbarian"
   ],
   "source": "maxroll",
-  "found_date": "2026-09-17"
+  "found_date": "2026-09-18"
  },
  {
-  "id": "4face059af377e38927c69cb9bda52f2",
-  "rank": 3,
-  "title": "Flurry Rogue Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/flurry-rogue-guide",
-  "author": "mattias",
-  "updated": "September 17, 2026",
-  "patch": "Season 15   Hell's Legacy",
-  "classes": [
-   "Endgame"
-  ],
-  "tags": [
-   "Endgame",
-   "Rogue"
-  ],
-  "source": "maxroll",
-  "found_date": "2026-09-17"
- },
- {
-  "id": "85d590046e1ba4e7c79fc6dfc6141c2b",
-  "rank": 4,
-  "title": "Stinger Spiritborn Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/stinger-spiritborn-guide",
-  "author": "Ignition",
-  "updated": "September 17, 2026",
-  "patch": "Season 15   Hell's Legacy",
-  "classes": [
-   "Endgame"
-  ],
-  "tags": [
-   "Endgame",
-   "Spiritborn"
-  ],
-  "source": "maxroll",
-  "found_date": "2026-09-17"
- },
- {
-  "id": "d1d2fedac9ebdb9959c724bfd2e1d207",
+  "id": "00ad27e0e024b848bda7cecb0b94fa66",
   "rank": 5,
-  "title": "Minion Necromancer Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/minion-necromancer-guide",
+  "title": "Blazing Scream Warlock Endgame Guide",
+  "url": "https://maxroll.gg/d4/build-guides/blazing-scream-warlock-guide",
+  "author": "MacroBioBoi",
+  "updated": "September 18, 2026",
+  "patch": "Season 15   Hell's Legacy",
+  "classes": [
+   "Endgame"
+  ],
+  "tags": [
+   "Endgame",
+   "Warlock"
+  ],
+  "source": "maxroll",
+  "found_date": "2026-09-18"
+ },
+ {
+  "id": "745e836b3ab9590dc4f2b288292d4406",
+  "rank": 6,
+  "title": "Minion Warlock Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/minion-warlock-guide",
+  "author": "MacroBioBoi",
+  "updated": "September 18, 2026",
+  "patch": "Season 15   Hell's Legacy",
+  "classes": [
+   "Endgame"
+  ],
+  "tags": [
+   "Endgame",
+   "Warlock"
+  ],
+  "source": "maxroll",
+  "found_date": "2026-09-18"
+ },
+ {
+  "id": "4b3d7a1cdfa90a77873a7ac7b2555855",
+  "rank": 7,
+  "title": "Tornado Druid Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/tornado-druid-guide",
+  "author": "pandaglassjaw",
+  "updated": "September 18, 2026",
+  "patch": "Season 15   Hell's Legacy",
+  "classes": [
+   "Endgame"
+  ],
+  "tags": [
+   "Endgame",
+   "Druid"
+  ],
+  "source": "maxroll",
+  "found_date": "2026-09-18"
+ },
+ {
+  "id": "382a75dc199198c365326d46e1124e8b",
+  "rank": 8,
+  "title": "Bone Spirit Necromancer Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/bone-spirit-necromancer-guide",
   "author": "serocifkre",
-  "updated": "September 17, 2026",
+  "updated": "September 18, 2026",
   "patch": "Season 15   Hell's Legacy",
   "classes": [
    "Endgame"
@@ -87,69 +141,33 @@
    "Necromancer"
   ],
   "source": "maxroll",
-  "found_date": "2026-09-17"
+  "found_date": "2026-09-18"
  },
  {
-  "id": "0c88a7fe94df9a46b072f5073a26c0a0",
-  "rank": 6,
-  "title": "Lunging Strike Barbarian Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/lunging-strike-barbarian-guide",
-  "author": "aoinomiku",
-  "updated": "September 17, 2026",
-  "patch": "Season 15   Hell's Legacy",
-  "classes": [
-   "Endgame"
-  ],
-  "tags": [
-   "Endgame",
-   "Barbarian"
-  ],
-  "source": "maxroll",
-  "found_date": "2026-09-17"
- },
- {
-  "id": "738d136e23a5acfbfdb48de5c3d266a6",
-  "rank": 7,
-  "title": "Leapquake Barbarian Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/earthquake-barbarian-guide",
-  "author": "aoinomiku",
-  "updated": "September 17, 2026",
-  "patch": "Season 15   Hell's Legacy",
-  "classes": [
-   "Endgame"
-  ],
-  "tags": [
-   "Endgame",
-   "Barbarian"
-  ],
-  "source": "maxroll",
-  "found_date": "2026-09-17"
- },
- {
-  "id": "2ee66234f596a44d958f02ff380dc964",
-  "rank": 8,
-  "title": "Whirlwind Barbarian Leveling Guide",
-  "url": "https://maxroll.gg/d4/build-guides/whirlwind-barbarian-leveling-guide",
-  "author": "aoinomiku",
-  "updated": "September 17, 2026",
-  "patch": "Season 15   Hell's Legacy",
-  "classes": [
-   "Leveling"
-  ],
-  "tags": [
-   "Leveling",
-   "Barbarian"
-  ],
-  "source": "maxroll",
-  "found_date": "2026-09-17"
- },
- {
-  "id": "ff5b0d23c74fb28a95e86b2f0f5fa29a",
+  "id": "3e37f6478184b4cf41c0bb5f2496ccd2",
   "rank": 9,
-  "title": "Fireball Sorcerer Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/fireball-sorcerer-guide",
-  "author": "pandaglassjaw",
-  "updated": "September 16, 2026",
+  "title": "Hell Fracture Warlock Endgame Guide",
+  "url": "https://maxroll.gg/d4/build-guides/hell-fracture-warlock-guide",
+  "author": "MacroBioBoi",
+  "updated": "September 18, 2026",
+  "patch": "Season 15   Hell's Legacy",
+  "classes": [
+   "Endgame"
+  ],
+  "tags": [
+   "Endgame",
+   "Warlock"
+  ],
+  "source": "maxroll",
+  "found_date": "2026-09-18"
+ },
+ {
+  "id": "507c80294a5d5e2a84f1b36426aea142",
+  "rank": 10,
+  "title": "Blizzard Sorcerer Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/blizzard-sorcerer-guide",
+  "author": "Northwar",
+  "updated": "September 17, 2026",
   "patch": "Season 15   Hell's Legacy",
   "classes": [
    "Endgame"
@@ -159,24 +177,6 @@
    "Sorcerer"
   ],
   "source": "maxroll",
-  "found_date": "2026-09-17"
- },
- {
-  "id": "efc909a4a4d0590ed284bea83a05a4a2",
-  "rank": 10,
-  "title": "Poison Barrage Rogue Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/poison-barrage-rogue-guide",
-  "author": "dieoxide",
-  "updated": "September 16, 2026",
-  "patch": "Season 15   Hell's Legacy",
-  "classes": [
-   "Endgame"
-  ],
-  "tags": [
-   "Endgame",
-   "Rogue"
-  ],
-  "source": "maxroll",
-  "found_date": "2026-09-17"
+  "found_date": "2026-09-18"
  }
 ]
