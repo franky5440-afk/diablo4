@@ -13,7 +13,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-17",
+  "found_date": "2026-09-18",
   "rank": 1
  },
  {
@@ -21,7 +21,7 @@
   "title": "MrRonit's Blazing Scream Endgame PERFECTED",
   "url": "https://mobalytics.gg/diablo-4/builds/blazing-scream-warlock-endgame-build",
   "author": "MrRonit",
-  "updated": "Sep 16, 2026",
+  "updated": "Sep 17, 2026",
   "patch": "Season 15",
   "classes": [
    "Warlock"
@@ -30,7 +30,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-17",
+  "found_date": "2026-09-18",
   "rank": 2
  },
  {
@@ -45,7 +45,7 @@
   ],
   "tags": [],
   "source": "mobalytics",
-  "found_date": "2026-09-17",
+  "found_date": "2026-09-18",
   "rank": 3
  },
  {
@@ -62,7 +62,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-17",
+  "found_date": "2026-09-18",
   "rank": 4
  },
  {
@@ -79,7 +79,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-17",
+  "found_date": "2026-09-18",
   "rank": 5
  },
  {
@@ -96,7 +96,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-17",
+  "found_date": "2026-09-18",
   "rank": 6
  },
  {
@@ -113,7 +113,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-17",
+  "found_date": "2026-09-18",
   "rank": 7
  },
  {
@@ -130,25 +130,8 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-17",
+  "found_date": "2026-09-18",
   "rank": 8
- },
- {
-  "id": "c7780942b2e89261adb1f6c4be8f20f8",
-  "title": "Whirlwind",
-  "url": "https://mobalytics.gg/diablo-4/builds/barbarian-whirl-wind-barb",
-  "author": "Cliptis",
-  "updated": "Sep 17, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Barbarian"
-  ],
-  "tags": [
-   "End Game"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-09-17",
-  "rank": 9
  },
  {
   "id": "6108061ffff9416c240f53675e340c3b",
@@ -164,7 +147,24 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-17",
+  "found_date": "2026-09-18",
+  "rank": 9
+ },
+ {
+  "id": "c7780942b2e89261adb1f6c4be8f20f8",
+  "title": "Whirlwind",
+  "url": "https://mobalytics.gg/diablo-4/builds/barbarian-whirl-wind-barb",
+  "author": "Cliptis",
+  "updated": "Sep 18, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Barbarian"
+  ],
+  "tags": [
+   "End Game"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-09-18",
   "rank": 10
  }
 ]
