@@ -13,7 +13,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-18",
+  "found_date": "2026-09-19",
   "rank": 1
  },
  {
@@ -30,7 +30,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-18",
+  "found_date": "2026-09-19",
   "rank": 2
  },
  {
@@ -38,14 +38,14 @@
   "title": "Season 15 Warlock Hub",
   "url": "https://mobalytics.gg/diablo-4/builds/season-14-warlock-hub",
   "author": "p4wnyhof",
-  "updated": "Sep 17, 2026",
+  "updated": "Sep 18, 2026",
   "patch": "Season 15",
   "classes": [
    "Warlock"
   ],
   "tags": [],
   "source": "mobalytics",
-  "found_date": "2026-09-18",
+  "found_date": "2026-09-19",
   "rank": 3
  },
  {
@@ -53,7 +53,7 @@
   "title": "Blazing Scream Warlock Endgame Build Guide",
   "url": "https://mobalytics.gg/diablo-4/builds/warlock-blazing-scream",
   "author": "AceOfSpades",
-  "updated": "Sep 17, 2026",
+  "updated": "Sep 19, 2026",
   "patch": "Season 15",
   "classes": [
    "Warlock"
@@ -62,7 +62,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-18",
+  "found_date": "2026-09-19",
   "rank": 4
  },
  {
@@ -79,7 +79,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-18",
+  "found_date": "2026-09-19",
   "rank": 5
  },
  {
@@ -96,7 +96,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-18",
+  "found_date": "2026-09-19",
   "rank": 6
  },
  {
@@ -113,7 +113,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-18",
+  "found_date": "2026-09-19",
   "rank": 7
  },
  {
@@ -130,7 +130,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-18",
+  "found_date": "2026-09-19",
   "rank": 8
  },
  {
@@ -138,7 +138,7 @@
   "title": "Whirlwind Leveling Guide",
   "url": "https://mobalytics.gg/diablo-4/builds/barbarian-whirlwind-leveling-barb",
   "author": "Cliptis",
-  "updated": "Sep 16, 2026",
+  "updated": "Sep 18, 2026",
   "patch": "Season 15",
   "classes": [
    "Barbarian"
@@ -147,24 +147,24 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-18",
+  "found_date": "2026-09-19",
   "rank": 9
  },
  {
-  "id": "c7780942b2e89261adb1f6c4be8f20f8",
-  "title": "Whirlwind",
-  "url": "https://mobalytics.gg/diablo-4/builds/barbarian-whirl-wind-barb",
-  "author": "Cliptis",
-  "updated": "Sep 18, 2026",
+  "id": "d3fe20ba9f747ce5cee639f00935a45a",
+  "title": "MrRonit's Hammerdin Arbiter Levelling Guide (1-70)",
+  "url": "https://mobalytics.gg/diablo-4/builds/hammerdin-arbiter-levelling-guide-1-60",
+  "author": "MrRonit",
+  "updated": "Sep 16, 2026",
   "patch": "Season 15",
   "classes": [
-   "Barbarian"
+   "Paladin"
   ],
   "tags": [
-   "End Game"
+   "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-18",
+  "found_date": "2026-09-19",
   "rank": 10
  }
 ]
