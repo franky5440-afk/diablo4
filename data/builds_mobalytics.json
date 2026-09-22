@@ -13,7 +13,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-21",
+  "found_date": "2026-09-22",
   "rank": 1
  },
  {
@@ -30,7 +30,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-21",
+  "found_date": "2026-09-22",
   "rank": 2
  },
  {
@@ -45,7 +45,7 @@
   ],
   "tags": [],
   "source": "mobalytics",
-  "found_date": "2026-09-21",
+  "found_date": "2026-09-22",
   "rank": 3
  },
  {
@@ -62,15 +62,15 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-21",
+  "found_date": "2026-09-22",
   "rank": 4
  },
  {
   "id": "553bd9a58af6247fc27844b956fb54f8",
-  "title": "Season 15 Automatic Blazing Scream Warlock 1 Button (Burn Version)",
+  "title": "1 Button Season 15 Automatic Blazing Scream Warlock 1 Button (Burn Version)",
   "url": "https://mobalytics.gg/diablo-4/builds/season-15-automatic-blazing-scream-warlock-1-button",
   "author": "Slaydra",
-  "updated": "Sep 18, 2026",
+  "updated": "Sep 21, 2026",
   "patch": "Season 15",
   "classes": [
    "Warlock"
@@ -79,7 +79,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-21",
+  "found_date": "2026-09-22",
   "rank": 5
  },
  {
@@ -96,7 +96,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-21",
+  "found_date": "2026-09-22",
   "rank": 6
  },
  {
@@ -113,7 +113,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-21",
+  "found_date": "2026-09-22",
   "rank": 7
  },
  {
@@ -130,8 +130,25 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-21",
+  "found_date": "2026-09-22",
   "rank": 8
+ },
+ {
+  "id": "38356e638938d860b20458cb0c1cd9cd",
+  "title": "Pure Minion Necromancer S15",
+  "url": "https://mobalytics.gg/diablo-4/builds/minion-necromancer-s15-fervor",
+  "author": "Fervor",
+  "updated": "Sep 19, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Necromancer"
+  ],
+  "tags": [
+   "End Game"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-09-22",
+  "rank": 9
  },
  {
   "id": "7d915be54b1ccd923ba280690930884e",
@@ -147,24 +164,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-21",
-  "rank": 9
- },
- {
-  "id": "6108061ffff9416c240f53675e340c3b",
-  "title": "Whirlwind Leveling Guide",
-  "url": "https://mobalytics.gg/diablo-4/builds/barbarian-whirlwind-leveling-barb",
-  "author": "Cliptis",
-  "updated": "Sep 19, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Barbarian"
-  ],
-  "tags": [
-   "Leveling"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-09-21",
+  "found_date": "2026-09-22",
   "rank": 10
  }
 ]
