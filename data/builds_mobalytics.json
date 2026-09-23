@@ -13,7 +13,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-22",
+  "found_date": "2026-09-23",
   "rank": 1
  },
  {
@@ -30,7 +30,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-22",
+  "found_date": "2026-09-23",
   "rank": 2
  },
  {
@@ -45,7 +45,7 @@
   ],
   "tags": [],
   "source": "mobalytics",
-  "found_date": "2026-09-22",
+  "found_date": "2026-09-23",
   "rank": 3
  },
  {
@@ -62,7 +62,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-22",
+  "found_date": "2026-09-23",
   "rank": 4
  },
  {
@@ -79,7 +79,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-22",
+  "found_date": "2026-09-23",
   "rank": 5
  },
  {
@@ -96,42 +96,25 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-22",
+  "found_date": "2026-09-23",
   "rank": 6
  },
  {
-  "id": "d8ad7b8846da1bdd8f2771089fcc67b2",
-  "title": "Stinger - Stingerborn - Levelling",
-  "url": "https://mobalytics.gg/diablo-4/builds/spiritborn-stinger-leveling-build-guide",
-  "author": "imortilize",
-  "updated": "Sep 17, 2026",
+  "id": "3b430c3425b74c309d4dc99786756be3",
+  "title": "Werenado",
+  "url": "https://mobalytics.gg/diablo-4/builds/tornado-druid-endgame-build-guide",
+  "author": "NeverMind",
+  "updated": "Sep 22, 2026",
   "patch": "Season 15",
   "classes": [
-   "Spiritborn"
-  ],
-  "tags": [
-   "Leveling"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-09-22",
-  "rank": 7
- },
- {
-  "id": "988d5bc3be329ae376f3d5188d42b9a7",
-  "title": "Apocalypse Warlock Endgame Guide",
-  "url": "https://mobalytics.gg/diablo-4/builds/warlock-apocalypse",
-  "author": "Sanctum",
-  "updated": "Sep 14, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Warlock"
+   "Druid"
   ],
   "tags": [
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-22",
-  "rank": 8
+  "found_date": "2026-09-23",
+  "rank": 7
  },
  {
   "id": "38356e638938d860b20458cb0c1cd9cd",
@@ -147,24 +130,41 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-22",
-  "rank": 9
+  "found_date": "2026-09-23",
+  "rank": 8
  },
  {
-  "id": "7d915be54b1ccd923ba280690930884e",
-  "title": "Season 15 Leveling Warlock Build : Susanoo Warlock Infinite Ultimate, Blazing Scream, Bombardment, Abodon Abodian",
-  "url": "https://mobalytics.gg/diablo-4/builds/season-15-susanoo-warlock-abodon-abodian-1-button-ez-1st-paragon-board-rush",
-  "author": "Slaydra",
+  "id": "d8ad7b8846da1bdd8f2771089fcc67b2",
+  "title": "Stinger - Stingerborn - Levelling",
+  "url": "https://mobalytics.gg/diablo-4/builds/spiritborn-stinger-leveling-build-guide",
+  "author": "imortilize",
   "updated": "Sep 17, 2026",
   "patch": "Season 15",
   "classes": [
-   "Warlock"
+   "Spiritborn"
   ],
   "tags": [
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-22",
+  "found_date": "2026-09-23",
+  "rank": 9
+ },
+ {
+  "id": "988d5bc3be329ae376f3d5188d42b9a7",
+  "title": "Apocalypse Warlock Endgame Guide",
+  "url": "https://mobalytics.gg/diablo-4/builds/warlock-apocalypse",
+  "author": "Sanctum",
+  "updated": "Sep 14, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Warlock"
+  ],
+  "tags": [
+   "End Game"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-09-23",
   "rank": 10
  }
 ]
