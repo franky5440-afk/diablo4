@@ -149,7 +149,7 @@ def is_video_url(url):
 # ---------------------------------------------------------------- Top 10 BD（d2core 主來源；Maxroll / Mobalytics 備援）
 
 # 暗黑核 d2core：勿打 api.d2core.com（ACCESS_TOKEN_EMPTY）。
-# 正確路徑 = 騰訊雲 CloudBase web API（憑證公開於 SPA JS），見 IMPL_REPORT.md。
+# 正確路徑 = 騰訊雲 CloudBase web API（憑證公開於 SPA JS）。
 D2CORE_BUILDS_URL = "https://www.d2core.com/d4/builds"
 D2CORE_PLANNER_URL = "https://www.d2core.com/d4/planner"
 D2CORE_TCB_ENV = "diablocore-4gkv4qjs9c6a0b40"

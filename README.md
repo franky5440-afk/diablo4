@@ -48,8 +48,6 @@ GitHub Actions：每日 UTC 00:00（`deploy.yml`）跑 scraper、建站、部署
   - 計畫 URL：`https://www.d2core.com/d4/planner?bd=<_id>`
 - **備援**：Maxroll `d4/build-guides`、Mobalytics GraphQL `diablo-4`
 
-詳見 [`IMPL_REPORT.md`](IMPL_REPORT.md)。
-
 ## License
 
 Apache-2.0

@@ -15,3 +15,7 @@ hero-image-prompt.md
 HERO_HANDOFF.md
 picture/
 .venv/
+
+# 規則／交接檔，不推
+AGENTS.md
+IMPL_REPORT.md
