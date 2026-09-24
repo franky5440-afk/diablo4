@@ -12,7 +12,7 @@
 |-----|------|
 | 十大 BD | **暗黑核 d2core** Hot Top10（live）＋ Maxroll / Mobalytics 備援 |
 | 熱門影片 TOP10 | 近 30 天，zh / en / ja |
-| 最新影片 | 依上傳日，zh / en / ja |
+| 最新影片 | 依上傳日，每語系 20 部，zh / en / ja |
 | 巴哈討論 | `bsn=75105` 暗黑破壞神 4 哈啦板 |
 | X 推文 | `@Diablo` + 搜尋詞 |
 | 劇情小說 | stub；`content/story/` → `data/story.json`（Ruth 第二輪） |
