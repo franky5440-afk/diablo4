@@ -901,6 +901,8 @@ def update_videos():
 
 BAHA_URL = "https://forum.gamer.com.tw/B.php?bsn=75105"  # 暗黑破壞神 4 哈啦板
 BAHA_BASE = "https://forum.gamer.com.tw/"
+BAHA_TOP_N = 20  # 每日收錄討論串數
+BAHA_MAX_PAGES = 2  # 第 1 頁扣掉置頂／精華不足時才翻頁
 
 
 def parse_baha_rows(html):
@@ -931,21 +933,25 @@ def parse_baha_rows(html):
 def update_bahamut():
     items = []
     try:
-        r = requests.get(BAHA_URL, headers=UA, timeout=20)
-        r.raise_for_status()
-        rows = parse_baha_rows(r.text)
         seen = set()
-        for it in rows:
-            k = norm_url(it["url"])
-            if k in seen:
-                continue
-            seen.add(k)
-            it["id"] = md5_id(k)
-            it["source"] = "forum.gamer.com.tw"
-            it["found_date"] = now_str()[:10]
-            items.append(it)
-            if len(items) >= 10:
+        for page in range(1, BAHA_MAX_PAGES + 1):
+            url = BAHA_URL if page == 1 else f"{BAHA_URL}&page={page}"
+            r = requests.get(url, headers=UA, timeout=20)
+            r.raise_for_status()
+            for it in parse_baha_rows(r.text):
+                k = norm_url(it["url"])
+                if k in seen:
+                    continue
+                seen.add(k)
+                it["id"] = md5_id(k)
+                it["source"] = "forum.gamer.com.tw"
+                it["found_date"] = now_str()[:10]
+                items.append(it)
+                if len(items) >= BAHA_TOP_N:
+                    break
+            if len(items) >= BAHA_TOP_N:
                 break
+            time.sleep(0.5)
     except Exception as e:
         log.error("bahamut failed: %s", e)
     if items:
