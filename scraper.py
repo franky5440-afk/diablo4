@@ -43,6 +43,7 @@ VIDEO_DOMAINS = ("youtube.com", "youtu.be", "bilibili.com", "twitch.tv", "nicovi
 HOT_CUTOFF_DAYS = 30
 RSS_CHANNEL_CAP = 60
 NEW_FLAT_LIMIT = 150
+NEW_TOP_N = 20  # 最新影片每語系每日收錄數
 GAME_TERMS = (
     "diablo 4", "diablo iv", "diablo4",
     "暗黑破壞神4", "暗黑破壞神 4", "暗黑破坏神4", "暗黑破坏神 4",
@@ -856,7 +857,7 @@ def collect_videos(lang, date_cache):
     if not rss_map:
         log.warning("videos [%s]: RSS 0 部；hot 回空保留前一日，new 改以搜尋池填滿", lang)
         log.info("videos new [%s]: %d candidates", lang, len(pool_new))
-        new = pick_new_videos(pool_new, {}, keep, to_item, 10, date_cache)
+        new = pick_new_videos(pool_new, {}, keep, to_item, NEW_TOP_N, date_cache)
         log.info("videos new [%s]: %d picked (no rss)", lang, len(new))
         return [], new
 
@@ -869,7 +870,7 @@ def collect_videos(lang, date_cache):
                     lang, fresh, len(hot), HOT_CUTOFF_DAYS)
 
     log.info("videos new [%s]: %d candidates", lang, len(pool_new))
-    new = pick_new_videos(pool_new, rss_map, keep, to_item, 10, date_cache)
+    new = pick_new_videos(pool_new, rss_map, keep, to_item, NEW_TOP_N, date_cache)
     log.info("videos new [%s]: %d picked", lang, len(new))
 
     return hot, new
