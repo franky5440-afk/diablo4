@@ -13,7 +13,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-24",
+  "found_date": "2026-09-25",
   "rank": 1
  },
  {
@@ -30,7 +30,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-24",
+  "found_date": "2026-09-25",
   "rank": 2
  },
  {
@@ -47,7 +47,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-24",
+  "found_date": "2026-09-25",
   "rank": 3
  },
  {
@@ -62,7 +62,7 @@
   ],
   "tags": [],
   "source": "mobalytics",
-  "found_date": "2026-09-24",
+  "found_date": "2026-09-25",
   "rank": 4
  },
  {
@@ -79,7 +79,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-24",
+  "found_date": "2026-09-25",
   "rank": 5
  },
  {
@@ -96,7 +96,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-24",
+  "found_date": "2026-09-25",
   "rank": 6
  },
  {
@@ -113,7 +113,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-24",
+  "found_date": "2026-09-25",
   "rank": 7
  },
  {
@@ -130,25 +130,8 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-24",
+  "found_date": "2026-09-25",
   "rank": 8
- },
- {
-  "id": "d8ad7b8846da1bdd8f2771089fcc67b2",
-  "title": "Stinger - Stingerborn - Levelling",
-  "url": "https://mobalytics.gg/diablo-4/builds/spiritborn-stinger-leveling-build-guide",
-  "author": "imortilize",
-  "updated": "Sep 17, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Spiritborn"
-  ],
-  "tags": [
-   "Leveling"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-09-24",
-  "rank": 9
  },
  {
   "id": "988d5bc3be329ae376f3d5188d42b9a7",
@@ -164,7 +147,24 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-24",
+  "found_date": "2026-09-25",
+  "rank": 9
+ },
+ {
+  "id": "d8ad7b8846da1bdd8f2771089fcc67b2",
+  "title": "Stinger - Stingerborn - Levelling",
+  "url": "https://mobalytics.gg/diablo-4/builds/spiritborn-stinger-leveling-build-guide",
+  "author": "imortilize",
+  "updated": "Sep 17, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Spiritborn"
+  ],
+  "tags": [
+   "Leveling"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-09-25",
   "rank": 10
  }
 ]
