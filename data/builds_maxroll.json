@@ -1,83 +1,83 @@
 [
  {
-  "id": "03bc5a04471bcfd7ff2e0e9ea29d4483",
+  "id": "b50dce043ed5cba38fdd16ee0d624162",
   "rank": 1,
-  "title": "Companion Druid Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/companion-druid-guide",
-  "author": "pandaglassjaw",
-  "updated": "September 24, 2026",
+  "title": "Golem Necromancer Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/golem-necromancer-guide",
+  "author": "serocifkre",
+  "updated": "September 25, 2026",
   "patch": "Season 15   Hell's Legacy",
   "classes": [
    "Endgame"
   ],
   "tags": [
    "Endgame",
-   "Druid"
+   "Necromancer"
   ],
   "source": "maxroll",
-  "found_date": "2026-09-25"
+  "found_date": "2026-09-26"
  },
  {
-  "id": "46aae80d6b208cfa232dab7bec8972a9",
+  "id": "b650fd3827e052e146b9ba3d40e190e2",
   "rank": 2,
-  "title": "Death Trap Rogue Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/death-trap-rogue-guide",
-  "author": "Ava",
-  "updated": "September 24, 2026",
+  "title": "Bone Spear Necromancer Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/bone-spear-necromancer-guide",
+  "author": "serocifkre",
+  "updated": "September 25, 2026",
   "patch": "Season 15   Hell's Legacy",
   "classes": [
    "Endgame"
   ],
   "tags": [
    "Endgame",
-   "Rogue"
+   "Necromancer"
   ],
   "source": "maxroll",
-  "found_date": "2026-09-25"
+  "found_date": "2026-09-26"
  },
  {
-  "id": "df68621d0a84ff7da65bd67baf6305f6",
+  "id": "382a75dc199198c365326d46e1124e8b",
   "rank": 3,
-  "title": "Boulder Druid Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/boulder-druid-guide",
-  "author": "pandaglassjaw",
-  "updated": "September 24, 2026",
+  "title": "Bone Spirit Necromancer Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/bone-spirit-necromancer-guide",
+  "author": "serocifkre",
+  "updated": "September 25, 2026",
   "patch": "Season 15   Hell's Legacy",
   "classes": [
    "Endgame"
   ],
   "tags": [
    "Endgame",
-   "Druid"
+   "Necromancer"
   ],
   "source": "maxroll",
-  "found_date": "2026-09-25"
+  "found_date": "2026-09-26"
  },
  {
-  "id": "40e78a914dc26b2f3edc08f9d80f1841",
+  "id": "d1d2fedac9ebdb9959c724bfd2e1d207",
   "rank": 4,
-  "title": "Cold Rain of Arrows Rogue Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/rain-of-arrows-rogue-guide",
-  "author": "dieoxide",
-  "updated": "September 24, 2026",
+  "title": "Minion Necromancer Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/minion-necromancer-guide",
+  "author": "serocifkre",
+  "updated": "September 25, 2026",
   "patch": "Season 15   Hell's Legacy",
   "classes": [
    "Endgame"
   ],
   "tags": [
    "Endgame",
-   "Rogue"
+   "Necromancer"
   ],
   "source": "maxroll",
-  "found_date": "2026-09-25"
+  "found_date": "2026-09-26"
  },
  {
-  "id": "f31410532439e60fab9b1ec0857d0d80",
+  "id": "17eacf4579a2146a878fe5d9dcbc1811",
   "rank": 5,
-  "title": "Shield of Retribution Paladin Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/shield-of-retribution-paladin-guide",
-  "author": "hysteria",
-  "updated": "September 24, 2026",
+  "title": "Auradin Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/auradin-guide",
+  "author": "snail",
+  "updated": "September 25, 2026",
   "patch": "Season 15   Hell's Legacy",
   "classes": [
    "Endgame"
@@ -87,96 +87,96 @@
    "Paladin"
   ],
   "source": "maxroll",
-  "found_date": "2026-09-25"
+  "found_date": "2026-09-26"
  },
  {
-  "id": "b650fd3827e052e146b9ba3d40e190e2",
+  "id": "5c7f160c2e65f88eb3e4fa0793a78ba4",
   "rank": 6,
-  "title": "Bone Spear Necromancer Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/bone-spear-necromancer-guide",
-  "author": "serocifkre",
-  "updated": "September 24, 2026",
+  "title": "Rake Spiritborn Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/rake-spiritborn-guide",
+  "author": "Ignition",
+  "updated": "September 25, 2026",
   "patch": "Season 15   Hell's Legacy",
   "classes": [
    "Endgame"
   ],
   "tags": [
    "Endgame",
-   "Necromancer"
+   "Spiritborn"
   ],
   "source": "maxroll",
-  "found_date": "2026-09-25"
+  "found_date": "2026-09-26"
  },
  {
-  "id": "d1d2fedac9ebdb9959c724bfd2e1d207",
+  "id": "4b3d7a1cdfa90a77873a7ac7b2555855",
   "rank": 7,
-  "title": "Minion Necromancer Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/minion-necromancer-guide",
-  "author": "serocifkre",
-  "updated": "September 24, 2026",
+  "title": "Tornado Druid Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/tornado-druid-guide",
+  "author": "pandaglassjaw",
+  "updated": "September 25, 2026",
   "patch": "Season 15   Hell's Legacy",
   "classes": [
    "Endgame"
   ],
   "tags": [
    "Endgame",
-   "Necromancer"
+   "Druid"
   ],
   "source": "maxroll",
-  "found_date": "2026-09-25"
+  "found_date": "2026-09-26"
  },
  {
-  "id": "fdc1029354b13546573d642830b9b59e",
+  "id": "85d590046e1ba4e7c79fc6dfc6141c2b",
   "rank": 8,
-  "title": "Incinerate Sorcerer Endgame Guide",
-  "url": "https://maxroll.gg/d4/build-guides/incinerate-sorcerer-guide",
-  "author": "pandaglassjaw",
-  "updated": "September 23, 2026",
+  "title": "Stinger Spiritborn Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/stinger-spiritborn-guide",
+  "author": "Ignition",
+  "updated": "September 25, 2026",
   "patch": "Season 15   Hell's Legacy",
   "classes": [
    "Endgame"
   ],
   "tags": [
    "Endgame",
-   "Sorcerer"
+   "Spiritborn"
   ],
   "source": "maxroll",
-  "found_date": "2026-09-25"
+  "found_date": "2026-09-26"
  },
  {
-  "id": "40d604a6a9fd638b77e2f83f7d4387d8",
+  "id": "c585e53470415c46c138e234c1d62435",
   "rank": 9,
-  "title": "Frozen Orb Sorcerer Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/frozen-orb-sorcerer-guide",
-  "author": "pandaglassjaw",
-  "updated": "September 23, 2026",
+  "title": "Counterswarm Spiritborn Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/counterswarm-spiritborn-guide",
+  "author": "Ignition",
+  "updated": "September 25, 2026",
   "patch": "Season 15   Hell's Legacy",
   "classes": [
    "Endgame"
   ],
   "tags": [
    "Endgame",
-   "Sorcerer"
+   "Spiritborn"
   ],
   "source": "maxroll",
-  "found_date": "2026-09-25"
+  "found_date": "2026-09-26"
  },
  {
-  "id": "76f81a9977f8a8094890afa7da14cfc1",
+  "id": "46aae80d6b208cfa232dab7bec8972a9",
   "rank": 10,
-  "title": "Ice Shards Sorcerer Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/ice-shards-sorcerer-guide",
-  "author": "pandaglassjaw",
-  "updated": "September 23, 2026",
+  "title": "Death Trap Rogue Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/death-trap-rogue-guide",
+  "author": "Ava",
+  "updated": "September 25, 2026",
   "patch": "Season 15   Hell's Legacy",
   "classes": [
    "Endgame"
   ],
   "tags": [
    "Endgame",
-   "Sorcerer"
+   "Rogue"
   ],
   "source": "maxroll",
-  "found_date": "2026-09-25"
+  "found_date": "2026-09-26"
  }
 ]

@@ -13,7 +13,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-25",
+  "found_date": "2026-09-26",
   "rank": 1
  },
  {
@@ -30,7 +30,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-25",
+  "found_date": "2026-09-26",
   "rank": 2
  },
  {
@@ -47,7 +47,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-25",
+  "found_date": "2026-09-26",
   "rank": 3
  },
  {
@@ -62,8 +62,25 @@
   ],
   "tags": [],
   "source": "mobalytics",
-  "found_date": "2026-09-25",
+  "found_date": "2026-09-26",
   "rank": 4
+ },
+ {
+  "id": "3b430c3425b74c309d4dc99786756be3",
+  "title": "Werenado - NeverMind",
+  "url": "https://mobalytics.gg/diablo-4/builds/tornado-druid-endgame-build-guide",
+  "author": "NeverMind",
+  "updated": "Sep 25, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Druid"
+  ],
+  "tags": [
+   "End Game"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-09-26",
+  "rank": 5
  },
  {
   "id": "553bd9a58af6247fc27844b956fb54f8",
@@ -79,24 +96,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-25",
-  "rank": 5
- },
- {
-  "id": "3b430c3425b74c309d4dc99786756be3",
-  "title": "Werenado - NeverMind",
-  "url": "https://mobalytics.gg/diablo-4/builds/tornado-druid-endgame-build-guide",
-  "author": "NeverMind",
-  "updated": "Sep 23, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Druid"
-  ],
-  "tags": [
-   "End Game"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-09-25",
+  "found_date": "2026-09-26",
   "rank": 6
  },
  {
@@ -113,7 +113,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-25",
+  "found_date": "2026-09-26",
   "rank": 7
  },
  {
@@ -121,7 +121,7 @@
   "title": "Pure Minion Necromancer S15",
   "url": "https://mobalytics.gg/diablo-4/builds/minion-necromancer-s15-fervor",
   "author": "Fervor",
-  "updated": "Sep 19, 2026",
+  "updated": "Sep 25, 2026",
   "patch": "Season 15",
   "classes": [
    "Necromancer"
@@ -130,7 +130,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-25",
+  "found_date": "2026-09-26",
   "rank": 8
  },
  {
@@ -147,7 +147,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-25",
+  "found_date": "2026-09-26",
   "rank": 9
  },
  {
@@ -164,7 +164,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-25",
+  "found_date": "2026-09-26",
   "rank": 10
  }
 ]
