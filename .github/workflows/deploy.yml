@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -31,6 +31,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run scraper
+        id: scrape
         run: python scraper.py
 
       - name: Build static site
@@ -46,11 +47,25 @@ jobs:
         with:
           path: site
 
+      # OIDC ID token requests occasionally time out on GitHub's side
+      # ("Failed to get ID Token ... Request timeout"); wait and retry once.
       - name: Deploy to GitHub Pages
         id: deployment
+        continue-on-error: true
         uses: actions/deploy-pages@v4
 
+      - name: Wait before deploy retry
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 60
+
+      - name: Deploy to GitHub Pages (retry)
+        id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+
+      # Keep scraped data even if deploy failed, so the day's data isn't lost.
       - name: Commit updated data
+        if: ${{ !cancelled() && steps.scrape.outcome == 'success' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
