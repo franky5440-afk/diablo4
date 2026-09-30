@@ -51,21 +51,6 @@
   "rank": 3
  },
  {
-  "id": "c0cb55a2932e34b6f2408369ea4be89d",
-  "title": "Season 15 Warlock Hub",
-  "url": "https://mobalytics.gg/diablo-4/builds/season-14-warlock-hub",
-  "author": "p4wnyhof",
-  "updated": "Sep 20, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Warlock"
-  ],
-  "tags": [],
-  "source": "mobalytics",
-  "found_date": "2026-09-30",
-  "rank": 4
- },
- {
   "id": "3b430c3425b74c309d4dc99786756be3",
   "title": "Werenado - NeverMind",
   "url": "https://mobalytics.gg/diablo-4/builds/tornado-druid-endgame-build-guide",
@@ -78,6 +63,21 @@
   "tags": [
    "End Game"
   ],
+  "source": "mobalytics",
+  "found_date": "2026-09-30",
+  "rank": 4
+ },
+ {
+  "id": "c0cb55a2932e34b6f2408369ea4be89d",
+  "title": "Season 15 Warlock Hub",
+  "url": "https://mobalytics.gg/diablo-4/builds/season-14-warlock-hub",
+  "author": "p4wnyhof",
+  "updated": "Sep 20, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Warlock"
+  ],
+  "tags": [],
   "source": "mobalytics",
   "found_date": "2026-09-30",
   "rank": 5

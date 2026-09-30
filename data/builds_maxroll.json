@@ -1,7 +1,25 @@
 [
  {
-  "id": "b50dce043ed5cba38fdd16ee0d624162",
+  "id": "15674663c8f7669b5ab221625ef47cdc",
   "rank": 1,
+  "title": "Mighty Throw Barbarian Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/mighty-throw-barbarian-guide",
+  "author": "beatdropper",
+  "updated": "September 30, 2026",
+  "patch": "Season 15   Hell's Legacy",
+  "classes": [
+   "Endgame"
+  ],
+  "tags": [
+   "Endgame",
+   "Barbarian"
+  ],
+  "source": "maxroll",
+  "found_date": "2026-09-30"
+ },
+ {
+  "id": "b50dce043ed5cba38fdd16ee0d624162",
+  "rank": 2,
   "title": "Golem Necromancer Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/golem-necromancer-guide",
   "author": "serocifkre",
@@ -19,7 +37,7 @@
  },
  {
   "id": "af8e742faf99d0894d54a3c21d9c686b",
-  "rank": 2,
+  "rank": 3,
   "title": "Flame Charge Barbarian Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/charge-barbarian-guide",
   "author": "snail",
@@ -37,7 +55,7 @@
  },
  {
   "id": "8bfb151d02f4376d639c03e353370d47",
-  "rank": 3,
+  "rank": 4,
   "title": "Dance of Knives Rogue Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/dance-of-knives-rogue-guide",
   "author": "Ava",
@@ -55,7 +73,7 @@
  },
  {
   "id": "f31410532439e60fab9b1ec0857d0d80",
-  "rank": 4,
+  "rank": 5,
   "title": "Shield of Retribution Paladin Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/shield-of-retribution-paladin-guide",
   "author": "hysteria",
@@ -73,7 +91,7 @@
  },
  {
   "id": "0c46f2a3aa20de962e76d5315421ed82",
-  "rank": 5,
+  "rank": 6,
   "title": "Blood Wave Necromancer Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/blood-wave-necromancer-guide",
   "author": "lordxsaura",
@@ -91,7 +109,7 @@
  },
  {
   "id": "df68621d0a84ff7da65bd67baf6305f6",
-  "rank": 6,
+  "rank": 7,
   "title": "Boulder Druid Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/boulder-druid-guide",
   "author": "pandaglassjaw",
@@ -103,24 +121,6 @@
   "tags": [
    "Endgame",
    "Druid"
-  ],
-  "source": "maxroll",
-  "found_date": "2026-09-30"
- },
- {
-  "id": "15674663c8f7669b5ab221625ef47cdc",
-  "rank": 7,
-  "title": "Mighty Throw Barbarian Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/mighty-throw-barbarian-guide",
-  "author": "beatdropper",
-  "updated": "September 28, 2026",
-  "patch": "Season 15   Hell's Legacy",
-  "classes": [
-   "Endgame"
-  ],
-  "tags": [
-   "Endgame",
-   "Barbarian"
   ],
   "source": "maxroll",
   "found_date": "2026-09-30"
