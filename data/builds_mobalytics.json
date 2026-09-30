@@ -4,7 +4,7 @@
   "title": "MrRonit's Blazing Scream Endgame PERFECTED",
   "url": "https://mobalytics.gg/diablo-4/builds/blazing-scream-warlock-endgame-build",
   "author": "MrRonit",
-  "updated": "Sep 27, 2026",
+  "updated": "Sep 29, 2026",
   "patch": "Season 15",
   "classes": [
    "Warlock"
@@ -13,7 +13,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-28",
+  "found_date": "2026-09-30",
   "rank": 1
  },
  {
@@ -30,7 +30,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-28",
+  "found_date": "2026-09-30",
   "rank": 2
  },
  {
@@ -47,7 +47,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-28",
+  "found_date": "2026-09-30",
   "rank": 3
  },
  {
@@ -62,7 +62,7 @@
   ],
   "tags": [],
   "source": "mobalytics",
-  "found_date": "2026-09-28",
+  "found_date": "2026-09-30",
   "rank": 4
  },
  {
@@ -70,7 +70,7 @@
   "title": "Werenado - NeverMind",
   "url": "https://mobalytics.gg/diablo-4/builds/tornado-druid-endgame-build-guide",
   "author": "NeverMind",
-  "updated": "Sep 27, 2026",
+  "updated": "Sep 29, 2026",
   "patch": "Season 15",
   "classes": [
    "Druid"
@@ -79,7 +79,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-28",
+  "found_date": "2026-09-30",
   "rank": 5
  },
  {
@@ -96,8 +96,25 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-28",
+  "found_date": "2026-09-30",
   "rank": 6
+ },
+ {
+  "id": "38356e638938d860b20458cb0c1cd9cd",
+  "title": "Pure Minion Necromancer S15",
+  "url": "https://mobalytics.gg/diablo-4/builds/minion-necromancer-s15-fervor",
+  "author": "Fervor",
+  "updated": "Sep 29, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Necromancer"
+  ],
+  "tags": [
+   "End Game"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-09-30",
+  "rank": 7
  },
  {
   "id": "34ddc650be66da092ca9658824cfc30f",
@@ -113,24 +130,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-28",
-  "rank": 7
- },
- {
-  "id": "38356e638938d860b20458cb0c1cd9cd",
-  "title": "Pure Minion Necromancer S15",
-  "url": "https://mobalytics.gg/diablo-4/builds/minion-necromancer-s15-fervor",
-  "author": "Fervor",
-  "updated": "Sep 25, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Necromancer"
-  ],
-  "tags": [
-   "End Game"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-09-28",
+  "found_date": "2026-09-30",
   "rank": 8
  },
  {
@@ -147,24 +147,24 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-28",
+  "found_date": "2026-09-30",
   "rank": 9
  },
  {
-  "id": "d8ad7b8846da1bdd8f2771089fcc67b2",
-  "title": "Stinger - Stingerborn - Levelling",
-  "url": "https://mobalytics.gg/diablo-4/builds/spiritborn-stinger-leveling-build-guide",
-  "author": "imortilize",
-  "updated": "Sep 17, 2026",
+  "id": "c7780942b2e89261adb1f6c4be8f20f8",
+  "title": "Whirlwind",
+  "url": "https://mobalytics.gg/diablo-4/builds/barbarian-whirl-wind-barb",
+  "author": "Cliptis",
+  "updated": "Sep 29, 2026",
   "patch": "Season 15",
   "classes": [
-   "Spiritborn"
+   "Barbarian"
   ],
   "tags": [
-   "Leveling"
+   "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-09-28",
+  "found_date": "2026-09-30",
   "rank": 10
  }
 ]
