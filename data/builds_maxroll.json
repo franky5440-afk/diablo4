@@ -1,7 +1,97 @@
 [
  {
-  "id": "15674663c8f7669b5ab221625ef47cdc",
+  "id": "f31410532439e60fab9b1ec0857d0d80",
   "rank": 1,
+  "title": "Shield of Retribution Paladin Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/shield-of-retribution-paladin-guide",
+  "author": "hysteria",
+  "updated": "September 30, 2026",
+  "patch": "Season 15   Hell's Legacy",
+  "classes": [
+   "Endgame"
+  ],
+  "tags": [
+   "Endgame",
+   "Paladin"
+  ],
+  "source": "maxroll",
+  "found_date": "2026-10-01"
+ },
+ {
+  "id": "00ad27e0e024b848bda7cecb0b94fa66",
+  "rank": 2,
+  "title": "Blazing Scream Warlock Endgame Guide",
+  "url": "https://maxroll.gg/d4/build-guides/blazing-scream-warlock-guide",
+  "author": "MacroBioBoi",
+  "updated": "September 30, 2026",
+  "patch": "Season 15   Hell's Legacy",
+  "classes": [
+   "Endgame"
+  ],
+  "tags": [
+   "Endgame",
+   "Warlock"
+  ],
+  "source": "maxroll",
+  "found_date": "2026-10-01"
+ },
+ {
+  "id": "83da2e7243e6a219e795c568833115a3",
+  "rank": 3,
+  "title": "Whirlwind Barbarian Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/whirlwind-barbarian-guide",
+  "author": "aoinomiku",
+  "updated": "September 30, 2026",
+  "patch": "Season 15   Hell's Legacy",
+  "classes": [
+   "Endgame"
+  ],
+  "tags": [
+   "Endgame",
+   "Barbarian"
+  ],
+  "source": "maxroll",
+  "found_date": "2026-10-01"
+ },
+ {
+  "id": "0c46f2a3aa20de962e76d5315421ed82",
+  "rank": 4,
+  "title": "Blood Wave Necromancer Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/blood-wave-necromancer-guide",
+  "author": "lordxsaura",
+  "updated": "September 30, 2026",
+  "patch": "Season 15   Hell's Legacy",
+  "classes": [
+   "Endgame"
+  ],
+  "tags": [
+   "Endgame",
+   "Necromancer"
+  ],
+  "source": "maxroll",
+  "found_date": "2026-10-01"
+ },
+ {
+  "id": "40e78a914dc26b2f3edc08f9d80f1841",
+  "rank": 5,
+  "title": "Cold Rain of Arrows Rogue Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/rain-of-arrows-rogue-guide",
+  "author": "dieoxide",
+  "updated": "September 30, 2026",
+  "patch": "Season 15   Hell's Legacy",
+  "classes": [
+   "Endgame"
+  ],
+  "tags": [
+   "Endgame",
+   "Rogue"
+  ],
+  "source": "maxroll",
+  "found_date": "2026-10-01"
+ },
+ {
+  "id": "15674663c8f7669b5ab221625ef47cdc",
+  "rank": 6,
   "title": "Mighty Throw Barbarian Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/mighty-throw-barbarian-guide",
   "author": "beatdropper",
@@ -15,11 +105,11 @@
    "Barbarian"
   ],
   "source": "maxroll",
-  "found_date": "2026-09-30"
+  "found_date": "2026-10-01"
  },
  {
   "id": "b50dce043ed5cba38fdd16ee0d624162",
-  "rank": 2,
+  "rank": 7,
   "title": "Golem Necromancer Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/golem-necromancer-guide",
   "author": "serocifkre",
@@ -33,11 +123,11 @@
    "Necromancer"
   ],
   "source": "maxroll",
-  "found_date": "2026-09-30"
+  "found_date": "2026-10-01"
  },
  {
   "id": "af8e742faf99d0894d54a3c21d9c686b",
-  "rank": 3,
+  "rank": 8,
   "title": "Flame Charge Barbarian Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/charge-barbarian-guide",
   "author": "snail",
@@ -51,11 +141,11 @@
    "Barbarian"
   ],
   "source": "maxroll",
-  "found_date": "2026-09-30"
+  "found_date": "2026-10-01"
  },
  {
   "id": "8bfb151d02f4376d639c03e353370d47",
-  "rank": 4,
+  "rank": 9,
   "title": "Dance of Knives Rogue Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/dance-of-knives-rogue-guide",
   "author": "Ava",
@@ -69,47 +159,11 @@
    "Rogue"
   ],
   "source": "maxroll",
-  "found_date": "2026-09-30"
- },
- {
-  "id": "f31410532439e60fab9b1ec0857d0d80",
-  "rank": 5,
-  "title": "Shield of Retribution Paladin Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/shield-of-retribution-paladin-guide",
-  "author": "hysteria",
-  "updated": "September 29, 2026",
-  "patch": "Season 15   Hell's Legacy",
-  "classes": [
-   "Endgame"
-  ],
-  "tags": [
-   "Endgame",
-   "Paladin"
-  ],
-  "source": "maxroll",
-  "found_date": "2026-09-30"
- },
- {
-  "id": "0c46f2a3aa20de962e76d5315421ed82",
-  "rank": 6,
-  "title": "Blood Wave Necromancer Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/blood-wave-necromancer-guide",
-  "author": "lordxsaura",
-  "updated": "September 29, 2026",
-  "patch": "Season 15   Hell's Legacy",
-  "classes": [
-   "Endgame"
-  ],
-  "tags": [
-   "Endgame",
-   "Necromancer"
-  ],
-  "source": "maxroll",
-  "found_date": "2026-09-30"
+  "found_date": "2026-10-01"
  },
  {
   "id": "df68621d0a84ff7da65bd67baf6305f6",
-  "rank": 7,
+  "rank": 10,
   "title": "Boulder Druid Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/boulder-druid-guide",
   "author": "pandaglassjaw",
@@ -123,60 +177,6 @@
    "Druid"
   ],
   "source": "maxroll",
-  "found_date": "2026-09-30"
- },
- {
-  "id": "3cffaaeab41e947ce2754427cf24ac69",
-  "rank": 8,
-  "title": "Poison Penetrating Shot Rogue Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/penetrating-shot-rogue-guide",
-  "author": "mattias",
-  "updated": "September 28, 2026",
-  "patch": "Season 15   Hell's Legacy",
-  "classes": [
-   "Endgame"
-  ],
-  "tags": [
-   "Endgame",
-   "Rogue"
-  ],
-  "source": "maxroll",
-  "found_date": "2026-09-30"
- },
- {
-  "id": "bd892a136fd617fa19cfb0fc185ff515",
-  "rank": 9,
-  "title": "Dash Rogue Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/dash-rogue-guide",
-  "author": "Ava",
-  "updated": "September 28, 2026",
-  "patch": "Season 15   Hell's Legacy",
-  "classes": [
-   "Endgame"
-  ],
-  "tags": [
-   "Endgame",
-   "Rogue"
-  ],
-  "source": "maxroll",
-  "found_date": "2026-09-30"
- },
- {
-  "id": "40e78a914dc26b2f3edc08f9d80f1841",
-  "rank": 10,
-  "title": "Cold Rain of Arrows Rogue Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/rain-of-arrows-rogue-guide",
-  "author": "dieoxide",
-  "updated": "September 28, 2026",
-  "patch": "Season 15   Hell's Legacy",
-  "classes": [
-   "Endgame"
-  ],
-  "tags": [
-   "Endgame",
-   "Rogue"
-  ],
-  "source": "maxroll",
-  "found_date": "2026-09-30"
+  "found_date": "2026-10-01"
  }
 ]
