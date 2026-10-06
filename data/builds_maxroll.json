@@ -1,9 +1,81 @@
 [
  {
-  "id": "9e2ff7afa721896625990b29f2767b10",
+  "id": "7223fd2b927e3c5e2d04ff372dab4e3e",
   "rank": 1,
-  "title": "Upheaval Barbarian Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/upheaval-barbarian-guide",
+  "title": "Hammer of the Ancients Barbarian Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/hammer-of-the-ancients-barbarian-guide",
+  "author": "beatdropper",
+  "updated": "October 6, 2026",
+  "patch": "Season 15   Hell's Legacy",
+  "classes": [
+   "Endgame"
+  ],
+  "tags": [
+   "Endgame",
+   "Barbarian"
+  ],
+  "source": "maxroll",
+  "found_date": "2026-10-06"
+ },
+ {
+  "id": "3cffaaeab41e947ce2754427cf24ac69",
+  "rank": 2,
+  "title": "Poison Penetrating Shot Rogue Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/penetrating-shot-rogue-guide",
+  "author": "mattias",
+  "updated": "October 5, 2026",
+  "patch": "Season 15   Hell's Legacy",
+  "classes": [
+   "Endgame"
+  ],
+  "tags": [
+   "Endgame",
+   "Rogue"
+  ],
+  "source": "maxroll",
+  "found_date": "2026-10-06"
+ },
+ {
+  "id": "60eb17d10e13acdc89ae47eff1f251aa",
+  "rank": 3,
+  "title": "Twisting Blades Rogue Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/twisting-blades-rogue-guide",
+  "author": "mattias",
+  "updated": "October 5, 2026",
+  "patch": "Season 15   Hell's Legacy",
+  "classes": [
+   "Endgame"
+  ],
+  "tags": [
+   "Endgame",
+   "Rogue"
+  ],
+  "source": "maxroll",
+  "found_date": "2026-10-06"
+ },
+ {
+  "id": "40e78a914dc26b2f3edc08f9d80f1841",
+  "rank": 4,
+  "title": "Cold Rain of Arrows Rogue Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/rain-of-arrows-rogue-guide",
+  "author": "dieoxide",
+  "updated": "October 5, 2026",
+  "patch": "Season 15   Hell's Legacy",
+  "classes": [
+   "Endgame"
+  ],
+  "tags": [
+   "Endgame",
+   "Rogue"
+  ],
+  "source": "maxroll",
+  "found_date": "2026-10-06"
+ },
+ {
+  "id": "4235a202f77d60a97bdb581e7e1947ea",
+  "rank": 5,
+  "title": "Evade Barbarian Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/evade-barbarian-guide",
   "author": "beatdropper",
   "updated": "October 5, 2026",
   "patch": "Season 15   Hell's Legacy",
@@ -15,11 +87,11 @@
    "Barbarian"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-05"
+  "found_date": "2026-10-06"
  },
  {
   "id": "15674663c8f7669b5ab221625ef47cdc",
-  "rank": 2,
+  "rank": 6,
   "title": "Mighty Throw Barbarian Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/mighty-throw-barbarian-guide",
   "author": "beatdropper",
@@ -33,13 +105,13 @@
    "Barbarian"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-05"
+  "found_date": "2026-10-06"
  },
  {
-  "id": "7223fd2b927e3c5e2d04ff372dab4e3e",
-  "rank": 3,
-  "title": "Hammer of the Ancients Barbarian Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/hammer-of-the-ancients-barbarian-guide",
+  "id": "9e2ff7afa721896625990b29f2767b10",
+  "rank": 7,
+  "title": "Upheaval Barbarian Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/upheaval-barbarian-guide",
   "author": "beatdropper",
   "updated": "October 5, 2026",
   "patch": "Season 15   Hell's Legacy",
@@ -51,11 +123,11 @@
    "Barbarian"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-05"
+  "found_date": "2026-10-06"
  },
  {
   "id": "1c3341bb18c329ac012eff50d876b690",
-  "rank": 4,
+  "rank": 8,
   "title": "Arrow Storms Rogue Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/arrow-storms-rogue-guide",
   "author": "Ava",
@@ -69,11 +141,11 @@
    "Rogue"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-05"
+  "found_date": "2026-10-06"
  },
  {
   "id": "382a75dc199198c365326d46e1124e8b",
-  "rank": 5,
+  "rank": 9,
   "title": "Bone Spirit Necromancer Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/bone-spirit-necromancer-guide",
   "author": "serocifkre",
@@ -87,11 +159,11 @@
    "Necromancer"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-05"
+  "found_date": "2026-10-06"
  },
  {
   "id": "83da2e7243e6a219e795c568833115a3",
-  "rank": 6,
+  "rank": 10,
   "title": "Whirlwind Barbarian Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/whirlwind-barbarian-guide",
   "author": "aoinomiku",
@@ -105,78 +177,6 @@
    "Barbarian"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-05"
- },
- {
-  "id": "46aae80d6b208cfa232dab7bec8972a9",
-  "rank": 7,
-  "title": "Death Trap Rogue Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/death-trap-rogue-guide",
-  "author": "Ava",
-  "updated": "October 2, 2026",
-  "patch": "Season 15   Hell's Legacy",
-  "classes": [
-   "Endgame"
-  ],
-  "tags": [
-   "Endgame",
-   "Rogue"
-  ],
-  "source": "maxroll",
-  "found_date": "2026-10-05"
- },
- {
-  "id": "2cc08711dbd4488cb38f6ad064773d5d",
-  "rank": 8,
-  "title": "Zeal Paladin Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/zeal-paladin-guide",
-  "author": "aoinomiku",
-  "updated": "October 2, 2026",
-  "patch": "Season 15   Hell's Legacy",
-  "classes": [
-   "Endgame"
-  ],
-  "tags": [
-   "Endgame",
-   "Paladin"
-  ],
-  "source": "maxroll",
-  "found_date": "2026-10-05"
- },
- {
-  "id": "00ad27e0e024b848bda7cecb0b94fa66",
-  "rank": 9,
-  "title": "Blazing Scream Warlock Endgame Guide",
-  "url": "https://maxroll.gg/d4/build-guides/blazing-scream-warlock-guide",
-  "author": "MacroBioBoi",
-  "updated": "October 2, 2026",
-  "patch": "Season 15   Hell's Legacy",
-  "classes": [
-   "Endgame"
-  ],
-  "tags": [
-   "Endgame",
-   "Warlock"
-  ],
-  "source": "maxroll",
-  "found_date": "2026-10-05"
- },
- {
-  "id": "df68621d0a84ff7da65bd67baf6305f6",
-  "rank": 10,
-  "title": "Boulder Druid Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/boulder-druid-guide",
-  "author": "pandaglassjaw",
-  "updated": "October 2, 2026",
-  "patch": "Season 15   Hell's Legacy",
-  "classes": [
-   "Endgame"
-  ],
-  "tags": [
-   "Endgame",
-   "Druid"
-  ],
-  "source": "maxroll",
-  "found_date": "2026-10-05"
+  "found_date": "2026-10-06"
  }
 ]
