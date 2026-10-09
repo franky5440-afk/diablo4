@@ -13,7 +13,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-08",
+  "found_date": "2026-10-09",
   "rank": 1
  },
  {
@@ -30,7 +30,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-08",
+  "found_date": "2026-10-09",
   "rank": 2
  },
  {
@@ -47,7 +47,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-08",
+  "found_date": "2026-10-09",
   "rank": 3
  },
  {
@@ -62,7 +62,7 @@
   ],
   "tags": [],
   "source": "mobalytics",
-  "found_date": "2026-10-08",
+  "found_date": "2026-10-09",
   "rank": 4
  },
  {
@@ -79,7 +79,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-08",
+  "found_date": "2026-10-09",
   "rank": 5
  },
  {
@@ -96,25 +96,8 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-08",
+  "found_date": "2026-10-09",
   "rank": 6
- },
- {
-  "id": "38356e638938d860b20458cb0c1cd9cd",
-  "title": "Pure Minion Necromancer S15",
-  "url": "https://mobalytics.gg/diablo-4/builds/minion-necromancer-s15-fervor",
-  "author": "Fervor",
-  "updated": "Sep 29, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Necromancer"
-  ],
-  "tags": [
-   "End Game"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-10-08",
-  "rank": 7
  },
  {
   "id": "34ddc650be66da092ca9658824cfc30f",
@@ -130,7 +113,24 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-08",
+  "found_date": "2026-10-09",
+  "rank": 7
+ },
+ {
+  "id": "38356e638938d860b20458cb0c1cd9cd",
+  "title": "Pure Minion Necromancer S15",
+  "url": "https://mobalytics.gg/diablo-4/builds/minion-necromancer-s15-fervor",
+  "author": "Fervor",
+  "updated": "Sep 29, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Necromancer"
+  ],
+  "tags": [
+   "End Game"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-10-09",
   "rank": 8
  },
  {
@@ -147,7 +147,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-08",
+  "found_date": "2026-10-09",
   "rank": 9
  },
  {
@@ -164,7 +164,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-08",
+  "found_date": "2026-10-09",
   "rank": 10
  }
 ]
