@@ -1,20 +1,20 @@
 [
  {
-  "video_id": "N4wnTvZbOzw",
-  "title": "Diablo 4 シーズン15 クラス最強ティアリスト（ガイド）",
-  "channel": "Rhykker",
-  "url": "https://www.youtube.com/watch?v=N4wnTvZbOzw",
-  "views": 390500,
-  "date": "2026-09-15",
-  "lang": "ja"
- },
- {
   "video_id": "tV41VXWla00",
   "title": "【Diablo 4 シーズン15】ブレイジング・スクリーム・ウォーロック：Lv1-70レベリング＆T1-T12ビルドガイド",
   "channel": "P4wnyhof",
   "url": "https://www.youtube.com/watch?v=tV41VXWla00",
-  "views": 267404,
+  "views": 269130,
   "date": "2026-09-15",
+  "lang": "ja"
+ },
+ {
+  "video_id": "yT_K6IPau_s",
+  "title": "メタの激変 - Diablo 4 シーズン15：Pit 150を攻略する新たなSティアビルド",
+  "channel": "P4wnyhof",
+  "url": "https://www.youtube.com/watch?v=yT_K6IPau_s",
+  "views": 190770,
+  "date": "2026-09-24",
   "lang": "ja"
  },
  {
@@ -22,7 +22,7 @@
   "title": "Diablo 4 - シーズン15の新最強クラス＆最強OPビルドTierリストランキング - S15クラスビルドガイド！",
   "channel": "RageGamingVideos",
   "url": "https://www.youtube.com/watch?v=Z7H1L66ASOw",
-  "views": 162854,
+  "views": 162890,
   "date": "2026-09-14",
   "lang": "ja"
  },
@@ -31,7 +31,7 @@
   "title": "最強の endgame Blazing Screamビルド（超高耐久＆凄まじいダメージ！）| Diablo 4 S15",
   "channel": "MrRonit",
   "url": "https://www.youtube.com/watch?v=sfNlKIIlrns",
-  "views": 103173,
+  "views": 104871,
   "date": "2026-09-20",
   "lang": "ja"
  },
@@ -40,7 +40,7 @@
   "title": "Diablo 4 - シーズン15：最強クラス＆ビルドはこれだ！最新パッチ後のTierリスト徹底解説！",
   "channel": "RageGamingVideos",
   "url": "https://www.youtube.com/watch?v=gAW7j3eXq-s",
-  "views": 92856,
+  "views": 100078,
   "date": "2026-10-06",
   "lang": "ja"
  },
@@ -49,7 +49,7 @@
   "title": "ウォーロック序盤無双！お手軽に使えるランペイジビルド解説！【ディアブロ4/S15】",
   "channel": "KTR Gaming",
   "url": "https://www.youtube.com/watch?v=XiHRuRyi22Y",
-  "views": 39195,
+  "views": 39312,
   "date": "2026-09-15",
   "lang": "ja"
  },
@@ -58,17 +58,8 @@
   "title": "【ディアブロ4】ソーサラー個人的完成版ファイアウォールビルド奈落ティア150【Diablo4シーズン15】",
   "channel": "RHYME",
   "url": "https://www.youtube.com/watch?v=c2vExD9Jco4",
-  "views": 17212,
+  "views": 17455,
   "date": "2026-09-21",
-  "lang": "ja"
- },
- {
-  "video_id": "4fDSSUAyEGY",
-  "title": "【D4/S15】ウォーロック新ビルドは世界を変えれるか！？【ディアブロ4/生放送】",
-  "channel": "KTR Gaming",
-  "url": "https://www.youtube.com/watch?v=4fDSSUAyEGY",
-  "views": 13293,
-  "date": "2026-09-25",
   "lang": "ja"
  },
  {
@@ -76,7 +67,7 @@
   "title": "【Diablo 4】ランク1到達！バグを利用した無限先祖バーバリアンビルド",
   "channel": "The Life of a Gamer",
   "url": "https://www.youtube.com/watch?v=uAOXMYHLU9c",
-  "views": 6456,
+  "views": 10605,
   "date": "2026-10-08",
   "lang": "ja"
  },
@@ -85,8 +76,17 @@
   "title": "［ディアブロ4/S15］スピリットボーン「毒爪連撃ビルド」超強力な継続ダメージで敵を破壊しよう！初心者の方向けに解説［diablo4］",
   "channel": "ふらぎな",
   "url": "https://www.youtube.com/watch?v=mouAHdUC5-8",
-  "views": 5967,
+  "views": 6134,
   "date": "2026-09-25",
+  "lang": "ja"
+ },
+ {
+  "video_id": "xVnom-XzDJw",
+  "title": "［ディアブロ4/S15］ネクロマンサーミニオンビルド初心者の方向け解説！仲間と共にいざ戦場へ！［diablo4］",
+  "channel": "ふらぎな",
+  "url": "https://www.youtube.com/watch?v=xVnom-XzDJw",
+  "views": 5603,
+  "date": "2026-09-29",
   "lang": "ja"
  }
 ]

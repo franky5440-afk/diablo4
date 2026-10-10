@@ -1,7 +1,43 @@
 [
  {
-  "id": "3cffaaeab41e947ce2754427cf24ac69",
+  "id": "382a75dc199198c365326d46e1124e8b",
   "rank": 1,
+  "title": "Bone Spirit Necromancer Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/bone-spirit-necromancer-guide",
+  "author": "serocifkre",
+  "updated": "October 9, 2026",
+  "patch": "Season 15   Hell's Legacy",
+  "classes": [
+   "Endgame"
+  ],
+  "tags": [
+   "Endgame",
+   "Necromancer"
+  ],
+  "source": "maxroll",
+  "found_date": "2026-10-10"
+ },
+ {
+  "id": "b319042f0a290fd70666bee17a685817",
+  "rank": 2,
+  "title": "Firewall Sorcerer Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/firewall-sorcerer-guide",
+  "author": "Northwar",
+  "updated": "October 9, 2026",
+  "patch": "Season 15   Hell's Legacy",
+  "classes": [
+   "Endgame"
+  ],
+  "tags": [
+   "Endgame",
+   "Sorcerer"
+  ],
+  "source": "maxroll",
+  "found_date": "2026-10-10"
+ },
+ {
+  "id": "3cffaaeab41e947ce2754427cf24ac69",
+  "rank": 3,
   "title": "Poison Penetrating Shot Rogue Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/penetrating-shot-rogue-guide",
   "author": "mattias",
@@ -15,11 +51,11 @@
    "Rogue"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-09"
+  "found_date": "2026-10-10"
  },
  {
   "id": "b650fd3827e052e146b9ba3d40e190e2",
-  "rank": 2,
+  "rank": 4,
   "title": "Bone Spear Necromancer Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/bone-spear-necromancer-guide",
   "author": "serocifkre",
@@ -33,11 +69,11 @@
    "Necromancer"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-09"
+  "found_date": "2026-10-10"
  },
  {
   "id": "d1d2fedac9ebdb9959c724bfd2e1d207",
-  "rank": 3,
+  "rank": 5,
   "title": "Minion Necromancer Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/minion-necromancer-guide",
   "author": "serocifkre",
@@ -51,11 +87,11 @@
    "Necromancer"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-09"
+  "found_date": "2026-10-10"
  },
  {
   "id": "b50dce043ed5cba38fdd16ee0d624162",
-  "rank": 4,
+  "rank": 6,
   "title": "Golem Necromancer Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/golem-necromancer-guide",
   "author": "serocifkre",
@@ -69,29 +105,11 @@
    "Necromancer"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-09"
- },
- {
-  "id": "382a75dc199198c365326d46e1124e8b",
-  "rank": 5,
-  "title": "Bone Spirit Necromancer Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/bone-spirit-necromancer-guide",
-  "author": "serocifkre",
-  "updated": "October 8, 2026",
-  "patch": "Season 15   Hell's Legacy",
-  "classes": [
-   "Endgame"
-  ],
-  "tags": [
-   "Endgame",
-   "Necromancer"
-  ],
-  "source": "maxroll",
-  "found_date": "2026-10-09"
+  "found_date": "2026-10-10"
  },
  {
   "id": "00ad27e0e024b848bda7cecb0b94fa66",
-  "rank": 6,
+  "rank": 7,
   "title": "Blazing Scream Warlock Endgame Guide",
   "url": "https://maxroll.gg/d4/build-guides/blazing-scream-warlock-guide",
   "author": "MacroBioBoi",
@@ -105,11 +123,11 @@
    "Warlock"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-09"
+  "found_date": "2026-10-10"
  },
  {
   "id": "efc909a4a4d0590ed284bea83a05a4a2",
-  "rank": 7,
+  "rank": 8,
   "title": "Poison Barrage Rogue Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/poison-barrage-rogue-guide",
   "author": "dieoxide",
@@ -123,11 +141,11 @@
    "Rogue"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-09"
+  "found_date": "2026-10-10"
  },
  {
   "id": "2bb8552acce29eb7ebe1daa03eecbebb",
-  "rank": 8,
+  "rank": 9,
   "title": "Poison Rain of Arrows Rogue Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/poison-rain-of-arrows-rogue-guide",
   "author": "dieoxide",
@@ -141,11 +159,11 @@
    "Rogue"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-09"
+  "found_date": "2026-10-10"
  },
  {
   "id": "699765af9de0a874dc28a11cce1f1a56",
-  "rank": 9,
+  "rank": 10,
   "title": "Rapid Fire Rogue Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/rapid-fire-rogue-guide",
   "author": "dieoxide",
@@ -159,24 +177,6 @@
    "Rogue"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-09"
- },
- {
-  "id": "08850bf91eb3ffe258f31e7c433df0eb",
-  "rank": 10,
-  "title": "Cold Barrage Rogue Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/barrage-rogue-guide",
-  "author": "dieoxide",
-  "updated": "October 8, 2026",
-  "patch": "Season 15   Hell's Legacy",
-  "classes": [
-   "Endgame"
-  ],
-  "tags": [
-   "Endgame",
-   "Rogue"
-  ],
-  "source": "maxroll",
-  "found_date": "2026-10-09"
+  "found_date": "2026-10-10"
  }
 ]
