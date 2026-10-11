@@ -13,7 +13,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-10",
+  "found_date": "2026-10-11",
   "rank": 1
  },
  {
@@ -30,7 +30,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-10",
+  "found_date": "2026-10-11",
   "rank": 2
  },
  {
@@ -47,7 +47,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-10",
+  "found_date": "2026-10-11",
   "rank": 3
  },
  {
@@ -62,7 +62,7 @@
   ],
   "tags": [],
   "source": "mobalytics",
-  "found_date": "2026-10-10",
+  "found_date": "2026-10-11",
   "rank": 4
  },
  {
@@ -79,7 +79,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-10",
+  "found_date": "2026-10-11",
   "rank": 5
  },
  {
@@ -96,25 +96,8 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-10",
+  "found_date": "2026-10-11",
   "rank": 6
- },
- {
-  "id": "34ddc650be66da092ca9658824cfc30f",
-  "title": "Blazing Scream Level 70 In 1.2 Hours",
-  "url": "https://mobalytics.gg/diablo-4/builds/warlock-blazing-scream-leveling",
-  "author": "AceOfSpades",
-  "updated": "Sep 20, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Warlock"
-  ],
-  "tags": [
-   "Leveling"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-10-10",
-  "rank": 7
  },
  {
   "id": "38356e638938d860b20458cb0c1cd9cd",
@@ -130,7 +113,24 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-10",
+  "found_date": "2026-10-11",
+  "rank": 7
+ },
+ {
+  "id": "34ddc650be66da092ca9658824cfc30f",
+  "title": "Blazing Scream Level 70 In 1.2 Hours",
+  "url": "https://mobalytics.gg/diablo-4/builds/warlock-blazing-scream-leveling",
+  "author": "AceOfSpades",
+  "updated": "Sep 20, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Warlock"
+  ],
+  "tags": [
+   "Leveling"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-10-11",
   "rank": 8
  },
  {
@@ -147,7 +147,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-10",
+  "found_date": "2026-10-11",
   "rank": 9
  },
  {
@@ -164,7 +164,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-10",
+  "found_date": "2026-10-11",
   "rank": 10
  }
 ]
