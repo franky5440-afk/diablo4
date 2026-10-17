@@ -5,7 +5,7 @@
   "title": "Blood Wave Necromancer Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/blood-wave-necromancer-guide",
   "author": "lordxsaura",
-  "updated": "October 15, 2026",
+  "updated": "October 16, 2026",
   "patch": "Season 15   Hell's Legacy",
   "classes": [
    "Endgame"
@@ -15,11 +15,29 @@
    "Necromancer"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-16"
+  "found_date": "2026-10-17"
+ },
+ {
+  "id": "40e78a914dc26b2f3edc08f9d80f1841",
+  "rank": 2,
+  "title": "Cold Rain of Arrows Rogue Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/rain-of-arrows-rogue-guide",
+  "author": "dieoxide",
+  "updated": "October 16, 2026",
+  "patch": "Season 15   Hell's Legacy",
+  "classes": [
+   "Endgame"
+  ],
+  "tags": [
+   "Endgame",
+   "Rogue"
+  ],
+  "source": "maxroll",
+  "found_date": "2026-10-17"
  },
  {
   "id": "46aae80d6b208cfa232dab7bec8972a9",
-  "rank": 2,
+  "rank": 3,
   "title": "Death Trap Rogue Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/death-trap-rogue-guide",
   "author": "Ava",
@@ -33,11 +51,11 @@
    "Rogue"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-16"
+  "found_date": "2026-10-17"
  },
  {
   "id": "bd892a136fd617fa19cfb0fc185ff515",
-  "rank": 3,
+  "rank": 4,
   "title": "Dash Rogue Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/dash-rogue-guide",
   "author": "Ava",
@@ -51,11 +69,11 @@
    "Rogue"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-16"
+  "found_date": "2026-10-17"
  },
  {
   "id": "3cffaaeab41e947ce2754427cf24ac69",
-  "rank": 4,
+  "rank": 5,
   "title": "Poison Penetrating Shot Rogue Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/penetrating-shot-rogue-guide",
   "author": "mattias",
@@ -69,11 +87,11 @@
    "Rogue"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-16"
+  "found_date": "2026-10-17"
  },
  {
   "id": "9e2ff7afa721896625990b29f2767b10",
-  "rank": 5,
+  "rank": 6,
   "title": "Upheaval Barbarian Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/upheaval-barbarian-guide",
   "author": "beatdropper",
@@ -87,11 +105,11 @@
    "Barbarian"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-16"
+  "found_date": "2026-10-17"
  },
  {
   "id": "c585e53470415c46c138e234c1d62435",
-  "rank": 6,
+  "rank": 7,
   "title": "Counterswarm Spiritborn Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/counterswarm-spiritborn-guide",
   "author": "Ignition",
@@ -105,11 +123,11 @@
    "Spiritborn"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-16"
+  "found_date": "2026-10-17"
  },
  {
   "id": "03e0883b92cd66c0555dc04e2debd5d1",
-  "rank": 7,
+  "rank": 8,
   "title": "Lacerate Druid Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/lacerate-druid-guide",
   "author": "Ava",
@@ -123,11 +141,11 @@
    "Druid"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-16"
+  "found_date": "2026-10-17"
  },
  {
   "id": "9c9e7af97618bbd27473f4b04ca5b493",
-  "rank": 8,
+  "rank": 9,
   "title": "Heartseeker Rogue Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/heartseeker-rogue-specialized-guide",
   "author": "dieoxide",
@@ -141,11 +159,11 @@
    "Rogue"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-16"
+  "found_date": "2026-10-17"
  },
  {
   "id": "382a75dc199198c365326d46e1124e8b",
-  "rank": 9,
+  "rank": 10,
   "title": "Bone Spirit Necromancer Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/bone-spirit-necromancer-guide",
   "author": "serocifkre",
@@ -159,24 +177,6 @@
    "Necromancer"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-16"
- },
- {
-  "id": "b319042f0a290fd70666bee17a685817",
-  "rank": 10,
-  "title": "Firewall Sorcerer Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/firewall-sorcerer-guide",
-  "author": "Northwar",
-  "updated": "October 9, 2026",
-  "patch": "Season 15   Hell's Legacy",
-  "classes": [
-   "Endgame"
-  ],
-  "tags": [
-   "Endgame",
-   "Sorcerer"
-  ],
-  "source": "maxroll",
-  "found_date": "2026-10-16"
+  "found_date": "2026-10-17"
  }
 ]
