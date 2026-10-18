@@ -13,7 +13,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-17",
+  "found_date": "2026-10-18",
   "rank": 1
  },
  {
@@ -30,7 +30,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-17",
+  "found_date": "2026-10-18",
   "rank": 2
  },
  {
@@ -47,7 +47,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-17",
+  "found_date": "2026-10-18",
   "rank": 3
  },
  {
@@ -64,7 +64,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-17",
+  "found_date": "2026-10-18",
   "rank": 4
  },
  {
@@ -79,7 +79,7 @@
   ],
   "tags": [],
   "source": "mobalytics",
-  "found_date": "2026-10-17",
+  "found_date": "2026-10-18",
   "rank": 5
  },
  {
@@ -96,25 +96,8 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-17",
+  "found_date": "2026-10-18",
   "rank": 6
- },
- {
-  "id": "553bd9a58af6247fc27844b956fb54f8",
-  "title": "1 Button Season 15 Automatic Blazing Scream Warlock 1 Button (Burn Version)",
-  "url": "https://mobalytics.gg/diablo-4/builds/season-15-automatic-blazing-scream-warlock-1-button",
-  "author": "Slaydra",
-  "updated": "Sep 21, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Warlock"
-  ],
-  "tags": [
-   "End Game"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-10-17",
-  "rank": 7
  },
  {
   "id": "c7780942b2e89261adb1f6c4be8f20f8",
@@ -130,8 +113,8 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-17",
-  "rank": 8
+  "found_date": "2026-10-18",
+  "rank": 7
  },
  {
   "id": "c370d71e77cf92c155d89966e83d2525",
@@ -147,8 +130,8 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-17",
-  "rank": 9
+  "found_date": "2026-10-18",
+  "rank": 8
  },
  {
   "id": "5afdbc819fe445e22c91b178dd4a40a2",
@@ -164,7 +147,24 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-17",
+  "found_date": "2026-10-18",
+  "rank": 9
+ },
+ {
+  "id": "988d5bc3be329ae376f3d5188d42b9a7",
+  "title": "Apocalypse Warlock Endgame Guide",
+  "url": "https://mobalytics.gg/diablo-4/builds/warlock-apocalypse",
+  "author": "Sanctum",
+  "updated": "Sep 26, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Warlock"
+  ],
+  "tags": [
+   "End Game"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-10-18",
   "rank": 10
  }
 ]
