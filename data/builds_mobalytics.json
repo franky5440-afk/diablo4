@@ -4,7 +4,7 @@
   "title": "MrRonit's Blazing Scream Endgame PERFECTED",
   "url": "https://mobalytics.gg/diablo-4/builds/blazing-scream-warlock-endgame-build",
   "author": "MrRonit",
-  "updated": "Oct 12, 2026",
+  "updated": "Oct 18, 2026",
   "patch": "Season 15",
   "classes": [
    "Warlock"
@@ -13,7 +13,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-18",
+  "found_date": "2026-10-19",
   "rank": 1
  },
  {
@@ -21,7 +21,7 @@
   "title": "MrRonit's Blazing Scream 1-70 FAST (Best Warlock Levelling Build)",
   "url": "https://mobalytics.gg/diablo-4/builds/blazing-scream-warlock-levelling-build",
   "author": "MrRonit",
-  "updated": "Oct 12, 2026",
+  "updated": "Oct 18, 2026",
   "patch": "Season 15",
   "classes": [
    "Warlock"
@@ -30,25 +30,8 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-18",
+  "found_date": "2026-10-19",
   "rank": 2
- },
- {
-  "id": "b77b8cc6a9ade16aac3f27d5828d3270",
-  "title": "Blazing Scream Warlock Endgame Build Guide",
-  "url": "https://mobalytics.gg/diablo-4/builds/warlock-blazing-scream",
-  "author": "AceOfSpades",
-  "updated": "Oct 06, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Warlock"
-  ],
-  "tags": [
-   "End Game"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-10-18",
-  "rank": 3
  },
  {
   "id": "3b430c3425b74c309d4dc99786756be3",
@@ -64,23 +47,25 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-18",
-  "rank": 4
+  "found_date": "2026-10-19",
+  "rank": 3
  },
  {
-  "id": "c0cb55a2932e34b6f2408369ea4be89d",
-  "title": "Season 15 Warlock Hub",
-  "url": "https://mobalytics.gg/diablo-4/builds/season-14-warlock-hub",
-  "author": "p4wnyhof",
-  "updated": "Sep 20, 2026",
+  "id": "b77b8cc6a9ade16aac3f27d5828d3270",
+  "title": "Blazing Scream Warlock Endgame Build Guide",
+  "url": "https://mobalytics.gg/diablo-4/builds/warlock-blazing-scream",
+  "author": "AceOfSpades",
+  "updated": "Oct 06, 2026",
   "patch": "Season 15",
   "classes": [
    "Warlock"
   ],
-  "tags": [],
+  "tags": [
+   "End Game"
+  ],
   "source": "mobalytics",
-  "found_date": "2026-10-18",
-  "rank": 5
+  "found_date": "2026-10-19",
+  "rank": 4
  },
  {
   "id": "38356e638938d860b20458cb0c1cd9cd",
@@ -96,7 +81,22 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-18",
+  "found_date": "2026-10-19",
+  "rank": 5
+ },
+ {
+  "id": "c0cb55a2932e34b6f2408369ea4be89d",
+  "title": "Season 15 Warlock Hub",
+  "url": "https://mobalytics.gg/diablo-4/builds/season-14-warlock-hub",
+  "author": "p4wnyhof",
+  "updated": "Sep 20, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Warlock"
+  ],
+  "tags": [],
+  "source": "mobalytics",
+  "found_date": "2026-10-19",
   "rank": 6
  },
  {
@@ -113,7 +113,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-18",
+  "found_date": "2026-10-19",
   "rank": 7
  },
  {
@@ -130,7 +130,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-18",
+  "found_date": "2026-10-19",
   "rank": 8
  },
  {
@@ -147,7 +147,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-18",
+  "found_date": "2026-10-19",
   "rank": 9
  },
  {
@@ -164,7 +164,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-18",
+  "found_date": "2026-10-19",
   "rank": 10
  }
 ]
