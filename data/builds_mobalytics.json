@@ -13,7 +13,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-19",
+  "found_date": "2026-10-20",
   "rank": 1
  },
  {
@@ -30,8 +30,25 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-19",
+  "found_date": "2026-10-20",
   "rank": 2
+ },
+ {
+  "id": "b77b8cc6a9ade16aac3f27d5828d3270",
+  "title": "Blazing Scream Warlock Endgame Build Guide",
+  "url": "https://mobalytics.gg/diablo-4/builds/warlock-blazing-scream",
+  "author": "AceOfSpades",
+  "updated": "Oct 20, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Warlock"
+  ],
+  "tags": [
+   "End Game"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-10-20",
+  "rank": 3
  },
  {
   "id": "3b430c3425b74c309d4dc99786756be3",
@@ -47,24 +64,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-19",
-  "rank": 3
- },
- {
-  "id": "b77b8cc6a9ade16aac3f27d5828d3270",
-  "title": "Blazing Scream Warlock Endgame Build Guide",
-  "url": "https://mobalytics.gg/diablo-4/builds/warlock-blazing-scream",
-  "author": "AceOfSpades",
-  "updated": "Oct 06, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Warlock"
-  ],
-  "tags": [
-   "End Game"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-10-19",
+  "found_date": "2026-10-20",
   "rank": 4
  },
  {
@@ -81,23 +81,8 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-19",
+  "found_date": "2026-10-20",
   "rank": 5
- },
- {
-  "id": "c0cb55a2932e34b6f2408369ea4be89d",
-  "title": "Season 15 Warlock Hub",
-  "url": "https://mobalytics.gg/diablo-4/builds/season-14-warlock-hub",
-  "author": "p4wnyhof",
-  "updated": "Sep 20, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Warlock"
-  ],
-  "tags": [],
-  "source": "mobalytics",
-  "found_date": "2026-10-19",
-  "rank": 6
  },
  {
   "id": "c7780942b2e89261adb1f6c4be8f20f8",
@@ -113,25 +98,23 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-19",
-  "rank": 7
+  "found_date": "2026-10-20",
+  "rank": 6
  },
  {
-  "id": "c370d71e77cf92c155d89966e83d2525",
-  "title": "Dance of Knives Rogue Endgame Build Guide",
-  "url": "https://mobalytics.gg/diablo-4/builds/rogue-dance-of-knives",
-  "author": "M1PY",
-  "updated": "Sep 23, 2026",
+  "id": "c0cb55a2932e34b6f2408369ea4be89d",
+  "title": "Season 15 Warlock Hub",
+  "url": "https://mobalytics.gg/diablo-4/builds/season-14-warlock-hub",
+  "author": "p4wnyhof",
+  "updated": "Sep 20, 2026",
   "patch": "Season 15",
   "classes": [
-   "Rogue"
+   "Warlock"
   ],
-  "tags": [
-   "End Game"
-  ],
+  "tags": [],
   "source": "mobalytics",
-  "found_date": "2026-10-19",
-  "rank": 8
+  "found_date": "2026-10-20",
+  "rank": 7
  },
  {
   "id": "5afdbc819fe445e22c91b178dd4a40a2",
@@ -147,7 +130,24 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-19",
+  "found_date": "2026-10-20",
+  "rank": 8
+ },
+ {
+  "id": "c370d71e77cf92c155d89966e83d2525",
+  "title": "Dance of Knives Rogue Endgame Build Guide",
+  "url": "https://mobalytics.gg/diablo-4/builds/rogue-dance-of-knives",
+  "author": "M1PY",
+  "updated": "Sep 23, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Rogue"
+  ],
+  "tags": [
+   "End Game"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-10-20",
   "rank": 9
  },
  {
@@ -164,7 +164,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-19",
+  "found_date": "2026-10-20",
   "rank": 10
  }
 ]
