@@ -13,7 +13,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-20",
+  "found_date": "2026-10-21",
   "rank": 1
  },
  {
@@ -30,7 +30,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-20",
+  "found_date": "2026-10-21",
   "rank": 2
  },
  {
@@ -47,7 +47,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-20",
+  "found_date": "2026-10-21",
   "rank": 3
  },
  {
@@ -64,7 +64,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-20",
+  "found_date": "2026-10-21",
   "rank": 4
  },
  {
@@ -81,7 +81,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-20",
+  "found_date": "2026-10-21",
   "rank": 5
  },
  {
@@ -98,23 +98,8 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-20",
+  "found_date": "2026-10-21",
   "rank": 6
- },
- {
-  "id": "c0cb55a2932e34b6f2408369ea4be89d",
-  "title": "Season 15 Warlock Hub",
-  "url": "https://mobalytics.gg/diablo-4/builds/season-14-warlock-hub",
-  "author": "p4wnyhof",
-  "updated": "Sep 20, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Warlock"
-  ],
-  "tags": [],
-  "source": "mobalytics",
-  "found_date": "2026-10-20",
-  "rank": 7
  },
  {
   "id": "5afdbc819fe445e22c91b178dd4a40a2",
@@ -130,7 +115,22 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-20",
+  "found_date": "2026-10-21",
+  "rank": 7
+ },
+ {
+  "id": "c0cb55a2932e34b6f2408369ea4be89d",
+  "title": "Season 15 Warlock Hub",
+  "url": "https://mobalytics.gg/diablo-4/builds/season-14-warlock-hub",
+  "author": "p4wnyhof",
+  "updated": "Sep 20, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Warlock"
+  ],
+  "tags": [],
+  "source": "mobalytics",
+  "found_date": "2026-10-21",
   "rank": 8
  },
  {
@@ -147,7 +147,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-20",
+  "found_date": "2026-10-21",
   "rank": 9
  },
  {
@@ -164,7 +164,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-20",
+  "found_date": "2026-10-21",
   "rank": 10
  }
 ]
