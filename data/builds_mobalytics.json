@@ -13,7 +13,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-22",
+  "found_date": "2026-10-23",
   "rank": 1
  },
  {
@@ -30,7 +30,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-22",
+  "found_date": "2026-10-23",
   "rank": 2
  },
  {
@@ -47,7 +47,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-22",
+  "found_date": "2026-10-23",
   "rank": 3
  },
  {
@@ -64,7 +64,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-22",
+  "found_date": "2026-10-23",
   "rank": 4
  },
  {
@@ -81,7 +81,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-22",
+  "found_date": "2026-10-23",
   "rank": 5
  },
  {
@@ -98,25 +98,8 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-22",
+  "found_date": "2026-10-23",
   "rank": 6
- },
- {
-  "id": "5afdbc819fe445e22c91b178dd4a40a2",
-  "title": "Season 15 Sorc Hub",
-  "url": "https://mobalytics.gg/diablo-4/builds/shock-dot-sorceress",
-  "author": "p4wnyhof",
-  "updated": "Oct 09, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Sorcerer"
-  ],
-  "tags": [
-   "End Game"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-10-22",
-  "rank": 7
  },
  {
   "id": "c370d71e77cf92c155d89966e83d2525",
@@ -132,7 +115,24 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-22",
+  "found_date": "2026-10-23",
+  "rank": 7
+ },
+ {
+  "id": "10e2240fb3ee1e8a8dfc97321a82d083",
+  "title": "Lightning Stinger (No Bugs) - Pit130+",
+  "url": "https://mobalytics.gg/diablo-4/builds/lightning-stinger-no-bugs-pit130",
+  "author": "p4wnyhof",
+  "updated": "Oct 06, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Spiritborn"
+  ],
+  "tags": [
+   "End Game"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-10-23",
   "rank": 8
  },
  {
@@ -147,24 +147,24 @@
   ],
   "tags": [],
   "source": "mobalytics",
-  "found_date": "2026-10-22",
+  "found_date": "2026-10-23",
   "rank": 9
  },
  {
-  "id": "c14356c4b727538162cb105a9f6cca69",
-  "title": "S15💀LAZY SHADOW REAPERS!",
-  "url": "https://mobalytics.gg/diablo-4/builds/lazy-shadow-reapers-ancestral-mythic",
-  "author": "Bigdaddyden76",
-  "updated": "Oct 14, 2026",
+  "id": "988d5bc3be329ae376f3d5188d42b9a7",
+  "title": "Apocalypse Warlock Endgame Guide",
+  "url": "https://mobalytics.gg/diablo-4/builds/warlock-apocalypse",
+  "author": "Sanctum",
+  "updated": "Sep 26, 2026",
   "patch": "Season 15",
   "classes": [
-   "Necromancer"
+   "Warlock"
   ],
   "tags": [
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-22",
+  "found_date": "2026-10-23",
   "rank": 10
  }
 ]

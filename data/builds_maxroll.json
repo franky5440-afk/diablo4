@@ -1,7 +1,25 @@
 [
  {
-  "id": "60eb17d10e13acdc89ae47eff1f251aa",
+  "id": "46aae80d6b208cfa232dab7bec8972a9",
   "rank": 1,
+  "title": "Death Trap Rogue Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/death-trap-rogue-guide",
+  "author": "Ava",
+  "updated": "October 22, 2026",
+  "patch": "Season 15   Hell's Legacy",
+  "classes": [
+   "Endgame"
+  ],
+  "tags": [
+   "Endgame",
+   "Rogue"
+  ],
+  "source": "maxroll",
+  "found_date": "2026-10-23"
+ },
+ {
+  "id": "60eb17d10e13acdc89ae47eff1f251aa",
+  "rank": 2,
   "title": "Twisting Blades Rogue Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/twisting-blades-rogue-guide",
   "author": "mattias",
@@ -15,11 +33,11 @@
    "Rogue"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-22"
+  "found_date": "2026-10-23"
  },
  {
   "id": "8bfb151d02f4376d639c03e353370d47",
-  "rank": 2,
+  "rank": 3,
   "title": "Dance of Knives Rogue Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/dance-of-knives-rogue-guide",
   "author": "Ava",
@@ -33,11 +51,11 @@
    "Rogue"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-22"
+  "found_date": "2026-10-23"
  },
  {
   "id": "0c46f2a3aa20de962e76d5315421ed82",
-  "rank": 3,
+  "rank": 4,
   "title": "Blood Wave Necromancer Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/blood-wave-necromancer-guide",
   "author": "lordxsaura",
@@ -51,11 +69,11 @@
    "Necromancer"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-22"
+  "found_date": "2026-10-23"
  },
  {
   "id": "40e78a914dc26b2f3edc08f9d80f1841",
-  "rank": 4,
+  "rank": 5,
   "title": "Cold Rain of Arrows Rogue Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/rain-of-arrows-rogue-guide",
   "author": "dieoxide",
@@ -69,25 +87,7 @@
    "Rogue"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-22"
- },
- {
-  "id": "46aae80d6b208cfa232dab7bec8972a9",
-  "rank": 5,
-  "title": "Death Trap Rogue Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/death-trap-rogue-guide",
-  "author": "Ava",
-  "updated": "October 13, 2026",
-  "patch": "Season 15   Hell's Legacy",
-  "classes": [
-   "Endgame"
-  ],
-  "tags": [
-   "Endgame",
-   "Rogue"
-  ],
-  "source": "maxroll",
-  "found_date": "2026-10-22"
+  "found_date": "2026-10-23"
  },
  {
   "id": "bd892a136fd617fa19cfb0fc185ff515",
@@ -105,7 +105,7 @@
    "Rogue"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-22"
+  "found_date": "2026-10-23"
  },
  {
   "id": "3cffaaeab41e947ce2754427cf24ac69",
@@ -123,7 +123,7 @@
    "Rogue"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-22"
+  "found_date": "2026-10-23"
  },
  {
   "id": "9e2ff7afa721896625990b29f2767b10",
@@ -141,7 +141,7 @@
    "Barbarian"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-22"
+  "found_date": "2026-10-23"
  },
  {
   "id": "c585e53470415c46c138e234c1d62435",
@@ -159,7 +159,7 @@
    "Spiritborn"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-22"
+  "found_date": "2026-10-23"
  },
  {
   "id": "03e0883b92cd66c0555dc04e2debd5d1",
@@ -177,6 +177,6 @@
    "Druid"
   ],
   "source": "maxroll",
-  "found_date": "2026-10-22"
+  "found_date": "2026-10-23"
  }
 ]
