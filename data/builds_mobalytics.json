@@ -13,7 +13,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-24",
+  "found_date": "2026-10-25",
   "rank": 1
  },
  {
@@ -30,7 +30,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-24",
+  "found_date": "2026-10-25",
   "rank": 2
  },
  {
@@ -47,7 +47,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-24",
+  "found_date": "2026-10-25",
   "rank": 3
  },
  {
@@ -64,25 +64,8 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-24",
+  "found_date": "2026-10-25",
   "rank": 4
- },
- {
-  "id": "38356e638938d860b20458cb0c1cd9cd",
-  "title": "Pure Minion Necromancer S15",
-  "url": "https://mobalytics.gg/diablo-4/builds/minion-necromancer-s15-fervor",
-  "author": "Fervor",
-  "updated": "Sep 29, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Necromancer"
-  ],
-  "tags": [
-   "End Game"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-10-24",
-  "rank": 5
  },
  {
   "id": "c7780942b2e89261adb1f6c4be8f20f8",
@@ -98,25 +81,8 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-24",
-  "rank": 6
- },
- {
-  "id": "c370d71e77cf92c155d89966e83d2525",
-  "title": "Dance of Knives Rogue Endgame Build Guide",
-  "url": "https://mobalytics.gg/diablo-4/builds/rogue-dance-of-knives",
-  "author": "M1PY",
-  "updated": "Sep 23, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Rogue"
-  ],
-  "tags": [
-   "End Game"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-10-24",
-  "rank": 7
+  "found_date": "2026-10-25",
+  "rank": 5
  },
  {
   "id": "10e2240fb3ee1e8a8dfc97321a82d083",
@@ -132,25 +98,42 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-24",
-  "rank": 8
+  "found_date": "2026-10-25",
+  "rank": 6
  },
  {
-  "id": "988d5bc3be329ae376f3d5188d42b9a7",
-  "title": "Apocalypse Warlock Endgame Guide",
-  "url": "https://mobalytics.gg/diablo-4/builds/warlock-apocalypse",
-  "author": "Sanctum",
-  "updated": "Sep 26, 2026",
+  "id": "38356e638938d860b20458cb0c1cd9cd",
+  "title": "Pure Minion Necromancer S15",
+  "url": "https://mobalytics.gg/diablo-4/builds/minion-necromancer-s15-fervor",
+  "author": "Fervor",
+  "updated": "Sep 29, 2026",
   "patch": "Season 15",
   "classes": [
-   "Warlock"
+   "Necromancer"
   ],
   "tags": [
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-24",
-  "rank": 9
+  "found_date": "2026-10-25",
+  "rank": 7
+ },
+ {
+  "id": "c370d71e77cf92c155d89966e83d2525",
+  "title": "Dance of Knives Rogue Endgame Build Guide",
+  "url": "https://mobalytics.gg/diablo-4/builds/rogue-dance-of-knives",
+  "author": "M1PY",
+  "updated": "Sep 23, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Rogue"
+  ],
+  "tags": [
+   "End Game"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-10-25",
+  "rank": 8
  },
  {
   "id": "c14356c4b727538162cb105a9f6cca69",
@@ -166,7 +149,24 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-24",
+  "found_date": "2026-10-25",
+  "rank": 9
+ },
+ {
+  "id": "db6fa5c01823f964ccddb3ca4da80f32",
+  "title": "MrRonit's Evade Hammerdin (Destroys Endgame!)",
+  "url": "https://mobalytics.gg/diablo-4/builds/evade-hammerdin-destroys-endgame",
+  "author": "MrRonit",
+  "updated": "Oct 18, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Paladin"
+  ],
+  "tags": [
+   "End Game"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-10-25",
   "rank": 10
  }
 ]
