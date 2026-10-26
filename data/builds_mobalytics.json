@@ -13,7 +13,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-25",
+  "found_date": "2026-10-26",
   "rank": 1
  },
  {
@@ -30,7 +30,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-25",
+  "found_date": "2026-10-26",
   "rank": 2
  },
  {
@@ -47,7 +47,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-25",
+  "found_date": "2026-10-26",
   "rank": 3
  },
  {
@@ -64,7 +64,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-25",
+  "found_date": "2026-10-26",
   "rank": 4
  },
  {
@@ -81,7 +81,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-25",
+  "found_date": "2026-10-26",
   "rank": 5
  },
  {
@@ -98,7 +98,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-25",
+  "found_date": "2026-10-26",
   "rank": 6
  },
  {
@@ -115,7 +115,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-25",
+  "found_date": "2026-10-26",
   "rank": 7
  },
  {
@@ -132,25 +132,8 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-25",
+  "found_date": "2026-10-26",
   "rank": 8
- },
- {
-  "id": "c14356c4b727538162cb105a9f6cca69",
-  "title": "S15💀LAZY SHADOW REAPERS!",
-  "url": "https://mobalytics.gg/diablo-4/builds/lazy-shadow-reapers-ancestral-mythic",
-  "author": "Bigdaddyden76",
-  "updated": "Oct 14, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Necromancer"
-  ],
-  "tags": [
-   "End Game"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-10-25",
-  "rank": 9
  },
  {
   "id": "db6fa5c01823f964ccddb3ca4da80f32",
@@ -166,7 +149,24 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-25",
+  "found_date": "2026-10-26",
+  "rank": 9
+ },
+ {
+  "id": "c14356c4b727538162cb105a9f6cca69",
+  "title": "S15💀LAZY SHADOW REAPERS!",
+  "url": "https://mobalytics.gg/diablo-4/builds/lazy-shadow-reapers-ancestral-mythic",
+  "author": "Bigdaddyden76",
+  "updated": "Oct 14, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Necromancer"
+  ],
+  "tags": [
+   "End Game"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-10-26",
   "rank": 10
  }
 ]
