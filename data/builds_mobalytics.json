@@ -13,7 +13,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-27",
+  "found_date": "2026-10-28",
   "rank": 1
  },
  {
@@ -30,7 +30,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-27",
+  "found_date": "2026-10-28",
   "rank": 2
  },
  {
@@ -47,7 +47,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-27",
+  "found_date": "2026-10-28",
   "rank": 3
  },
  {
@@ -64,25 +64,8 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-27",
+  "found_date": "2026-10-28",
   "rank": 4
- },
- {
-  "id": "c7780942b2e89261adb1f6c4be8f20f8",
-  "title": "Whirlwind",
-  "url": "https://mobalytics.gg/diablo-4/builds/barbarian-whirl-wind-barb",
-  "author": "Cliptis",
-  "updated": "Oct 14, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Barbarian"
-  ],
-  "tags": [
-   "End Game"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-10-27",
-  "rank": 5
  },
  {
   "id": "10e2240fb3ee1e8a8dfc97321a82d083",
@@ -98,7 +81,24 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-27",
+  "found_date": "2026-10-28",
+  "rank": 5
+ },
+ {
+  "id": "c7780942b2e89261adb1f6c4be8f20f8",
+  "title": "Whirlwind",
+  "url": "https://mobalytics.gg/diablo-4/builds/barbarian-whirl-wind-barb",
+  "author": "Cliptis",
+  "updated": "Oct 14, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Barbarian"
+  ],
+  "tags": [
+   "End Game"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-10-28",
   "rank": 6
  },
  {
@@ -115,7 +115,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-27",
+  "found_date": "2026-10-28",
   "rank": 7
  },
  {
@@ -132,7 +132,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-27",
+  "found_date": "2026-10-28",
   "rank": 8
  },
  {
@@ -149,7 +149,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-27",
+  "found_date": "2026-10-28",
   "rank": 9
  },
  {
@@ -166,7 +166,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-27",
+  "found_date": "2026-10-28",
   "rank": 10
  }
 ]
