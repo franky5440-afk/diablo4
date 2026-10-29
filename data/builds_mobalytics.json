@@ -13,7 +13,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-28",
+  "found_date": "2026-10-29",
   "rank": 1
  },
  {
@@ -30,7 +30,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-28",
+  "found_date": "2026-10-29",
   "rank": 2
  },
  {
@@ -47,7 +47,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-28",
+  "found_date": "2026-10-29",
   "rank": 3
  },
  {
@@ -64,7 +64,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-28",
+  "found_date": "2026-10-29",
   "rank": 4
  },
  {
@@ -81,7 +81,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-28",
+  "found_date": "2026-10-29",
   "rank": 5
  },
  {
@@ -98,7 +98,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-28",
+  "found_date": "2026-10-29",
   "rank": 6
  },
  {
@@ -115,25 +115,8 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-28",
+  "found_date": "2026-10-29",
   "rank": 7
- },
- {
-  "id": "38356e638938d860b20458cb0c1cd9cd",
-  "title": "Pure Minion Necromancer S15",
-  "url": "https://mobalytics.gg/diablo-4/builds/minion-necromancer-s15-fervor",
-  "author": "Fervor",
-  "updated": "Sep 29, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Necromancer"
-  ],
-  "tags": [
-   "End Game"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-10-28",
-  "rank": 8
  },
  {
   "id": "db6fa5c01823f964ccddb3ca4da80f32",
@@ -149,8 +132,8 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-28",
-  "rank": 9
+  "found_date": "2026-10-29",
+  "rank": 8
  },
  {
   "id": "c14356c4b727538162cb105a9f6cca69",
@@ -166,7 +149,24 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-28",
+  "found_date": "2026-10-29",
+  "rank": 9
+ },
+ {
+  "id": "38356e638938d860b20458cb0c1cd9cd",
+  "title": "Pure Minion Necromancer S15",
+  "url": "https://mobalytics.gg/diablo-4/builds/minion-necromancer-s15-fervor",
+  "author": "Fervor",
+  "updated": "Sep 29, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Necromancer"
+  ],
+  "tags": [
+   "End Game"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-10-29",
   "rank": 10
  }
 ]
