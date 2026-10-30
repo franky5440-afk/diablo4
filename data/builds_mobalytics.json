@@ -13,7 +13,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-29",
+  "found_date": "2026-10-30",
   "rank": 1
  },
  {
@@ -30,7 +30,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-29",
+  "found_date": "2026-10-30",
   "rank": 2
  },
  {
@@ -47,13 +47,13 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-29",
+  "found_date": "2026-10-30",
   "rank": 3
  },
  {
-  "id": "3b430c3425b74c309d4dc99786756be3",
-  "title": "Werenado - NeverMind",
-  "url": "https://mobalytics.gg/diablo-4/builds/tornado-druid-endgame-build-guide",
+  "id": "95aa84b29f8576d6eb99868a9d316d6a",
+  "title": "Shred - NeverMind",
+  "url": "https://mobalytics.gg/diablo-4/builds/druid-shred-endgame-build-guide",
   "author": "NeverMind",
   "updated": "Oct 21, 2026",
   "patch": "Season 15",
@@ -64,25 +64,8 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-29",
+  "found_date": "2026-10-30",
   "rank": 4
- },
- {
-  "id": "10e2240fb3ee1e8a8dfc97321a82d083",
-  "title": "Lightning Stinger (No Bugs) - Pit130+",
-  "url": "https://mobalytics.gg/diablo-4/builds/lightning-stinger-no-bugs-pit130",
-  "author": "p4wnyhof",
-  "updated": "Oct 06, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Spiritborn"
-  ],
-  "tags": [
-   "End Game"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-10-29",
-  "rank": 5
  },
  {
   "id": "c7780942b2e89261adb1f6c4be8f20f8",
@@ -98,7 +81,24 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-29",
+  "found_date": "2026-10-30",
+  "rank": 5
+ },
+ {
+  "id": "5afdbc819fe445e22c91b178dd4a40a2",
+  "title": "Season 15 Sorc Hub",
+  "url": "https://mobalytics.gg/diablo-4/builds/shock-dot-sorceress",
+  "author": "p4wnyhof",
+  "updated": "Oct 09, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Sorcerer"
+  ],
+  "tags": [
+   "End Game"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-10-30",
   "rank": 6
  },
  {
@@ -115,7 +115,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-29",
+  "found_date": "2026-10-30",
   "rank": 7
  },
  {
@@ -132,7 +132,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-29",
+  "found_date": "2026-10-30",
   "rank": 8
  },
  {
@@ -149,24 +149,24 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-29",
+  "found_date": "2026-10-30",
   "rank": 9
  },
  {
-  "id": "38356e638938d860b20458cb0c1cd9cd",
-  "title": "Pure Minion Necromancer S15",
-  "url": "https://mobalytics.gg/diablo-4/builds/minion-necromancer-s15-fervor",
-  "author": "Fervor",
-  "updated": "Sep 29, 2026",
+  "id": "988d5bc3be329ae376f3d5188d42b9a7",
+  "title": "Apocalypse Warlock Endgame Guide",
+  "url": "https://mobalytics.gg/diablo-4/builds/warlock-apocalypse",
+  "author": "Sanctum",
+  "updated": "Sep 26, 2026",
   "patch": "Season 15",
   "classes": [
-   "Necromancer"
+   "Warlock"
   ],
   "tags": [
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-10-29",
+  "found_date": "2026-10-30",
   "rank": 10
  }
 ]
