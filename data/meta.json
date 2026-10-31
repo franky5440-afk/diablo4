@@ -1,15 +1,15 @@
 {
- "builds_maxroll": "2026-10-30 03:17",
- "builds_mobalytics": "2026-10-30 03:17",
- "builds_d2core": "2026-10-30 03:17",
- "bahamut": "2026-10-30 03:25",
- "_last_run": "2026-10-30 03:26",
+ "builds_maxroll": "2026-10-31 03:00",
+ "builds_mobalytics": "2026-10-31 03:00",
+ "builds_d2core": "2026-10-31 03:00",
+ "bahamut": "2026-10-31 03:08",
+ "_last_run": "2026-10-31 03:08",
  "builds_primary": "d2core CloudBase Hot Top10 (Maxroll·Mobalytics fallback)",
- "videos_hot_zh": "2026-10-30 03:21",
- "videos_new_zh": "2026-10-30 03:21",
+ "videos_hot_zh": "2026-10-31 03:05",
+ "videos_new_zh": "2026-10-31 03:05",
  "videos_hot_en": "2026-10-30 03:24",
- "videos_new_en": "2026-10-30 03:24",
+ "videos_new_en": "2026-10-31 03:07",
  "videos_hot_ja": "2026-10-30 03:25",
- "videos_new_ja": "2026-10-30 03:25",
- "tweets": "2026-10-30 03:26"
+ "videos_new_ja": "2026-10-31 03:08",
+ "tweets": "2026-10-31 03:08"
 }
