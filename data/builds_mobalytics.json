@@ -13,7 +13,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-02",
+  "found_date": "2026-11-03",
   "rank": 1
  },
  {
@@ -30,7 +30,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-02",
+  "found_date": "2026-11-03",
   "rank": 2
  },
  {
@@ -47,7 +47,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-02",
+  "found_date": "2026-11-03",
   "rank": 3
  },
  {
@@ -64,7 +64,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-02",
+  "found_date": "2026-11-03",
   "rank": 4
  },
  {
@@ -81,25 +81,8 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-02",
+  "found_date": "2026-11-03",
   "rank": 5
- },
- {
-  "id": "c370d71e77cf92c155d89966e83d2525",
-  "title": "Dance of Knives Rogue Endgame Build Guide",
-  "url": "https://mobalytics.gg/diablo-4/builds/rogue-dance-of-knives",
-  "author": "M1PY",
-  "updated": "Sep 23, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Rogue"
-  ],
-  "tags": [
-   "End Game"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-11-02",
-  "rank": 6
  },
  {
   "id": "5afdbc819fe445e22c91b178dd4a40a2",
@@ -115,7 +98,24 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-02",
+  "found_date": "2026-11-03",
+  "rank": 6
+ },
+ {
+  "id": "c370d71e77cf92c155d89966e83d2525",
+  "title": "Dance of Knives Rogue Endgame Build Guide",
+  "url": "https://mobalytics.gg/diablo-4/builds/rogue-dance-of-knives",
+  "author": "M1PY",
+  "updated": "Sep 23, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Rogue"
+  ],
+  "tags": [
+   "End Game"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-11-03",
   "rank": 7
  },
  {
@@ -132,7 +132,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-02",
+  "found_date": "2026-11-03",
   "rank": 8
  },
  {
@@ -149,7 +149,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-02",
+  "found_date": "2026-11-03",
   "rank": 9
  },
  {
@@ -166,7 +166,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-02",
+  "found_date": "2026-11-03",
   "rank": 10
  }
 ]
