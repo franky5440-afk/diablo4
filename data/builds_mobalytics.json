@@ -13,7 +13,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-05",
+  "found_date": "2026-11-06",
   "rank": 1
  },
  {
@@ -30,7 +30,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-05",
+  "found_date": "2026-11-06",
   "rank": 2
  },
  {
@@ -47,7 +47,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-05",
+  "found_date": "2026-11-06",
   "rank": 3
  },
  {
@@ -64,7 +64,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-05",
+  "found_date": "2026-11-06",
   "rank": 4
  },
  {
@@ -81,7 +81,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-05",
+  "found_date": "2026-11-06",
   "rank": 5
  },
  {
@@ -98,25 +98,8 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-05",
+  "found_date": "2026-11-06",
   "rank": 6
- },
- {
-  "id": "c370d71e77cf92c155d89966e83d2525",
-  "title": "Dance of Knives Rogue Endgame Build Guide",
-  "url": "https://mobalytics.gg/diablo-4/builds/rogue-dance-of-knives",
-  "author": "M1PY",
-  "updated": "Sep 23, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Rogue"
-  ],
-  "tags": [
-   "End Game"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-11-05",
-  "rank": 7
  },
  {
   "id": "c14356c4b727538162cb105a9f6cca69",
@@ -132,25 +115,25 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-05",
-  "rank": 8
+  "found_date": "2026-11-06",
+  "rank": 7
  },
  {
-  "id": "5afdbc819fe445e22c91b178dd4a40a2",
-  "title": "Season 15 Sorc Hub",
-  "url": "https://mobalytics.gg/diablo-4/builds/shock-dot-sorceress",
-  "author": "p4wnyhof",
-  "updated": "Oct 09, 2026",
+  "id": "c370d71e77cf92c155d89966e83d2525",
+  "title": "Dance of Knives Rogue Endgame Build Guide",
+  "url": "https://mobalytics.gg/diablo-4/builds/rogue-dance-of-knives",
+  "author": "M1PY",
+  "updated": "Sep 23, 2026",
   "patch": "Season 15",
   "classes": [
-   "Sorcerer"
+   "Rogue"
   ],
   "tags": [
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-05",
-  "rank": 9
+  "found_date": "2026-11-06",
+  "rank": 8
  },
  {
   "id": "988d5bc3be329ae376f3d5188d42b9a7",
@@ -166,7 +149,24 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-05",
+  "found_date": "2026-11-06",
+  "rank": 9
+ },
+ {
+  "id": "eefb82a21d7006612f280dde081e5612",
+  "title": "Storm Stinger - Tempestborn",
+  "url": "https://mobalytics.gg/diablo-4/builds/spiritborn-storm-stinger-endgame",
+  "author": "imortilize",
+  "updated": "Oct 04, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Spiritborn"
+  ],
+  "tags": [
+   "End Game"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-11-06",
   "rank": 10
  }
 ]
