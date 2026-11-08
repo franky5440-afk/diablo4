@@ -1,7 +1,25 @@
 [
  {
-  "id": "745e836b3ab9590dc4f2b288292d4406",
+  "id": "8bfb151d02f4376d639c03e353370d47",
   "rank": 1,
+  "title": "Dance of Knives Rogue Endgame Build Guide",
+  "url": "https://maxroll.gg/d4/build-guides/dance-of-knives-rogue-guide",
+  "author": "Ava",
+  "updated": "November 7, 2026",
+  "patch": "Season 15   Hell's Legacy",
+  "classes": [
+   "Endgame"
+  ],
+  "tags": [
+   "Endgame",
+   "Rogue"
+  ],
+  "source": "maxroll",
+  "found_date": "2026-11-08"
+ },
+ {
+  "id": "745e836b3ab9590dc4f2b288292d4406",
+  "rank": 2,
   "title": "Minion Warlock Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/minion-warlock-guide",
   "author": "MacroBioBoi",
@@ -15,11 +33,11 @@
    "Warlock"
   ],
   "source": "maxroll",
-  "found_date": "2026-11-07"
+  "found_date": "2026-11-08"
  },
  {
   "id": "00ad27e0e024b848bda7cecb0b94fa66",
-  "rank": 2,
+  "rank": 3,
   "title": "Blazing Scream Warlock Endgame Guide",
   "url": "https://maxroll.gg/d4/build-guides/blazing-scream-warlock-guide",
   "author": "MacroBioBoi",
@@ -33,11 +51,11 @@
    "Warlock"
   ],
   "source": "maxroll",
-  "found_date": "2026-11-07"
+  "found_date": "2026-11-08"
  },
  {
   "id": "46aae80d6b208cfa232dab7bec8972a9",
-  "rank": 3,
+  "rank": 4,
   "title": "Death Trap Rogue Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/death-trap-rogue-guide",
   "author": "Ava",
@@ -51,11 +69,11 @@
    "Rogue"
   ],
   "source": "maxroll",
-  "found_date": "2026-11-07"
+  "found_date": "2026-11-08"
  },
  {
   "id": "60eb17d10e13acdc89ae47eff1f251aa",
-  "rank": 4,
+  "rank": 5,
   "title": "Twisting Blades Rogue Endgame Build Guide",
   "url": "https://maxroll.gg/d4/build-guides/twisting-blades-rogue-guide",
   "author": "mattias",
@@ -69,25 +87,7 @@
    "Rogue"
   ],
   "source": "maxroll",
-  "found_date": "2026-11-07"
- },
- {
-  "id": "8bfb151d02f4376d639c03e353370d47",
-  "rank": 5,
-  "title": "Dance of Knives Rogue Endgame Build Guide",
-  "url": "https://maxroll.gg/d4/build-guides/dance-of-knives-rogue-guide",
-  "author": "Ava",
-  "updated": "October 18, 2026",
-  "patch": "Season 15   Hell's Legacy",
-  "classes": [
-   "Endgame"
-  ],
-  "tags": [
-   "Endgame",
-   "Rogue"
-  ],
-  "source": "maxroll",
-  "found_date": "2026-11-07"
+  "found_date": "2026-11-08"
  },
  {
   "id": "0c46f2a3aa20de962e76d5315421ed82",
@@ -105,7 +105,7 @@
    "Necromancer"
   ],
   "source": "maxroll",
-  "found_date": "2026-11-07"
+  "found_date": "2026-11-08"
  },
  {
   "id": "40e78a914dc26b2f3edc08f9d80f1841",
@@ -123,7 +123,7 @@
    "Rogue"
   ],
   "source": "maxroll",
-  "found_date": "2026-11-07"
+  "found_date": "2026-11-08"
  },
  {
   "id": "bd892a136fd617fa19cfb0fc185ff515",
@@ -141,7 +141,7 @@
    "Rogue"
   ],
   "source": "maxroll",
-  "found_date": "2026-11-07"
+  "found_date": "2026-11-08"
  },
  {
   "id": "3cffaaeab41e947ce2754427cf24ac69",
@@ -159,7 +159,7 @@
    "Rogue"
   ],
   "source": "maxroll",
-  "found_date": "2026-11-07"
+  "found_date": "2026-11-08"
  },
  {
   "id": "9e2ff7afa721896625990b29f2767b10",
@@ -177,6 +177,6 @@
    "Barbarian"
   ],
   "source": "maxroll",
-  "found_date": "2026-11-07"
+  "found_date": "2026-11-08"
  }
 ]
