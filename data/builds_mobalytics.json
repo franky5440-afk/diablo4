@@ -13,7 +13,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-08",
+  "found_date": "2026-11-09",
   "rank": 1
  },
  {
@@ -30,7 +30,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-08",
+  "found_date": "2026-11-09",
   "rank": 2
  },
  {
@@ -38,8 +38,8 @@
   "title": "Blazing Scream Warlock Endgame Build Guide",
   "url": "https://mobalytics.gg/diablo-4/builds/warlock-blazing-scream",
   "author": "AceOfSpades",
-  "updated": "Oct 20, 2026",
-  "patch": "Season 15",
+  "updated": "Nov 09, 2026",
+  "patch": "Season 16",
   "classes": [
    "Warlock"
   ],
@@ -47,7 +47,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-08",
+  "found_date": "2026-11-09",
   "rank": 3
  },
  {
@@ -64,7 +64,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-08",
+  "found_date": "2026-11-09",
   "rank": 4
  },
  {
@@ -81,7 +81,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-08",
+  "found_date": "2026-11-09",
   "rank": 5
  },
  {
@@ -98,25 +98,8 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-08",
+  "found_date": "2026-11-09",
   "rank": 6
- },
- {
-  "id": "c370d71e77cf92c155d89966e83d2525",
-  "title": "Dance of Knives Rogue Endgame Build Guide",
-  "url": "https://mobalytics.gg/diablo-4/builds/rogue-dance-of-knives",
-  "author": "M1PY",
-  "updated": "Sep 23, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Rogue"
-  ],
-  "tags": [
-   "End Game"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-11-08",
-  "rank": 7
  },
  {
   "id": "c14356c4b727538162cb105a9f6cca69",
@@ -132,7 +115,24 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-08",
+  "found_date": "2026-11-09",
+  "rank": 7
+ },
+ {
+  "id": "c370d71e77cf92c155d89966e83d2525",
+  "title": "Dance of Knives Rogue Endgame Build Guide",
+  "url": "https://mobalytics.gg/diablo-4/builds/rogue-dance-of-knives",
+  "author": "M1PY",
+  "updated": "Sep 23, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Rogue"
+  ],
+  "tags": [
+   "End Game"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-11-09",
   "rank": 8
  },
  {
@@ -149,7 +149,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-08",
+  "found_date": "2026-11-09",
   "rank": 9
  },
  {
@@ -166,7 +166,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-08",
+  "found_date": "2026-11-09",
   "rank": 10
  }
 ]
