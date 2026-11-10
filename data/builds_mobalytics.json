@@ -13,7 +13,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-09",
+  "found_date": "2026-11-10",
   "rank": 1
  },
  {
@@ -30,25 +30,8 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-09",
+  "found_date": "2026-11-10",
   "rank": 2
- },
- {
-  "id": "b77b8cc6a9ade16aac3f27d5828d3270",
-  "title": "Blazing Scream Warlock Endgame Build Guide",
-  "url": "https://mobalytics.gg/diablo-4/builds/warlock-blazing-scream",
-  "author": "AceOfSpades",
-  "updated": "Nov 09, 2026",
-  "patch": "Season 16",
-  "classes": [
-   "Warlock"
-  ],
-  "tags": [
-   "End Game"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-11-09",
-  "rank": 3
  },
  {
   "id": "95aa84b29f8576d6eb99868a9d316d6a",
@@ -64,7 +47,24 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-09",
+  "found_date": "2026-11-10",
+  "rank": 3
+ },
+ {
+  "id": "b77b8cc6a9ade16aac3f27d5828d3270",
+  "title": "Blazing Scream Warlock Endgame Build Guide",
+  "url": "https://mobalytics.gg/diablo-4/builds/warlock-blazing-scream",
+  "author": "AceOfSpades",
+  "updated": "Nov 09, 2026",
+  "patch": "Season 16",
+  "classes": [
+   "Warlock"
+  ],
+  "tags": [
+   "End Game"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-11-10",
   "rank": 4
  },
  {
@@ -81,7 +81,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-09",
+  "found_date": "2026-11-10",
   "rank": 5
  },
  {
@@ -98,7 +98,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-09",
+  "found_date": "2026-11-10",
   "rank": 6
  },
  {
@@ -115,7 +115,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-09",
+  "found_date": "2026-11-10",
   "rank": 7
  },
  {
@@ -132,7 +132,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-09",
+  "found_date": "2026-11-10",
   "rank": 8
  },
  {
@@ -149,24 +149,24 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-09",
+  "found_date": "2026-11-10",
   "rank": 9
  },
  {
-  "id": "eefb82a21d7006612f280dde081e5612",
-  "title": "Storm Stinger - Tempestborn",
-  "url": "https://mobalytics.gg/diablo-4/builds/spiritborn-storm-stinger-endgame",
-  "author": "imortilize",
-  "updated": "Oct 04, 2026",
+  "id": "a87e7651ba4b98cc55551712310e422f",
+  "title": "Firewall Sorc",
+  "url": "https://mobalytics.gg/diablo-4/builds/sorcerer-firewall-endgame-build-guide",
+  "author": "hellomischa",
+  "updated": "Nov 02, 2026",
   "patch": "Season 15",
   "classes": [
-   "Spiritborn"
+   "Sorcerer"
   ],
   "tags": [
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-09",
+  "found_date": "2026-11-10",
   "rank": 10
  }
 ]
