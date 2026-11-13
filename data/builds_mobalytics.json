@@ -13,7 +13,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-12",
+  "found_date": "2026-11-13",
   "rank": 1
  },
  {
@@ -30,7 +30,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-12",
+  "found_date": "2026-11-13",
   "rank": 2
  },
  {
@@ -47,7 +47,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-12",
+  "found_date": "2026-11-13",
   "rank": 3
  },
  {
@@ -64,7 +64,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-12",
+  "found_date": "2026-11-13",
   "rank": 4
  },
  {
@@ -81,7 +81,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-12",
+  "found_date": "2026-11-13",
   "rank": 5
  },
  {
@@ -98,7 +98,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-12",
+  "found_date": "2026-11-13",
   "rank": 6
  },
  {
@@ -115,7 +115,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-12",
+  "found_date": "2026-11-13",
   "rank": 7
  },
  {
@@ -132,7 +132,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-12",
+  "found_date": "2026-11-13",
   "rank": 8
  },
  {
@@ -149,24 +149,24 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-12",
+  "found_date": "2026-11-13",
   "rank": 9
  },
  {
-  "id": "eefb82a21d7006612f280dde081e5612",
-  "title": "Storm Stinger - Tempestborn",
-  "url": "https://mobalytics.gg/diablo-4/builds/spiritborn-storm-stinger-endgame",
-  "author": "imortilize",
-  "updated": "Oct 04, 2026",
+  "id": "d3fe20ba9f747ce5cee639f00935a45a",
+  "title": "MrRonit's Hammerdin Arbiter Levelling Guide (1-70)",
+  "url": "https://mobalytics.gg/diablo-4/builds/hammerdin-arbiter-levelling-guide-1-60",
+  "author": "MrRonit",
+  "updated": "Sep 28, 2026",
   "patch": "Season 15",
   "classes": [
-   "Spiritborn"
+   "Paladin"
   ],
   "tags": [
-   "End Game"
+   "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-12",
+  "found_date": "2026-11-13",
   "rank": 10
  }
 ]
