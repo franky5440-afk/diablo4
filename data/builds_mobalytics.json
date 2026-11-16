@@ -13,7 +13,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-15",
+  "found_date": "2026-11-16",
   "rank": 1
  },
  {
@@ -30,25 +30,8 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-15",
+  "found_date": "2026-11-16",
   "rank": 2
- },
- {
-  "id": "b77b8cc6a9ade16aac3f27d5828d3270",
-  "title": "Blazing Scream Warlock Endgame Build Guide",
-  "url": "https://mobalytics.gg/diablo-4/builds/warlock-blazing-scream",
-  "author": "AceOfSpades",
-  "updated": "Nov 10, 2026",
-  "patch": "Season 16",
-  "classes": [
-   "Warlock"
-  ],
-  "tags": [
-   "End Game"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-11-15",
-  "rank": 3
  },
  {
   "id": "95aa84b29f8576d6eb99868a9d316d6a",
@@ -64,7 +47,24 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-15",
+  "found_date": "2026-11-16",
+  "rank": 3
+ },
+ {
+  "id": "b77b8cc6a9ade16aac3f27d5828d3270",
+  "title": "Blazing Scream Warlock Endgame Build Guide",
+  "url": "https://mobalytics.gg/diablo-4/builds/warlock-blazing-scream",
+  "author": "AceOfSpades",
+  "updated": "Nov 10, 2026",
+  "patch": "Season 16",
+  "classes": [
+   "Warlock"
+  ],
+  "tags": [
+   "End Game"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-11-16",
   "rank": 4
  },
  {
@@ -81,7 +81,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-15",
+  "found_date": "2026-11-16",
   "rank": 5
  },
  {
@@ -98,7 +98,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-15",
+  "found_date": "2026-11-16",
   "rank": 6
  },
  {
@@ -115,7 +115,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-15",
+  "found_date": "2026-11-16",
   "rank": 7
  },
  {
@@ -132,25 +132,8 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-15",
+  "found_date": "2026-11-16",
   "rank": 8
- },
- {
-  "id": "988d5bc3be329ae376f3d5188d42b9a7",
-  "title": "Apocalypse Warlock Endgame Guide",
-  "url": "https://mobalytics.gg/diablo-4/builds/warlock-apocalypse",
-  "author": "Sanctum",
-  "updated": "Sep 26, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Warlock"
-  ],
-  "tags": [
-   "End Game"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-11-15",
-  "rank": 9
  },
  {
   "id": "d3fe20ba9f747ce5cee639f00935a45a",
@@ -166,7 +149,24 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-15",
+  "found_date": "2026-11-16",
+  "rank": 9
+ },
+ {
+  "id": "988d5bc3be329ae376f3d5188d42b9a7",
+  "title": "Apocalypse Warlock Endgame Guide",
+  "url": "https://mobalytics.gg/diablo-4/builds/warlock-apocalypse",
+  "author": "Sanctum",
+  "updated": "Sep 26, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Warlock"
+  ],
+  "tags": [
+   "End Game"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-11-16",
   "rank": 10
  }
 ]
