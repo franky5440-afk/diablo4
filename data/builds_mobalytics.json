@@ -13,7 +13,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-16",
+  "found_date": "2026-11-17",
   "rank": 1
  },
  {
@@ -30,7 +30,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-16",
+  "found_date": "2026-11-17",
   "rank": 2
  },
  {
@@ -47,7 +47,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-16",
+  "found_date": "2026-11-17",
   "rank": 3
  },
  {
@@ -64,7 +64,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-16",
+  "found_date": "2026-11-17",
   "rank": 4
  },
  {
@@ -81,7 +81,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-16",
+  "found_date": "2026-11-17",
   "rank": 5
  },
  {
@@ -98,7 +98,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-16",
+  "found_date": "2026-11-17",
   "rank": 6
  },
  {
@@ -115,7 +115,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-16",
+  "found_date": "2026-11-17",
   "rank": 7
  },
  {
@@ -132,25 +132,8 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-16",
+  "found_date": "2026-11-17",
   "rank": 8
- },
- {
-  "id": "d3fe20ba9f747ce5cee639f00935a45a",
-  "title": "MrRonit's Hammerdin Arbiter Levelling Guide (1-70)",
-  "url": "https://mobalytics.gg/diablo-4/builds/hammerdin-arbiter-levelling-guide-1-60",
-  "author": "MrRonit",
-  "updated": "Sep 28, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Paladin"
-  ],
-  "tags": [
-   "Leveling"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-11-16",
-  "rank": 9
  },
  {
   "id": "988d5bc3be329ae376f3d5188d42b9a7",
@@ -166,7 +149,24 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-16",
+  "found_date": "2026-11-17",
+  "rank": 9
+ },
+ {
+  "id": "d3fe20ba9f747ce5cee639f00935a45a",
+  "title": "MrRonit's Hammerdin Arbiter Levelling Guide (1-70)",
+  "url": "https://mobalytics.gg/diablo-4/builds/hammerdin-arbiter-levelling-guide-1-60",
+  "author": "MrRonit",
+  "updated": "Sep 28, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Paladin"
+  ],
+  "tags": [
+   "Leveling"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-11-17",
   "rank": 10
  }
 ]
