@@ -13,7 +13,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-17",
+  "found_date": "2026-11-18",
   "rank": 1
  },
  {
@@ -30,7 +30,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-17",
+  "found_date": "2026-11-18",
   "rank": 2
  },
  {
@@ -47,7 +47,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-17",
+  "found_date": "2026-11-18",
   "rank": 3
  },
  {
@@ -64,7 +64,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-17",
+  "found_date": "2026-11-18",
   "rank": 4
  },
  {
@@ -81,7 +81,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-17",
+  "found_date": "2026-11-18",
   "rank": 5
  },
  {
@@ -98,7 +98,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-17",
+  "found_date": "2026-11-18",
   "rank": 6
  },
  {
@@ -115,7 +115,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-17",
+  "found_date": "2026-11-18",
   "rank": 7
  },
  {
@@ -132,25 +132,8 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-17",
+  "found_date": "2026-11-18",
   "rank": 8
- },
- {
-  "id": "988d5bc3be329ae376f3d5188d42b9a7",
-  "title": "Apocalypse Warlock Endgame Guide",
-  "url": "https://mobalytics.gg/diablo-4/builds/warlock-apocalypse",
-  "author": "Sanctum",
-  "updated": "Sep 26, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Warlock"
-  ],
-  "tags": [
-   "End Game"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-11-17",
-  "rank": 9
  },
  {
   "id": "d3fe20ba9f747ce5cee639f00935a45a",
@@ -166,7 +149,24 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-17",
+  "found_date": "2026-11-18",
+  "rank": 9
+ },
+ {
+  "id": "988d5bc3be329ae376f3d5188d42b9a7",
+  "title": "Apocalypse Warlock Endgame Guide",
+  "url": "https://mobalytics.gg/diablo-4/builds/warlock-apocalypse",
+  "author": "Sanctum",
+  "updated": "Sep 26, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Warlock"
+  ],
+  "tags": [
+   "End Game"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-11-18",
   "rank": 10
  }
 ]
