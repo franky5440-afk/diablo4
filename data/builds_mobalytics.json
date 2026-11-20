@@ -13,7 +13,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-19",
+  "found_date": "2026-11-20",
   "rank": 1
  },
  {
@@ -30,25 +30,8 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-19",
+  "found_date": "2026-11-20",
   "rank": 2
- },
- {
-  "id": "95aa84b29f8576d6eb99868a9d316d6a",
-  "title": "Shred - NeverMind",
-  "url": "https://mobalytics.gg/diablo-4/builds/druid-shred-endgame-build-guide",
-  "author": "NeverMind",
-  "updated": "Oct 21, 2026",
-  "patch": "Season 15",
-  "classes": [
-   "Druid"
-  ],
-  "tags": [
-   "End Game"
-  ],
-  "source": "mobalytics",
-  "found_date": "2026-11-19",
-  "rank": 3
  },
  {
   "id": "b77b8cc6a9ade16aac3f27d5828d3270",
@@ -64,7 +47,24 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-19",
+  "found_date": "2026-11-20",
+  "rank": 3
+ },
+ {
+  "id": "95aa84b29f8576d6eb99868a9d316d6a",
+  "title": "Shred - NeverMind",
+  "url": "https://mobalytics.gg/diablo-4/builds/druid-shred-endgame-build-guide",
+  "author": "NeverMind",
+  "updated": "Oct 21, 2026",
+  "patch": "Season 15",
+  "classes": [
+   "Druid"
+  ],
+  "tags": [
+   "End Game"
+  ],
+  "source": "mobalytics",
+  "found_date": "2026-11-20",
   "rank": 4
  },
  {
@@ -81,7 +81,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-19",
+  "found_date": "2026-11-20",
   "rank": 5
  },
  {
@@ -98,7 +98,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-19",
+  "found_date": "2026-11-20",
   "rank": 6
  },
  {
@@ -115,7 +115,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-19",
+  "found_date": "2026-11-20",
   "rank": 7
  },
  {
@@ -132,7 +132,7 @@
    "Leveling"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-19",
+  "found_date": "2026-11-20",
   "rank": 8
  },
  {
@@ -149,7 +149,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-19",
+  "found_date": "2026-11-20",
   "rank": 9
  },
  {
@@ -166,7 +166,7 @@
    "End Game"
   ],
   "source": "mobalytics",
-  "found_date": "2026-11-19",
+  "found_date": "2026-11-20",
   "rank": 10
  }
 ]
